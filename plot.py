@@ -12,6 +12,8 @@ from sklearn.decomposition import PCA
 from matplotlib import pyplot
 from align import smart_procrustes_align_gensim
 from statistics import stdev
+from nltk.corpus import stopwords
+from collections import Counter
 
 
 def cosine_sim(vec1, vec2):
@@ -59,6 +61,7 @@ def PCA_plot(model_l, model_r, words, title):
     pyplot.savefig('2d_{}.png'.format(title))
     pyplot.show()
 
+
 def PCA_plot_diff(model_l, model_r, model_l_words, model_r_words, title):
     X_l = model_l[model_l_words]
     X_r = model_r[model_r_words]
@@ -69,8 +72,8 @@ def PCA_plot_diff(model_l, model_r, model_l_words, model_r_words, title):
     result = pca.fit_transform(X)
     # create a scatter plot of the projection
     pyplot.scatter(result[:, 0], result[:, 1], c=partisanship)
-    model_l_words = [word + "_f" for word in model_l_words]
-    model_r_words = [word + "_n" for word in model_r_words]
+    model_l_words = [word + "_d" for word in model_l_words]
+    model_r_words = [word + "_r" for word in model_r_words]
     words = model_l_words + model_r_words
     for i, word in enumerate(words):
         # if i%2 == 0:
@@ -101,20 +104,33 @@ def vector_distance_2_models(dictionary_of_models, list_of_terms, title='1'):
     pyplot.savefig('test_{}.png'.format(title))
     pyplot.show()
 
+
 # tightness vs dispersion, size is importance
-def tight_disp_scatter(dictionary_of_models, list_of_terms, k=20, title='1'):
+def tight_disp_scatter(dictionary_of_models, dictionary_of_co_occurence, list_of_terms, k=20, n=99, title='1',
+                       use_cocurrence=False,
+                       use_pretrained_comparison=False,
+                       pct_terms=25):
     x, y, s = [], [], []
     list_of_models = list(dictionary_of_models.values())
-    list_of_terms = [term for term in list_of_terms[:math.ceil(len(list_of_terms)/16)] if
+    list_of_matrices = list(dictionary_of_co_occurence.values())
+    list_of_terms_ = list_of_terms[:math.ceil(len(list_of_terms)*pct_terms*.01)]
+    if use_pretrained_comparison:
+        list_of_terms_ = [term for term in list_of_terms_ if term[0] in list_of_models[-1].wv.vocab]
+    else:
+        list_of_terms_ = [term for term in list_of_terms_ if term[0] in list_of_models[0].wv.vocab
+                          and term[0] in list_of_models[1].wv.vocab]
+    list_of_terms = [term for term in list_of_terms_ if
                      term[0] in list_of_models[0].wv.vocab and term[0] in list_of_models[1].wv.vocab]
     max_tfidf = max([term[1] for term in list_of_terms])
-    for term in list_of_terms:
-        x.append(nearestk.find_tightness(list_of_models, term[0], k))
-        y.append(nearestk.find_dispersion_2(list_of_models, term[0], k))
-        s.append(2 * 2 ** 10 * (term[1] ** 2)/(max_tfidf ** 2))
+    for term in list_of_terms_:
+        x.append(nearestk.find_tightness(list_of_models, list_of_matrices, term[0], k, n,
+                                         use_cocurrence, use_pretrained_comparison))
+        y.append(nearestk.find_dispersion_2(list_of_models, list_of_matrices, term[0], k, n,
+                                            use_cocurrence, use_pretrained_comparison))
+        s.append(2 * 2 ** 10 * (term[1] ** 2) / (max_tfidf ** 2))
     pyplot.scatter(x, y, s=s)
-    for i, term[0] in enumerate(list_of_terms):
-        pyplot.annotate(term[0], (x[i], y[i]))
+    for i, term[0] in enumerate(list_of_terms_):
+        pyplot.annotate(term[0][0], (x[i], y[i]))
     pyplot.xlabel('Tightness')
     pyplot.ylabel('Dispersion')
     pyplot.title(title)
@@ -136,7 +152,7 @@ def cos_sim_plot_2_models(dictionary_of_models, list_of_terms, title='a'):
     list_of_models = list(dictionary_of_models.values())
     list_of_terms = [term for term in list_of_terms if
                      term[0] in list_of_models[0].wv.vocab and term[0] in list_of_models[1].wv.vocab]
-    list_of_terms_ = list_of_terms[0:21] + list_of_terms[len(list_of_terms)-21:len(list_of_terms)-1]
+    list_of_terms_ = list_of_terms[0:21] + list_of_terms[len(list_of_terms) - 21:len(list_of_terms) - 1]
     print(len(list_of_terms_))
     for term in list_of_terms_:
         vec1 = list_of_models[0].wv[term[0]]
@@ -185,6 +201,84 @@ def cos_sim_plot_2_models_wrt_mean(dictionary_of_models, list_of_terms):
     pyplot.title(title)
     pyplot.savefig('cos_sim_z-score_{}.png'.format(title))
     pyplot.show()
+
+
+def plot_word_with_context(dictionary_of_models, word, k):
+    list_of_models = list(dictionary_of_models.values())
+
+    model_1_similarity = list_of_models[0].wv.most_similar(positive=[word], topn=k)
+    model_1_comp_dict = [term[0] for term in model_1_similarity]
+    model_1_words = [word] + model_1_comp_dict
+
+    model_2_similarity = list_of_models[1].wv.most_similar(positive=[word], topn=k)
+    model_2_comp_dict = [term[0] for term in model_2_similarity]
+    model_2_words = [word] + model_2_comp_dict
+    PCA_plot_diff(list_of_models[0], list_of_models[1], model_1_words, model_2_words, title=word)
+
+
+def plot_word_with_context_base(dictionary_of_models, word, k):
+    list_of_models = list(dictionary_of_models.values())
+
+    model_1_similarity = list_of_models[0].wv.most_similar(positive=[word], topn=k)
+    model_1_comp_dict = [term[0] for term in model_1_similarity]
+    model_1_comp_dict = [term for term in model_1_comp_dict if term in list_of_models[-1].wv.vocab]
+    model_1_words = [word] + model_1_comp_dict
+
+    model_2_similarity = list_of_models[1].wv.most_similar(positive=[word], topn=k)
+    model_2_comp_dict = [term[0] for term in model_2_similarity]
+    model_2_comp_dict = [term for term in model_2_comp_dict if term in list_of_models[-1].wv.vocab]
+    model_2_words = [word] + model_2_comp_dict
+    PCA_plot_diff(list_of_models[-1], list_of_models[-1], model_1_words, model_2_words, title=word)
+
+
+def plot_word_with_cocurrence(dictionary_of_models, dictionary_of_co_occurence, anchor_word, n):
+    models = list(dictionary_of_models.values())
+    matrices = list(dictionary_of_co_occurence.values())
+    # model 1
+    top_n_pct_1 = np.percentile([matrices[0][anchor_word][term] for term in matrices[0][anchor_word]], n)
+    print(n)
+    print(top_n_pct_1)
+    model_1_comp_dict = []
+    for key in matrices[0][anchor_word]:
+        if matrices[0][anchor_word][key] > top_n_pct_1 \
+                and key in models[0].wv.vocab \
+                and key not in stopwords.words('english'):
+            model_1_comp_dict.append(key)
+    model_1_words = [anchor_word] + model_1_comp_dict
+    # model 2
+    top_n_pct_2 = np.percentile([matrices[1][anchor_word][term] for term in matrices[1][anchor_word]], n)
+    model_2_comp_dict = []
+    for key in matrices[1][anchor_word]:
+        if matrices[1][anchor_word][key] > top_n_pct_1 \
+                and key in models[1].wv.vocab \
+                and key not in stopwords.words('english'):
+            model_2_comp_dict.append(key)
+    model_2_words = [anchor_word] + model_2_comp_dict
+    PCA_plot_diff(models[0], models[1], model_1_words, model_2_words, title=anchor_word)
+
+
+def plot_word_with_cocurrence_base(dictionary_of_models, dictionary_of_co_occurence, anchor_word, n):
+    models = list(dictionary_of_models.values())
+    matrices = list(dictionary_of_co_occurence.values())
+    # model 1
+    top_n_pct_1 = np.percentile([matrices[0][anchor_word][term] for term in matrices[0][anchor_word]], n)
+    model_1_comp_dict = []
+    for key in matrices[0][anchor_word]:
+        if matrices[0][anchor_word][key] > top_n_pct_1 \
+                and key in models[-1].wv.vocab \
+                and key not in stopwords.words('english'):
+            model_1_comp_dict.append(key)
+    model_1_words = [anchor_word] + model_1_comp_dict
+    # model 2
+    top_n_pct_2 = np.percentile([matrices[1][anchor_word][term] for term in matrices[1][anchor_word]], n)
+    model_2_comp_dict = []
+    for key in matrices[1][anchor_word]:
+        if matrices[1][anchor_word][key] > top_n_pct_1 \
+                and key in models[-1].wv.vocab \
+                and key not in stopwords.words('english'):
+            model_2_comp_dict.append(key)
+    model_2_words = [anchor_word] + model_2_comp_dict
+    PCA_plot_diff(models[-1], models[-1], model_1_words, model_2_words, title=anchor_word)
 
 
 '''

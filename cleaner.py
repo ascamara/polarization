@@ -7,6 +7,7 @@ from num2words import num2words
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
+import decimal
 
 
 def lower(tokens):
@@ -33,15 +34,19 @@ def numberize(tokens):
     tokens = list(filter(None, tokens))
 
     for token in tokens:
-        # normal case - fifty-three
-        if has_number(token) and not ordinal(token):
-            # if it has letters, let her go (n95, covid19)
-            if not has_letters(token):
-                tokens[tokens.index(token)] = str(num2words(int(token)))
-        # unless its an ordinal!
-        elif has_number(token) and ordinal(token):
-            tokens[tokens.index(token)] = str(num2words(token[:-2], ordinal=True))
+        try:
+            # normal case - fifty-three
+            if has_number(token) and not ordinal(token):
+                # if it has letters, let her go (n95, covid19)
+                if not has_letters(token):
+                    tokens[tokens.index(token)] = str(num2words(int(token)))
+            # unless its an ordinal!
+            elif has_number(token) and ordinal(token):
+                tokens[tokens.index(token)] = str(num2words(token[:-2], ordinal=True))
+        except decimal.InvalidOperation:
+            print('something didnt convert good')
     return tokens
+
 
 
 def remove_punctuation(tokens):

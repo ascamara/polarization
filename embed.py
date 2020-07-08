@@ -83,6 +83,11 @@ def create_sentence_array(corpora_file_stem, corpus):
     sentences = bigram[sent]
     return sentences
 
+def fix_arrays(sent):
+    phrases = Phrases(sent, min_count=40, progress_per=10000)
+    bigram = Phraser(phrases)
+    sentences = bigram[sent]
+    return sentences
 
 def create_models(dictionary_of_sentences, pretrain=True):
     dictionary_of_models = {}
@@ -91,7 +96,11 @@ def create_models(dictionary_of_sentences, pretrain=True):
             dictionary_of_models[k] = create_model_pretrained(dictionary_of_sentences[k])
         else:
             dictionary_of_models[k] = create_model(dictionary_of_sentences[k])
+        path = 'model_{}.txt'.format(k)
+        dictionary_of_models[k].wv.save_word2vec_format(path, binary=False)
     dictionary_of_models['base'] = create_model_base(dictionary_of_sentences)
+    path = 'model_base.txt'
+    dictionary_of_models['base'].wv.save_word2vec_format(path, binary=False)
     return dictionary_of_models
 
 
@@ -131,6 +140,7 @@ def create_model_pretrained(sentences, pretrained_path='GoogleNews-vectors-negat
     else:
         model_2 = Word2Vec(sentences_tokenized, size=300, min_count=10)
         print(len(model_2.wv.vocab))
+    return model_2
 
 
 def create_model_pretrained_without_sentences():
