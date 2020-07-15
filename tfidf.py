@@ -6,6 +6,7 @@ import numpy as np
 import nltk
 from nltk.corpus import stopwords
 from collections import defaultdict
+from tqdm import tqdm
 
 
 # create set of words over a set of docs
@@ -82,8 +83,10 @@ def dictionary_word_in_corpus_per_doc(directory, folder, total):
         set_to_search = set(words)
         for elt in set_to_search:
             word_in_docs[elt] += 1
+        '''
         print("Completed: " + str(progress) + " out of " + str(total) + " documents.")
         print(progress / total)
+        '''
     return word_in_docs
 
 
@@ -104,11 +107,11 @@ def tfidf_corpus(directory, folder):
             if word_in_docs[elt] > (total * AT_LEAST_PCT):
                 # tf * idf
                 tfidf_pairs[elt] += tf(elt, folder, filename) * math.log(total / word_in_docs[elt])
-
+        '''
         progress += 1
         print("Completed: " + str(progress) + " out of " + str(total) + " documents.")
         print(progress / total)
-
+        '''
     sorted_tfidf_pairs = []
     for key, value in tfidf_pairs.items():
         temp_pair = [key, value / total]
@@ -127,7 +130,7 @@ def tfidf_corpora(directory_stem, folders):
     tfidf_docs = defaultdict(float)
     ensure_word_appears_in_each_corpus = defaultdict(int)
     array_of_corpora = []
-    for folder in folders:
+    for folder in tqdm(folders, ascii=True, desc='TFIDF'):
         path = directory_stem + '\{}'.format(folder)
         corpus_ = tfidf_corpus(path, folder)
         array_of_corpora.append(corpus_)

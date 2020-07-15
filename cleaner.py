@@ -8,7 +8,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.stem import PorterStemmer
 import decimal
-
+from tqdm import tqdm
 
 def lower(tokens):
     return [w.lower() for w in tokens]
@@ -183,8 +183,7 @@ def clean_folder(directory_stem, directory, folder, stemming=True):
     if folder == 'fox':
         is_fox = True
 
-    for filename in os.listdir(directory):
-        print(filename)
+    for filename in tqdm(os.listdir(directory), ascii=True, desc='Cleaning'):
         clean(directory_stem, folder, filename, is_fox, stemming)
     return 'clean_{}'.format(folder)
 

@@ -13,6 +13,7 @@ from nltk.corpus import stopwords
 from statistics import stdev
 import numpy as np
 import os
+from tqdm import tqdm
 
 
 def preprocessing(directory_stem, list_of_corpora, perform=False):
@@ -106,15 +107,17 @@ if __name__ == '__main__':
 
     directory_stem = r'C:\Users\ascam\PycharmProjects\polarizat'
     list_of_corpora = ['breitbart', 'cnn', 'foxnews', 'huffpo', 'reuters']
+    perform_preprocessing = True
+    perform_tfidf = True
+    pretrain = True
+    generate_new_models = True
 
     # PART 1: PREPROCESSING
-    perform_preprocessing = True
+
     list_of_corpora_clean = preprocessing(directory_stem,
                                           list_of_corpora,
                                           perform_preprocessing)
-    assert False
     # PART 2: TF-IDF on the SUBCORPUSES
-    perform_tfidf = True
     dict_of_terms = find_terms(directory_stem,
                                list_of_corpora_clean,
                                perform_tfidf,
@@ -132,17 +135,6 @@ if __name__ == '__main__':
         dictionary_of_models = read_models(directory_stem,
                                            list_of_corpora_clean)
 
-    # PART 4 (Optional): CREATE CO-OCCURENCE MATRIX FOR EACH DICTIONARY
-    models_excl_base = without_keys(dictionary_of_models, 'base')
-    perform_cocurrence = False
-    perform_matrix_generation = False
-    if perform_cocurrence and perform_matrix_generation:
-        dictionary_of_co_occurence = cooccurance.create_co_occurence(directory_stem,
-                                                                     models_excl_base,
-                                                                     list_of_terms)
-    elif perform_cocurrence and not perform_matrix_generation:
-        dictionary_of_co_occurence = cooccurance.read_co_occurance(models_excl_base)
-
     # PART 5: FIND R SQUARED
     base_controversy_dictionary = polarization_calculator.controversy_dictionary(dictionary_of_models,
                                                                                  list_of_terms,
@@ -150,10 +142,8 @@ if __name__ == '__main__':
                                                                                  use_pretrained=False)
 
     # PART 6: RUN RANDOMIZED PIPELINES
-    pretrain = True
-    generate_new_models = True
     list_of_randomized_controversy_dictionaries = []
-    for i in range(25):
+    for i in tqdm(range(25), ascii=True, desc='Creating randomized models'):
         key_names = ['a_{}'.format(i), 'b_{}'.format(i)]
         if generate_new_models:
             dictionary_of_models = create_models_random(directory_stem,

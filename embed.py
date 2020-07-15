@@ -10,13 +10,14 @@ from gensim import utils
 from gensim.models.phrases import Phrases, Phraser
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
+from tqdm import tqdm
 
 import spacy
-
+'''
 import logging
 
 logging.basicConfig(format="%(levelname)s - %(asctime)s: %(message)s", datefmt='%H:%M:%S', level=logging.INFO)
-
+'''
 
 def create_corpus(directory, folder, corpora_name="a", skip=25):
     # get words into an array of words
@@ -91,7 +92,7 @@ def fix_arrays(sent):
 
 def create_models(dictionary_of_sentences, pretrain=True):
     dictionary_of_models = {}
-    for k in dictionary_of_sentences:
+    for k in tqdm(dictionary_of_sentences, ascii=True, desc='Creating models'):
         if pretrain:
             dictionary_of_models[k] = create_model_pretrained(dictionary_of_sentences[k])
         else:
@@ -158,13 +159,13 @@ def create_model(sentences):
                      negative=20,
                      workers=cores - 1,
                      sorted_vocab=1)
-    t = time()
+    #t = time()
     model.build_vocab(sentences, progress_per=10000)
-    print('Time to build vocab: {} mins'.format(round((time() - t) / 60, 2)))
+    #print('Time to build vocab: {} mins'.format(round((time() - t) / 60, 2)))
 
-    t = time()
+    #t = time()
     model.train(sentences, total_examples=model.corpus_count, epochs=30, report_delay=1)
-    print('Time to train the model: {} mins'.format(round((time() - t) / 60, 2)))
+    #print('Time to train the model: {} mins'.format(round((time() - t) / 60, 2)))
 
     return model
 
