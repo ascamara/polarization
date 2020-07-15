@@ -1,6 +1,7 @@
 import operator
 import os
 import math
+import json
 import numpy as np
 import nltk
 from nltk.corpus import stopwords
@@ -119,6 +120,8 @@ def tfidf_corpus(directory, folder):
 
     return sorted_tfidf_pairs
 
+def without_keys(d, keys):
+    return {k: v for k, v in d.items() if k not in keys}
 
 def tfidf_corpora(directory_stem, folders):
     tfidf_docs = defaultdict(float)
@@ -134,24 +137,18 @@ def tfidf_corpora(directory_stem, folders):
         for pair in corpus:
             if ensure_word_appears_in_each_corpus[pair[0]] == len(array_of_corpora):
                 tfidf_docs[pair[0]] += pair[1]
-    sorted_tfidf_docs = []
     for key, value in tfidf_docs.items():
-        temp_pair = [key, value / len(folders)]
-        sorted_tfidf_docs.append(temp_pair)
-    sorted_tfidf_docs = sorted(sorted_tfidf_docs, key=operator.itemgetter(1))
-    sorted_tfidf_docs = sorted_tfidf_docs[::-1]
-
+        tfidf_docs[key] = value/len(folders)
+    tfidf = without_keys(tfidf_docs, stopwords.words('english'))
     with open('tfidf_final', 'w', encoding='utf-8') as fp:
-        print(*sorted_tfidf_docs, sep='\n', file=fp)
-
-    return sorted_tfidf_docs
+        fp.write(json.dumps(tfidf))
+    return tfidf
 
 
 def read_tfidf(file):
-    terms = []
-    with open(file, 'r', encoding='utf-8') as fp:
-        for line in fp:
-            term = line[2:line.rfind("'")]
-            value = float(line[line.rfind(' ') + 1:-2])
-            terms.append([term, value])
-    return terms
+    tfidf = {}
+    with open('tfidf_final', 'r') as fp:
+            data = json.loads(fp.read())
+            for key in data.keys():
+                tfidf[key] = data[key]
+    return tfidf

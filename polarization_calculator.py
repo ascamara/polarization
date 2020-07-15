@@ -5,6 +5,7 @@ import operator
 from time import time
 from gensim.models import KeyedVectors
 from nltk.corpus import stopwords
+from collections import defaultdict
 import math
 
 
@@ -67,6 +68,28 @@ def find_controversy_2(models,
             denom_terms.append(np.linalg.norm(vec - np.mean(all_vec, axis=0)) ** 2)
         # return value
         return (a_term + b_term) / sum(denom_terms)
+
+
+def controversy_dictionary(dictionary_of_models,
+                           list_of_terms,
+                           k=10,
+                           use_pretrained=False):
+    list_of_models = list(dictionary_of_models.values())
+    if use_pretrained:
+        terms = [term[0] for term in list_of_terms if term[0] in list_of_models[-1].wv.vocab]
+    else:
+        terms = [term[0] for term in list_of_terms if
+                 term[0] in list_of_models[0].wv.vocab and term[0] in list_of_models[1].wv.vocab]
+    controversy = {}
+    for term in terms:
+        term_controversy = find_controversy_2(list_of_models,
+                                              term,
+                                              k,
+                                              use_pretrained)
+        if term_controversy is None:
+            term_controversy = 0
+        controversy[term] = term_controversy
+    return controversy
 
 
 def driver(dictionary_of_models,
