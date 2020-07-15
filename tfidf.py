@@ -11,7 +11,7 @@ from collections import defaultdict
 # create set of words over a set of docs
 def create_set(folder, filename):
     file_to_open = r'.\{}\{}'.format(folder, filename)
-    raw = open(file_to_open).read()
+    raw = open(file_to_open, encoding='utf-8').read()
     words = raw.split()
     return sorted(set(words))
 
@@ -21,7 +21,7 @@ def create_set_corpora(direct, folder):
 
     for file in os.listdir(direct):
         file_to_open = r'.\{}\{}'.format(folder, file)
-        raw = open(file_to_open).read()
+        raw = open(file_to_open, encoding='utf-8').read()
         words = raw.split()
         words_set.update(words)
 
@@ -30,7 +30,7 @@ def create_set_corpora(direct, folder):
 
 def tf(word, folder, filename):
     file_to_open = r'.\{}\{}'.format(folder, filename)
-    raw = open(file_to_open).read()
+    raw = open(file_to_open, encoding='utf-8').read()
     words = raw.split()
 
     # check to see if this is good
@@ -39,7 +39,7 @@ def tf(word, folder, filename):
 
 def doc_contains_word(word, folder, filename):
     file_to_open = r'.\{}\{}'.format(folder, filename)
-    raw = open(file_to_open).read()
+    raw = open(file_to_open, encoding='utf-8').read()
     words = raw.split()
     return words.count(word)
 
@@ -77,7 +77,7 @@ def dictionary_word_in_corpus_per_doc(directory, folder, total):
     for file in os.listdir(directory):
         progress += 1
         file_to_open = r'.\{}\{}'.format(folder, file)
-        raw = open(file_to_open).read()
+        raw = open(file_to_open, encoding='utf-8').read()
         words = raw.split()
         set_to_search = set(words)
         for elt in set_to_search:

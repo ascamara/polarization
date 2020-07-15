@@ -33,6 +33,7 @@ with jsonlines.open(filename, 'r') as fp:
     counter = 0
     for obj in tqdm(fp):
         source_count[obj['source']['domain']] += 1
+        '''
         if obj['source']['domain'] == 'reuters.com':
             write_file(directory_stem, 'reuters', obj)
         elif obj['source']['domain'] == 'foxnews.com':
@@ -43,5 +44,9 @@ with jsonlines.open(filename, 'r') as fp:
             write_file(directory_stem, 'cnn', obj)
         elif obj['source']['domain'] == 'huffingtonpost.com':
             write_file(directory_stem, 'huffpo', obj)
+        '''
         counter += 1
+source_count_list = dict_to_list(source_count)
+with open('source_count_list', 'w', encoding='utf-8') as fp:
+    print(*source_count_list, sep='\n', file=fp)
 print('done')
