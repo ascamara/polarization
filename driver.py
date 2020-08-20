@@ -22,9 +22,14 @@ sources = ['breitbart', 'foxnews', 'reuters', 'cnn', 'huffpo']
 # if this is set to false, it uses log odds instead -- this is not ready yet
 USE_TFIDF = False
 # size of context for controversy scoring
-CONTEXT_SIZE = 50
+CONTEXT_SIZE = 5
 # size of terms considered for corpus-wide measurements
-CORPUS_WIDE_MEASUREMENT_TERMS = 10
+CORPUS_WIDE_MEASUREMENT_TERMS = 50
+# pretrain on Google News
+PRETRAIN = True
+# align models
+ALIGN = True
+
 
 # try context size: 5, 10, 50
 # num terms: 10, 20, 50
@@ -40,13 +45,14 @@ def significance(source_dictionary):
     if USE_TFIDF:
         significance_dictionary = tfidf.tfidf_corpus(source_dictionary)
     else:
-        significance_dictionary = logodds.logodds_corpus(source_dictionary)
+        co_occurance_matrix_dictionary = cooccurance.find_matrices(source_dictionary)
+        significance_dictionary = logodds.logodds_corpus(source_dictionary, co_occurance_matrix_dictionary)
     return significance_dictionary
 
 
-def controversy(directory_stem, source_dictionary, significance_dictionary):
+def controversy(source_dictionary, significance_dictionary):
     significance_list = dict_to_list(significance_dictionary)
-    model_dictionary = embed.create_models(directory_stem, source_dictionary, pretrain=False)
+    model_dictionary = embed.create_models(source_dictionary, PRETRAIN, ALIGN)
     co_occurance_matrix_dictionary = cooccurance.find_matrices(source_dictionary)
     return nearestk.controversy_dictionary_use_co_occurance(model_dictionary, significance_list,
                                                             co_occurance_matrix_dictionary, CONTEXT_SIZE)
@@ -131,7 +137,10 @@ def create_report(sources,
     sources = [source for source in sources]
     with open('summary_{}_{}'.format(sources[0], sources[1]), 'w', encoding='utf-8') as fp:
         print('Polarization pipeline summary for ' + sources[0] + ' and ' + sources[1] + ':', file=fp)
-        print('Polarization score: ' + str(avg_pol), file=fp)
+        print(str(avg_pol[0]), file=fp)
+        print(str(avg_pol[1]), file=fp)
+        print(str(avg_pol[2]), file=fp)
+        print(str(avg_pol[3]), file=fp)
         models, matrices = [], []
         for source in sources:
             models.append(KeyedVectors.load_word2vec_format('model_{}.txt'.format(source), binary=False))
@@ -179,7 +188,7 @@ def pipeline(sources):
     significance_dictionary = significance(source_dictionary)
 
     # Controversy scoring
-    controversy_dictionary = controversy(directory_stem, source_dictionary, significance_dictionary)
+    controversy_dictionary = controversy(source_dictionary, significance_dictionary)
     significance_dictionary = fixlen(significance_dictionary, controversy_dictionary)
 
     # Polarization scoring
@@ -187,24 +196,29 @@ def pipeline(sources):
 
     # r^2 of all terms
     r2_all = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                      polarization_dictionary, len(polarization_dictionary))
+                                           polarization_dictionary, len(polarization_dictionary),
+                                           PRETRAIN, ALIGN)
     # r^2 of top x polariz
     r2_top_polar = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                                 polarization_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS)
+                                                 polarization_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
+                                                 PRETRAIN, ALIGN)
     # r^2 of top X controv
     r2_top_contr = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                                 controversy_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS)
+                                                 controversy_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
+                                                 PRETRAIN, ALIGN)
     # r^2 of top X signif
     r2_top_signf = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                                 significance_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS)
+                                                 significance_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
+                                                 PRETRAIN, ALIGN)
 
     create_report(sources,
-                  r2_top_contr,
+                  [r2_all, r2_top_polar, r2_top_contr, r2_top_signf],
                   polarization_dictionary,
                   controversy_dictionary,
                   significance_dictionary)
 
     return [r2_all, r2_top_polar, r2_top_contr, r2_top_signf]
+
 
 if __name__ == '__main__':
     t = time()
@@ -223,7 +237,3 @@ if __name__ == '__main__':
     print(b)
     print(c)
     print(d)
-
-
-
-

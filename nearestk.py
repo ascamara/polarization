@@ -14,18 +14,22 @@ def cosine_sim(vec1, vec2):
 
 
 def return_contexts(models, matrices, anchor, context_size):
-    list_of_contexts = []
-    for i in range(len(models)):
-        matrix = matrices[i]
-        dict = matrix[anchor[0]]
-        list = sorted(dict.items(), key=lambda x: x[1], reverse=True)
-        list_of_contexts.append([item[0] for item in list if item[0] in models[i].wv.vocab and item[1] > 10][:context_size])
-    new_context = []
-    common_words = set(list_of_contexts[0]).intersection(set(list_of_contexts[1]))
-    for context in list_of_contexts:
-        new_context.append([term for term in context if term not in common_words])
-    new_context.insert(0, [term for term in common_words])
-    return new_context
+    try:
+        list_of_contexts = []
+        for i in range(len(models)):
+            matrix = matrices[i]
+            dict = matrix[anchor[0]]
+            list = sorted(dict.items(), key=lambda x: x[1], reverse=True)
+            list_of_contexts.append([item[0] for item in list if item[0] in models[i].wv.vocab and item[1] > 10][:context_size])
+        new_context = []
+        common_words = set(list_of_contexts[0]).intersection(set(list_of_contexts[1]))
+        for context in list_of_contexts:
+            new_context.append([term for term in context if term not in common_words])
+        new_context.insert(0, [term for term in common_words])
+        return new_context
+    except KeyError:
+        return [['none'], ['none'], ['none']]
+
 
 
 def context_builder(model, matrix, anchor, context_size):

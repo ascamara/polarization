@@ -12,8 +12,8 @@ def dict_to_list(dict):
     list = list[::-1]
     return list
 
-def r_squared(directory_stem, source_dictionary, analysis_dictionary, num_terms):
-    dictionary_of_models = embed.create_models(directory_stem, source_dictionary, pretrain=False)
+def r_squared(directory_stem, source_dictionary, analysis_dictionary, num_terms, PRETRAIN, ALIGN):
+    dictionary_of_models = embed.create_models(source_dictionary, PRETRAIN, ALIGN)
     analysis_list = dict_to_list(analysis_dictionary)
 
     # list of contexts is an n elt list (where n is models) with m elts (where m is the words)

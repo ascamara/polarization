@@ -5,6 +5,7 @@ from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 from tqdm import tqdm
 
+
 def fix_model_dimensions(dictionary_of_models):
     base_embed = 0
     for key, value in dictionary_of_models.items():
@@ -14,7 +15,8 @@ def fix_model_dimensions(dictionary_of_models):
             dictionary_of_models[key] = align.smart_procrustes_align_gensim(base_embed, value)
     return dictionary_of_models
 
-def create_models(directory_stem, source_dictionary, pretrain):
+
+def create_models(source_dictionary, pretrain, align):
     dictionary_of_models = {}
     for k in tqdm(source_dictionary, ascii=True, desc='Creating models'):
         if os.path.isfile('model_{}.txt'.format(str(k))):
@@ -26,7 +28,8 @@ def create_models(directory_stem, source_dictionary, pretrain):
                 dictionary_of_models[k] = create_model(source_dictionary[k])
             path_to_save = 'model_{}.txt'.format(str(k))
             dictionary_of_models[k].wv.save_word2vec_format(path_to_save, binary=False)
-    dictionary_of_models = fix_model_dimensions(dictionary_of_models)
+    if align:
+        dictionary_of_models = fix_model_dimensions(dictionary_of_models)
     return dictionary_of_models
 
 
