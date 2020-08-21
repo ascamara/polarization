@@ -108,5 +108,4 @@ def logodds_corpus(source_dictionary, co_occurance_matrix_dictionary):
     fq1 = {k: v for k, v in frequency_dictionary[list_of_sources[1]].items() if k in list_of_keys
            and list_of_matrix_terms}
 
-    return {k: math.log(prob(fq0, fq1, k) / (1 - prob(fq0, fq1, k)))
-               + math.log(prob(fq1, fq0, k) / (1 - prob(fq1, fq0, k))) for k in list_of_keys}
+    return {k: abs(math.log(prob(fq0, fq1, k) / prob(fq1, fq0, k))) for k in list_of_keys}

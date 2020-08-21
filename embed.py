@@ -67,7 +67,7 @@ def create_model(documents):
                      window=10,
                      size=300,
                      sample=6e-5,
-                     alpha=.03,
+                     alpha=.025,
                      min_alpha=.0007,
                      negative=20,
                      workers=cores - 1,

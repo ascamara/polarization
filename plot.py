@@ -154,29 +154,30 @@ def dict_to_list(dict):
 def hist(dict, sources, name):
     arr = [item for item in dict.values() if item != 0]
     pyplot.hist(arr, bins=20, density=False)
-    #pyplot.axis([0, .25, 0, pyplot.ylim()[1]])
+    # pyplot.axis([0, .25, 0, pyplot.ylim()[1]])
     pyplot.xlabel(name)
     pyplot.ylabel('Count')
     pyplot.savefig('dist_{}_{}_{}'.format(name, sources[0], sources[1]))
     pyplot.show()
 
 
-
 # sig y, con x
-def sig_v_cont(significance_dictionary, controversy_dictionary, sources, title='Significance v. Controversy'):
+def y_v_x_scatter(y_name, y_dict, x_name, x_dict, sources, title='Significance v. Controversy'):
     x, y, terms = [], [], []
-    for key, value in significance_dictionary.items():
-        if value != 0 and controversy_dictionary[key] != 0:
-            terms.append(key)
-            y.append(value)
-            x.append(controversy_dictionary[key])
+    for key, value in y_dict.items():
+        try:
+            if value != 0 and x_dict[key] != 0:
+                terms.append(key)
+                y.append(value)
+                x.append(x_dict[key])
+        except KeyError:
+            continue
     pyplot.scatter(x, y)
-    pyplot.xlabel('Controversy')
-    pyplot.ylabel('Significance')
+    pyplot.xlabel(x_name)
+    pyplot.ylabel(y_name)
     pyplot.title(title)
     pyplot.savefig('{}_{}_{}.png'.format(title, sources[0], sources[1]))
     pyplot.show()
-
 
 
 def get_last_x(list_of_terms, x):
