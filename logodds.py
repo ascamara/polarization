@@ -24,13 +24,13 @@ def word_in_corpus(list_of_sentences, word):
 def source_frequency(source_dictionary):
     frequency_dictionary = {}
     for key, value in source_dictionary.items():
-        frequency_dictionary_source = defaultdict(int)
-        sentences = [sentence for document in value for sentence in document]
-        list_of_sentences = [sentence.split() for sentence in sentences]
-        list_of_words = create_set(list_of_sentences)
         if os.path.isfile('incidents_{}'.format(key)):
             frequency_dictionary_source = pickle.load(open('incidents_{}'.format(key), 'rb'))
         else:
+            frequency_dictionary_source = defaultdict(int)
+            sentences = [sentence for document in value for sentence in document]
+            list_of_sentences = [sentence.split() for sentence in sentences]
+            list_of_words = create_set(list_of_sentences)
             for word in tqdm(list_of_words, ascii=True, desc='Creating dictionary', leave=True):
                 count = word_in_corpus(list_of_sentences, word)
                 if count > 10:
@@ -43,16 +43,15 @@ def source_frequency(source_dictionary):
 
 def source_probability(source_dictionary):
     probability_dictionary = {}
-    for key, value in source_dictionary.items():
-        probability_dictionary_source = defaultdict(float)
-        sentences = [sentence for document in value for sentence in document]
-        list_of_sentences = [sentence.split() for sentence in sentences]
-        list_of_words = create_set(list_of_sentences)
-        # sentences = [sentence for document in documents for sentence in document]
-        total = len([w for sentence in list_of_sentences for w in sentence])
+    for key, value in tqdm(source_dictionary.items(), ascii=True, desc='Files', leave=True):
         if os.path.isfile('probability_{}'.format(key)):
             probability_dictionary_source = pickle.load(open('probability_{}'.format(key), 'rb'))
         else:
+            probability_dictionary_source = defaultdict(float)
+            sentences = [sentence for document in value for sentence in document]
+            list_of_sentences = [sentence.split() for sentence in sentences]
+            list_of_words = create_set(list_of_sentences)
+            total = len([w for sentence in list_of_sentences for w in sentence])
             if os.path.isfile('incidents_{}'.format(key)):
                 frequency_dictionary_source = pickle.load(open('incidents_{}'.format(key), 'rb'))
                 for word in tqdm(list_of_words, ascii=True, desc='Creating dictionary', leave=True):

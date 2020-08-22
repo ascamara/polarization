@@ -19,7 +19,7 @@ from gensim.models import KeyedVectors
 # folder location of the data
 directory_stem = r'C:\Users\ascam\PycharmProjects\polarization_pipeline'
 # sources to be considered
-sources = ['breitbart', 'foxnews', 'reuters', 'cnn', 'huffpo']
+sources = ['democrats', 'republicans', 'NY', 'CA', 'TX', 'FL', 'IL', 'MA', 'OK', 'GA']
 # size of context for controversy scoring
 CONTEXT_SIZE = 15
 # size of terms considered for corpus-wide measurements
@@ -30,7 +30,6 @@ NUMBER_OF_WORDS_TO_DISPLAY = 50
 PRETRAIN = True
 # align models
 ALIGN = True
-
 
 
 ## PLEASE SEE THE MAIN FUNCTION TO RUN THE PIPELINE ##
@@ -44,18 +43,20 @@ def significance(source_dictionary):
     significance_dictionary = tfidf.tfidf_corpus(source_dictionary)
     return significance_dictionary
 
-def logodds_calc(source_dictionary):
-    co_occurance_matrix_dictionary = cooccurance.find_matrices(source_dictionary)
-    significance_dictionary = logodds.logodds_corpus(source_dictionary, co_occurance_matrix_dictionary)
+
+def matrix_generator(source_dictionary):
+    return cooccurance.find_matrices(source_dictionary)
+
+
+def logodds_calc(source_dictionary, matrix_dictionary):
+    significance_dictionary = logodds.logodds_corpus(source_dictionary, matrix_dictionary)
     return significance_dictionary
 
 
-def controversy(source_dictionary, significance_dictionary):
+def controversy(significance_dictionary, matrix_dictionary, model_dictionary):
     significance_list = dict_to_list(significance_dictionary)
-    model_dictionary = embed.create_models(source_dictionary, PRETRAIN, ALIGN)
-    co_occurance_matrix_dictionary = cooccurance.find_matrices(source_dictionary)
     return nearestk.controversy_dictionary_use_co_occurance(model_dictionary, significance_list,
-                                                            co_occurance_matrix_dictionary, CONTEXT_SIZE)
+                                                            matrix_dictionary, CONTEXT_SIZE)
 
 
 def dict_to_list(dict):
@@ -77,10 +78,14 @@ def create_report(sources,
                   avg_pol,
                   significance_dictionary,
                   controversy_dictionary,
-                  logodds_dictionary):
+                  logodds_dictionary,
+                  matrix_dictionary,
+                  model_dictionary):
     significance_list = dict_to_list(significance_dictionary)[:NUMBER_OF_WORDS_TO_DISPLAY]
     controversy_list = dict_to_list(controversy_dictionary)[:NUMBER_OF_WORDS_TO_DISPLAY]
     logodds_list = dict_to_list(logodds_dictionary)[:NUMBER_OF_WORDS_TO_DISPLAY]
+
+
 
     # main score, word 1, score 1,
     with open('summary_{}_{}.csv'.format(sources[0], sources[1]), 'w', encoding='utf-8') as fp:
@@ -92,22 +97,23 @@ def create_report(sources,
         print_con_list = [str(avg_pol[3])] + [str(elt[0]) + ',' + str(elt[1]) for elt in logodds_list]
         print(*print_con_list, sep=',', file=fp)
 
-    plot.y_v_x_scatter('logodds', logodds_dictionary,
-                       'controversy', controversy_dictionary, sources, title='Log odds v Controversy')
-    plot.y_v_x_scatter('tfidf', significance_dictionary,
-                       'controversy', controversy_dictionary, sources, title='Significance v Controversy')
-    plot.y_v_x_scatter('tfidf', significance_dictionary,
-                       'logodds', logodds_dictionary, sources, title='Significance v Log Odds')
+
+    # plot.y_v_x_scatter('logodds', logodds_dictionary,
+    #                   'controversy', controversy_dictionary, sources, title='Log odds v Controversy')
+    # plot.y_v_x_scatter('tfidf', significance_dictionary,
+    #                   'controversy', controversy_dictionary, sources, title='Significance v Controversy')
+    # plot.y_v_x_scatter('tfidf', significance_dictionary,
+    #                   'logodds', logodds_dictionary, sources, title='Significance v Log Odds')
 
     with open('report_{}_{}'.format(sources[0], sources[1]), 'w', encoding='utf-8') as fp:
         print('Polarization pipeline summary for ' + sources[0] + ' and ' + sources[1] + ':', file=fp)
-        models, matrices = [], []
-        for source in sources:
-            models.append(KeyedVectors.load_word2vec_format('model_{}.txt'.format(source), binary=False))
-            matrices.append(pickle.load(open('matrix_{}'.format(source), 'rb')))
-        logodds_list = dict_to_list(logodds_dictionary)[:25]
-        controversy_list = dict_to_list(controversy_dictionary)[:25]
-        significance_list = dict_to_list(significance_dictionary)[:25]
+        logodds_list = dict_to_list(logodds_dictionary)[:CORPUS_WIDE_MEASUREMENT_TERMS]
+        controversy_list = dict_to_list(controversy_dictionary)[:CORPUS_WIDE_MEASUREMENT_TERMS]
+        significance_list = dict_to_list(significance_dictionary)[:CORPUS_WIDE_MEASUREMENT_TERMS]
+        matrices, models = [], []
+        for key, value in matrix_dictionary.items():
+            matrices.append(value)
+            models.append(model_dictionary[key])
         print('--- Controversy List ---', file=fp)
         for term in controversy_list:
             print(term, file=fp)
@@ -130,6 +136,7 @@ def create_report(sources,
             print('Context in ' + sources[0] + ": " + ', '.join(print_list[1]), file=fp)
             print('Context in ' + sources[1] + ": " + ', '.join(print_list[2]), file=fp)
 
+    return -1
 
 
 def fixlen(significance_dictionary, controversy_dictionary):
@@ -147,61 +154,64 @@ def pipeline(sources):
     # Cleaning
     source_dictionary = clean(directory_stem, sources)
 
+    # Co-occurance matrix generation
+    matrix_dictionary = matrix_generator(source_dictionary)
+    model_dictionary = embed.create_models(source_dictionary, PRETRAIN, ALIGN)
+
+
     # Significance scoring
     significance_dictionary = significance(source_dictionary)
+    print(len(significance_dictionary))
 
     # Log-Odds scoring
-    logodds_dictionary = logodds_calc(source_dictionary)
+    logodds_dictionary = logodds_calc(source_dictionary, matrix_dictionary)
+    print(len(logodds_dictionary))
+
 
     # Controversy scoring
-    controversy_dictionary = controversy(source_dictionary, significance_dictionary)
+    controversy_dictionary = controversy(significance_dictionary, matrix_dictionary, model_dictionary)
+    print(len(controversy_dictionary))
+
+
     significance_dictionary = fixlen(significance_dictionary, controversy_dictionary)
     logodds_dictionary = fixlen(logodds_dictionary, controversy_dictionary)
     print(len(controversy_dictionary))
     print(len(significance_dictionary))
     print(len(logodds_dictionary))
 
+
+
     # r^2 of all terms
-    r2_all = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                           significance_dictionary, len(significance_dictionary),
-                                           PRETRAIN, ALIGN)
+    r2_all = corpus_measurements.r_squared(significance_dictionary, len(significance_dictionary),
+                                           model_dictionary)
+
+
 
     # r^2 of top X signif
-    r2_top_signf = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                                 significance_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
-                                                 PRETRAIN, ALIGN)
+    r2_top_signf = corpus_measurements.r_squared(significance_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
+                                                 model_dictionary)
     # r^2 of top x logodds
-    r2_top_logod = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                                 logodds_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
-                                                 PRETRAIN, ALIGN)
+    r2_top_logod = corpus_measurements.r_squared(logodds_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
+                                                 model_dictionary)
     # r^2 of top X controv
-    r2_top_contr = corpus_measurements.r_squared(directory_stem, source_dictionary,
-                                                 controversy_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
-                                                 PRETRAIN, ALIGN)
+    r2_top_contr = corpus_measurements.r_squared(controversy_dictionary, CORPUS_WIDE_MEASUREMENT_TERMS,
+                                                 model_dictionary)
 
     create_report(sources,
                   [r2_all, r2_top_signf, r2_top_logod, r2_top_contr],
                   significance_dictionary,
                   controversy_dictionary,
-                  logodds_dictionary)
+                  logodds_dictionary,
+                  matrix_dictionary,
+                  model_dictionary)
 
     return [r2_all, r2_top_signf, r2_top_logod, r2_top_contr]
 
 
 if __name__ == '__main__':
+    # ['democrats', 'republicans', 'NY', 'CA', 'TX', 'FL', 'IL', 'MA', 'OK', 'GA']
     t = time()
     a = pipeline([sources[0], sources[1]])
     print('Time: {} mins'.format(round((time() - t) / 60, 2)))
-    t = time()
-    b = pipeline([sources[3], sources[4]])
-    print('Time: {} mins'.format(round((time() - t) / 60, 2)))
-    t = time()
-    c = pipeline([sources[0], sources[4]])
-    print('Time: {} mins'.format(round((time() - t) / 60, 2)))
-    t = time()
-    d = pipeline([sources[1], sources[3]])
-    print('Time: {} mins'.format(round((time() - t) / 60, 2)))
     print(a)
-    print(b)
-    print(c)
-    print(d)
+

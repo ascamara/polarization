@@ -52,7 +52,11 @@ def remove_common_words(list_of_contexts):
 def find_controversy(list_of_models, anchor, list_of_matrices, context_size):
     list_of_contexts = []
     for model, matrix in zip(list_of_models, list_of_matrices):
-        list_of_contexts.append(context_builder(model, matrix, anchor, context_size))
+        context = context_builder(model, matrix, anchor, context_size)
+        if len(context) < context_size:
+            return float("nan")
+        else:
+            list_of_contexts.append(context)
     # formula in paper
     context_vector_arrays = []
     for context, model in zip(list_of_contexts, list_of_models):
@@ -80,7 +84,7 @@ def controversy_dictionary_use_co_occurance(model_dictionary, significance_list,
     list_of_matrices = list(co_occurance_matrix_dictionary.values())
     controversy = defaultdict(float)
     # top ten percent
-    for element in tqdm(significance_list[:math.floor(len(significance_list) * .1)], ascii=True, desc='Calculating polarizing'):
+    for element in tqdm(significance_list[:math.floor(len(significance_list) * .01)], ascii=True, desc='Calculating polarizing'):
         term_qualifies = True
         for model, matrix in zip(list_of_models, list_of_matrices):
             if element[0] not in model.wv.vocab or element[0] not in matrix:
@@ -89,7 +93,8 @@ def controversy_dictionary_use_co_occurance(model_dictionary, significance_list,
             term = element[0]
             try:
                 term_controversy = find_controversy(list_of_models, term, list_of_matrices, context_size)
-                controversy[term] = term_controversy
+                if not math.isnan(term_controversy):
+                    controversy[term] = term_controversy
             except ValueError:
                 continue
     return controversy

@@ -12,9 +12,11 @@ def dict_to_list(dict):
     list = list[::-1]
     return list
 
-def r_squared(directory_stem, source_dictionary, analysis_dictionary, num_terms, PRETRAIN, ALIGN):
-    dictionary_of_models = embed.create_models(source_dictionary, PRETRAIN, ALIGN)
+def r_squared(analysis_dictionary, num_terms, model_dictionary):
+    dictionary_of_models = model_dictionary
     analysis_list = dict_to_list(analysis_dictionary)
+
+
 
     # list of contexts is an n elt list (where n is models) with m elts (where m is the words)
     list_of_models = list(dictionary_of_models.values())
@@ -29,7 +31,10 @@ def r_squared(directory_stem, source_dictionary, analysis_dictionary, num_terms,
             base_list.append(analysis_list[count][0])
         count += 1
 
+
     list_of_contexts = [base_list, base_list]
+
+
 
     context_vector_arrays = []
     for context, model in zip(list_of_contexts, list_of_models):
