@@ -1,690 +1,894 @@
 Polarization pipeline summary for democracynow and foxvideos:
 --- Controversy List ---
-['live', 0.22509679475790922]
+['could', 0.22960595059244765]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, public, around, billion, lockdown, social, six, spread, month, today, nine
+Context in foxvideos: thousand, state, american, new, would, know, time, need, hundred, think, dont, work, right, want
+['live', 0.2250968012773951]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, six, former, lockdown, public, border, around, spread, nine, friday, war
 Context in foxvideos: new, thousand, state, american, know, dont, want, time, two, think, need, look, would, right
-['give', 0.21863646945289625]
+['civil', 0.22196291588642533]
+Context in both: could
+Context in democracynow: nineteen, york, corona, public, social, biden, came, today, six, campaign, around, war, billion, take
+Context in foxvideos: state, right, american, know, new, dont, thousand, say, think, time, would, well, need, want
+['lead', 0.2212630565471367]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, public, social, lockdown, nine, six, spread, system, human, far, eight
+Context in foxvideos: thousand, american, biden, state, trump, know, new, two, time, want, dont, day, right, think
+['give', 0.2186364693547249]
 Context in both: say
 Context in democracynow: nineteen, corona, new_york, york, california, public, order, around, spread, biden, social, came, south, war
 Context in foxvideos: american, thousand, know, state, time, new, need, would, want, right, think, take, dont, two
-['keep', 0.21808794696437525]
+['keep', 0.21808795240461692]
 Context in both: 
 Context in democracynow: nineteen, york, corona, public, could, around, spread, war, bill, biden, billion, lockdown, court, may, republican
 Context in foxvideos: american, thousand, new, state, time, need, would, know, want, day, two, dont, think, say, trump
-['march', 0.2177437359256829]
+['march', 0.217743744609898]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, public, court, could, around, came, california, war, republican, campaign, former
 Context in foxvideos: thousand, state, time, new_york, new, american, day, two, way, hundred, know, take, week, need
-['leader', 0.21545262315262353]
+['leader', 0.21545261952178169]
 Context in both: say
 Context in democracynow: nineteen, corona, york, biden, around, former, public, could, friday, social, court, nine, six, today
 Context in foxvideos: know, china, state, american, think, time, thousand, would, want, dont, right, need, two, make
-['member', 0.21535355915687102]
+['member', 0.21535355707321238]
 Context in both: say
 Context in democracynow: nineteen, york, around, congress, corona, today, work, former, war, public, spread, six, could, nine
 Context in foxvideos: american, trump, thousand, time, know, want, would, need, new, day, make, state, think, way
-['stay', 0.21308724941433238]
+['stay', 0.213087248202]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, could, social, biden, spread, former, six, came, today, lockdown
 Context in foxvideos: state, american, time, would, want, know, thousand, new, dont, day, need, think, right, home
-['vote', 0.2128323464133117]
+['vote', 0.21283234549739416]
 Context in both: biden
 Context in democracynow: nineteen, york, corona, around, could, today, six, court, public, billion, order, war, nine, spread
 Context in foxvideos: joe, two, hundred, thousand, american, want, take, right, way, trump, look, say, know, time
-['good', 0.21222481557226444]
+['good', 0.21222483214303103]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, eight, around, lockdown, public, social, california, today, court, video, nine
 Context in foxvideos: american, thousand, know, state, new, want, would, trump, time, think, dont, two, need, day
-['threat', 0.21021054714645449]
+['free', 0.21152708774143392]
+Context in both: say
+Context in democracynow: nineteen, york, spread, corona, war, public, came, around, south, could, social, china, border, ten
+Context in foxvideos: american, thousand, state, know, take, two, new, need, would, want, think, trump, time, day
+['threat', 0.2102105291507144]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, lockdown, spread, bill, order, around, war, today, system, month
 Context in foxvideos: china, know, time, thousand, american, state, think, trump, dont, would, need, right, make, way
-['long', 0.2090007926980971]
+['certain', 0.20981454961058496]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, could, bill, spread, billion, social, biden, six, border, order, around
+Context in foxvideos: know, would, dont, state, american, new, thousand, time, make, think, want, two, right, need
+['demand', 0.20947388872560993]
+Context in both: say
+Context in democracynow: nineteen, york, corona, around, public, social, could, lockdown, today, six, work, spread, friday, biden
+Context in foxvideos: new, state, thousand, american, know, want, need, dont, time, take, would, right, way, day
+['long', 0.20900080655031858]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, bill, spread, six, order, court, war, eight, biden, far
 Context in foxvideos: thousand, state, american, know, new, would, time, two, need, dont, think, want, day, work
-['congress', 0.20841263544851107]
+['congress', 0.20841265110980517]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, former, could, six, member, bill, nine, congress, around, spread, today
 Context in foxvideos: american, need, would, know, thousand, state, time, think, two, want, trump, new, said, right
-['mayor', 0.20782667427653445]
+['mayor', 0.20782668311040034]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, around, spread, bill, six, war, today, former, california, came
 Context in foxvideos: state, thousand, new, know, american, would, want, need, dont, make, new_york, governor, time, take
-['dollar', 0.20782601651286117]
+['dollar', 0.2078260156803272]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, billion, around, lockdown, bill, six, may, spread, social, month
 Context in foxvideos: state, american, thousand, new, need, know, want, would, think, time, million, right, look, well
-['mask', 0.2076270442411518]
+['mass', 0.20763480683474905]
+Context in both: 
+Context in democracynow: nineteen, corona, york, around, social, say, six, public, spread, could, former, far, nine, biden, friday
+Context in foxvideos: thousand, american, state, know, new, would, want, need, work, two, trump, time, look, dont, take
+['mask', 0.20762705339941548]
 Context in both: 
 Context in democracynow: nineteen, corona, york, say, could, month, social, around, spread, california, biden, public, video, center, former
 Context in foxvideos: state, thousand, new, american, know, need, want, would, time, new_york, hundred, mask, take, day, think
-['human', 0.20637557013782035]
+['republican', 0.20718858736343615]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, around, social, came, could, biden, spread, may, lockdown, former, billion
+Context in foxvideos: state, american, know, thousand, new, dont, time, way, think, right, want, two, would, need
+['human', 0.20637557823535183]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, public, social, around, lockdown, could, spread, billion, human, far, may, six
 Context in foxvideos: china, american, time, new, thousand, state, would, need, know, work, want, take, day, look, trump
-['cannot', 0.20616944836322992]
+['cannot', 0.206169464307115]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, today, former, joe, california, public, around, took, may, campaign, social
 Context in foxvideos: thousand, state, new, american, hundred, know, need, two, time, right, would, day, want, look
-['today', 0.20508052760313647]
+['today', 0.20508052690549547]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, biden, could, former, today, six, joe, nine, war, friday
 Context in foxvideos: american, thousand, state, know, time, day, new, need, hundred, want, two, would, look, think
-['look', 0.20471298415938077]
+['look', 0.20471299368478646]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, around, public, former, six, lockdown, month, eight, spread, held, may
 Context in foxvideos: thousand, american, state, new, know, time, day, two, take, need, trump, look, want, way
-['michigan', 0.20430985137968663]
+['michigan', 0.20430985358580983]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, michigan, today, center, former, joe, public, biden, due, could, billion
 Context in foxvideos: state, thousand, new, way, take, want, look, know, american, two, well, hundred, new_york, time
-['think', 0.20428930828604422]
+['think', 0.204289315403301]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, billion, could, social, lockdown, public, new_york, spread, six, nine, war
 Context in foxvideos: know, state, think, thousand, american, would, new, dont, want, time, two, trump, right, well
-['left', 0.20415298460165035]
+['left', 0.20415297534976165]
 Context in both: say
 Context in democracynow: nineteen, york, corona, social, lockdown, could, public, friday, around, order, six, work, today, came
 Context in foxvideos: trump, new, want, american, thousand, know, state, would, dont, time, think, take, look, day
-['dont', 0.20412769560749341]
+['dont', 0.2041277013320597]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, social, could, spread, around, may, lockdown, order, nine, new_york, six
 Context in foxvideos: know, state, american, thousand, new, dont, would, think, time, want, right, need, day, two
-['california', 0.204030035224893]
+['california', 0.2040300339708409]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, biden, could, former, around, california, social, spread, six, war, month
 Context in foxvideos: state, thousand, new, know, american, take, want, well, look, think, two, dont, would, time
-['see', 0.2038179736288624]
+['press', 0.2039976831360209]
+Context in both: say
+Context in democracynow: nineteen, york, corona, around, spread, social, could, public, six, lockdown, south, eight, order, billion
+Context in foxvideos: american, time, know, need, new, thousand, work, day, china, right, trump, state, would, think
+['see', 0.20381797112098765]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, court, could, biden, public, spread, war, social, joe, billion, six
 Context in foxvideos: american, state, thousand, new, know, time, want, hundred, day, two, would, need, look, take
-['way', 0.20371943999960204]
+['way', 0.2037194463127364]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, around, court, biden, today, could, california, lockdown, social, war, six
 Context in foxvideos: thousand, state, american, time, new, trump, two, know, day, way, need, take, look, want
-['put', 0.20363448205324464]
+['put', 0.20363450059392618]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, around, six, public, today, social, nine, spread, war, lockdown, eight
 Context in foxvideos: american, thousand, state, time, new, know, need, trump, day, want, two, would, hundred, look
-['allow', 0.20325414950807016]
+['allow', 0.20325415796741708]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, spread, six, social, war, lockdown, new_york, around, nine, order
 Context in foxvideos: thousand, state, american, china, know, would, new, think, need, two, hundred, time, dont, want
-['worker', 0.20324669964877556]
+['worker', 0.20324669926578695]
 Context in both: work
 Context in democracynow: nineteen, york, corona, around, say, social, may, public, could, held, lockdown, friday, spread, eight
 Context in foxvideos: american, need, thousand, time, new, would, state, day, hundred, want, help, make, know, take
-['border', 0.20301590797533436]
+['border', 0.20301591389932425]
 Context in both: say
 Context in democracynow: nineteen, york, corona, six, spread, war, public, border, could, south, came, campaign, biden, former
 Context in foxvideos: trump, american, time, day, china, thousand, know, america, would, state, need, think, hundred, life
-['know', 0.20279147070724896]
+['know', 0.20279148660553376]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, around, order, spread, nine, new_york, lockdown, six, biden, social
 Context in foxvideos: know, thousand, state, american, time, would, new, dont, two, think, need, trump, day, want
-['protect', 0.20260067126421216]
+['protect', 0.20260067068924056]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, public, around, today, california, spread, six, biden, center, social, could, war
 Context in foxvideos: american, thousand, state, new, know, time, need, two, would, want, dont, think, trump, day, take
-['public', 0.20249863161498954]
+['public', 0.20249863179759364]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, around, spread, biden, six, lockdown, social, today, bill, war
 Context in foxvideos: american, thousand, time, know, state, new, day, need, would, think, two, dont, hundred, want
-['wear', 0.2023258510465361]
+['wear', 0.2023258739666161]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, month, could, social, spread, biden, old, came, food, around, due
 Context in foxvideos: state, know, new, think, would, dont, want, mask, thousand, take, american, time, need, two
-['part', 0.20215459388562818]
+['john', 0.2022812411221995]
+Context in both: 
+Context in democracynow: nineteen, york, corona, could, around, billion, war, biden, order, former, came, six, bill, court, campaign
+Context in foxvideos: would, thousand, trump, american, new, want, state, said, say, two, think, life, know, china, hundred
+['part', 0.20215460257184142]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, former, could, today, social, biden, six, lockdown, billion, nine
 Context in foxvideos: american, thousand, state, know, would, need, new, two, time, dont, want, trump, right, take
-['face', 0.20205611905805468]
+['face', 0.20205611780057672]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, spread, around, lockdown, month, war, may, social, today, california
 Context in foxvideos: thousand, american, state, know, time, new, would, need, china, two, take, right, want, think
-['florida', 0.20197564585067387]
+['florida', 0.2019756365272924]
 Context in both: say
 Context in democracynow: nineteen, york, corona, spread, could, public, around, six, war, lockdown, social, order, ten, eight
 Context in foxvideos: state, thousand, new, way, new_york, want, look, take, hundred, well, two, biden, think, american
-['open', 0.20164235804678043]
+['told', 0.20183446872047772]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, public, six, lockdown, spread, social, bill, former, around, came, biden
+Context in foxvideos: thousand, state, know, two, american, would, new, time, day, want, trump, need, think, dont
+['open', 0.20164234877821655]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, around, billion, former, six, public, california, war, biden, lockdown, spread
 Context in foxvideos: state, thousand, new, american, want, way, would, two, think, take, dont, hundred, know, well
-['lot', 0.20157254106663278]
+['lot', 0.20157254690982368]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, court, biden, may, lockdown, six, around, public, campaign, social, billion
 Context in foxvideos: american, state, know, thousand, time, new, think, dont, want, would, need, two, day, take
-['money', 0.20148826776818732]
+['money', 0.20148828509609654]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, public, billion, six, lockdown, bill, court, eight, order, nine
 Context in foxvideos: american, thousand, need, state, new, want, right, time, would, two, know, million, take, way
-['old', 0.20104217483710052]
+['old', 0.20104218273595276]
 Context in both: 
 Context in democracynow: nineteen, york, corona, could, public, say, month, spread, billion, around, lockdown, social, six, came, former
 Context in foxvideos: american, thousand, know, state, want, new, would, biden, two, day, need, dont, time, think, back
-['around', 0.2010271710432001]
+['around', 0.20102717937410036]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, public, lockdown, today, biden, spread, friday, billion, month, order
 Context in foxvideos: american, thousand, new, state, know, time, want, would, two, need, day, hundred, work, think
-['reopen', 0.2008328014087859]
+['reopen', 0.20083280759156838]
 Context in both: 
 Context in democracynow: nineteen, corona, york, say, public, could, lockdown, may, social, billion, biden, around, former, republican, month
 Context in foxvideos: state, new, thousand, want, know, american, day, way, look, dont, think, work, well, time, life
-['control', 0.20077535423834525]
+['control', 0.200775367707767]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, could, nine, former, today, six, spread, bill, billion, biden
 Context in foxvideos: china, know, state, time, thousand, american, think, would, dont, new, well, take, want, hundred
-['nineteen', 0.20075882163469236]
+['nineteen', 0.2007588307018593]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, public, could, around, spread, social, lockdown, six, order, billion, far, may
 Context in foxvideos: thousand, state, new, american, know, need, time, two, look, want, way, hundred, new_york, day, work
-['woman', 0.20055331461513037]
-Context in both: say, biden
+['woman', 0.2005533196248481]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, social, public, could, six, around, lockdown, spread, nine, far, video
 Context in foxvideos: woman, joe, take, know, think, dont, warren, state, would, two, said, look, right
-['took', 0.20028233223049108]
+['took', 0.20028233926055244]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, today, friday, former, biden, joe, lockdown, could, center, took, nine
 Context in foxvideos: thousand, time, state, know, two, trump, day, would, want, think, american, new, way, dont
-['done', 0.19987012313977823]
+['done', 0.19987013117829094]
 Context in both: 
 Context in democracynow: nineteen, york, corona, around, public, biden, former, lockdown, war, court, nine, could, month, six, today
 Context in foxvideos: american, thousand, time, state, new, trump, day, need, two, know, take, say, would, china, look
-['order', 0.1994803971629964]
+['order', 0.199480396408627]
 Context in both: work
 Context in democracynow: nineteen, york, corona, say, around, could, public, spread, six, social, bill, far, billion, war
 Context in foxvideos: state, american, thousand, new, would, know, time, need, day, take, two, want, right, think
-['school', 0.1994285312018314]
+['school', 0.19942856418841043]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, public, social, former, take, could, billion, around, six, south, came
 Context in foxvideos: school, thousand, dont, know, state, american, hundred, need, day, time, well, want, would, think
-['use', 0.19931865200000265]
+['use', 0.19931866848335406]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, order, spread, california, lockdown, came, bill, social, biden, take
 Context in foxvideos: american, thousand, state, new, time, know, need, trump, would, work, want, right, look, day
-['pay', 0.19879474966047012]
+['pay', 0.198794758343655]
 Context in both: 
 Context in democracynow: nineteen, york, say, corona, could, around, spread, public, bill, six, billion, social, may, order, war
 Context in foxvideos: american, thousand, state, need, new, want, time, two, new_york, would, take, know, right, way, look
-['seventeen', 0.19875673433441057]
+['seventeen', 0.198756735754512]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, public, former, six, around, spread, may, war, far, today, bill
 Context in foxvideos: thousand, two, know, state, trump, day, think, would, said, year, look, dont, time, way
-['move', 0.19847677557917906]
+['move', 0.1984767889498441]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, around, month, today, billion, former, bill, public, lockdown, eight, biden
 Context in foxvideos: thousand, state, know, new, american, time, need, would, think, day, want, dont, right, two
-['test', 0.19837097422995664]
+['test', 0.19837097451180863]
 Context in both: 
 Context in democracynow: nineteen, york, corona, public, say, today, former, biden, could, joe, social, six, around, war, spread
 Context in foxvideos: american, thousand, new, need, day, state, test, would, hundred, know, time, two, work, want, take
-['true', 0.1980890659395753]
+['true', 0.19808906536123708]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, billion, public, social, around, far, higher, order, may, spread, lockdown
 Context in foxvideos: know, thousand, would, two, state, dont, american, time, think, trump, new, china, want, take
-['want', 0.19790437454679383]
+['eighteen', 0.19797485806666965]
+Context in both: say
+Context in democracynow: nineteen, york, corona, around, former, could, biden, campaign, today, joe, war, six, nine, friday
+Context in foxvideos: thousand, state, know, would, new, hundred, two, need, american, new_york, think, number, time, day
+['want', 0.19790438956137]
 Context in both: say
 Context in democracynow: nineteen, york, around, corona, could, social, billion, spread, today, former, six, public, center, biden
 Context in foxvideos: american, thousand, state, know, new, want, time, would, think, dont, two, day, trump, need
-['much', 0.1976732035495326]
+['come', 0.19787050963293257]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, around, former, biden, six, public, lockdown, south, friday, month, nine
+Context in foxvideos: thousand, american, state, know, new, would, time, trump, two, china, want, need, think, day
+['much', 0.1976732092431242]
 Context in both: say
 Context in democracynow: nineteen, corona, york, public, lockdown, around, biden, billion, could, may, came, spread, order, california
 Context in foxvideos: thousand, american, state, know, would, time, two, new, want, dont, need, hundred, think, trump
-['yet', 0.1976373615381542]
+['yet', 0.19763737771902737]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, around, bill, spread, billion, six, social, court, biden, like
 Context in foxvideos: thousand, know, state, time, american, new, dont, would, need, trump, two, want, right, think
-['american', 0.19748931355433438]
+['american', 0.19748932857447185]
 Context in both: 
 Context in democracynow: nineteen, york, corona, public, could, biden, former, war, say, six, around, nine, court, spread, campaign
 Context in foxvideos: american, thousand, time, need, new, state, day, trump, know, would, two, hundred, china, take, want
-['question', 0.1968859387649693]
+['street', 0.19748589785068235]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, spread, former, war, around, biden, came, six, could, social, work
+Context in foxvideos: know, thousand, american, state, want, time, trump, dont, new, day, china, would, think, make
+['question', 0.19688596219333274]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, today, could, biden, public, lockdown, new_york, war, get, social, spread
 Context in foxvideos: state, know, thousand, american, would, dont, think, new, time, two, right, trump, want, need
-['data', 0.19681252994683987]
+['wrote', 0.19685470701338179]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, biden, spread, six, came, around, former, take, border, california, war
+Context in foxvideos: know, would, american, thousand, trump, state, think, time, want, day, year, china, right, two
+['data', 0.19681252996542795]
 Context in both: say
 Context in democracynow: nineteen, corona, york, public, could, billion, spread, month, social, lockdown, nine, south, former, food
 Context in foxvideos: state, know, number, thousand, american, new, hundred, want, need, week, day, time, dont, well
-['jersey', 0.19674626673860218]
-Context in both: say, need
+['jersey', 0.1967462672266856]
+Context in both: need, say
 Context in democracynow: nineteen, york, corona, could, around, lockdown, public, six, order, social, spread, work, nine
 Context in foxvideos: state, thousand, new_york, new, want, take, think, look, way, hundred, two, dont, american
-['might', 0.19662926980448572]
+['might', 0.19662926955384205]
 Context in both: say
 Context in democracynow: nineteen, corona, york, could, former, around, public, billion, biden, nine, lockdown, six, today, south
 Context in foxvideos: thousand, know, american, state, would, time, trump, new, two, think, work, want, day, dont
-['night', 0.19654301137983685]
+['night', 0.19654301982778968]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, court, war, around, could, former, public, came, work, campaign, california
 Context in foxvideos: thousand, american, know, time, trump, two, state, would, think, want, day, new, hundred, dont
-['die', 0.19612433377720973]
+['forty', 0.19613479847476395]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, around, bill, public, billion, six, social, order, lockdown, far, spread
+Context in foxvideos: thousand, state, new_york, need, american, new, hundred, look, know, day, time, would, million, make
+['die', 0.19612434880218288]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, spread, around, billion, bill, center, lockdown, republican, war, eight
 Context in foxvideos: thousand, american, state, new, time, know, would, need, hundred, two, day, want, trump, look
-['month', 0.1958129460000875]
+['month', 0.19581296073752708]
 Context in both: say
 Context in democracynow: nineteen, york, corona, lockdown, around, could, public, month, biden, spread, former, new_york, social, friday
 Context in foxvideos: thousand, state, know, american, would, two, think, time, new, day, need, hundred, want, trump
-['found', 0.19581143707170995]
+['found', 0.19581142858165132]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, public, former, could, biden, came, south, spread, billion, nine, six, may
 Context in foxvideos: state, know, new, thousand, american, would, dont, two, need, want, time, day, hundred, way, look
-['six', 0.19541015884134663]
+['six', 0.1954101661266941]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, around, spread, biden, social, nine, six, former, today, lockdown
 Context in foxvideos: thousand, american, state, hundred, time, new, need, day, know, two, would, week, take, look
-['close', 0.19530841265280136]
+['close', 0.19530841077554278]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, spread, could, six, public, social, month, south, billion, lockdown, bill
 Context in foxvideos: state, thousand, know, american, would, new, time, two, think, well, dont, trump, want, day
-['fifteen', 0.19517360321313668]
+['fifteen', 0.1951736019038042]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, could, public, around, spread, bill, six, lockdown, billion, may, order, far
 Context in foxvideos: thousand, american, hundred, two, state, new, day, time, know, need, want, new_york, trump, take, way
-['warren', 0.19477998854766262]
-Context in both: say, biden
+['warren', 0.19477999346114067]
+Context in both: biden, say
 Context in democracynow: york, nineteen, campaign, former, corona, court, joe, war, today, around, came, public, california
 Context in foxvideos: warren, woman, care, american, last, would, want, person, see, think, health, race, take
-['may', 0.19468934560883314]
+['may', 0.19468935441994745]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, may, public, around, social, lockdown, biden, billion, former, spread, far
 Context in foxvideos: thousand, know, american, state, time, hundred, new, would, dont, want, need, work, day, number
-['risk', 0.19428475235982196]
+['risk', 0.19428475977690912]
 Context in both: 
 Context in democracynow: nineteen, york, corona, could, say, public, billion, social, around, may, lockdown, far, bill, six, spread
 Context in foxvideos: state, thousand, new, american, time, take, would, day, need, know, want, dont, well, risk, trump
-['billion', 0.19425301318608157]
+['billion', 0.19425300381983507]
 Context in both: 
 Context in democracynow: nineteen, york, corona, could, say, billion, around, public, social, lockdown, far, spread, south, six, bill
 Context in foxvideos: thousand, american, need, state, new, hundred, million, two, look, day, take, new_york, china, make, time
-['without', 0.19419912474252285]
+['without', 0.19419912444677645]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, around, lockdown, billion, social, spread, ten, war, may, six
 Context in foxvideos: american, thousand, new, time, state, know, need, day, want, hundred, two, would, dont, take
-['doctor', 0.19407469749107506]
+['doctor', 0.19407469660704163]
 Context in both: say
 Context in democracynow: nineteen, new_york, york, corona, public, spread, lockdown, around, six, could, far, nine, south, higher
 Context in foxvideos: american, thousand, new, time, state, need, know, two, hundred, take, day, china, trump, work
-['drug', 0.1937560889366844]
+['eleven', 0.19389563326284648]
+Context in both: say
+Context in democracynow: nineteen, york, corona, around, could, public, nine, south, six, spread, social, far, former, order
+Context in foxvideos: thousand, american, hundred, state, need, time, two, day, new_york, new, know, take, trump, million
+['drug', 0.1937560890298762]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, spread, could, public, around, social, six, lockdown, south, order, food, month
 Context in foxvideos: drug, work, thousand, time, use, new, state, american, know, treatment, trump, well, need, would, look
-['better', 0.19331282347349124]
+['task', 0.1933531405657462]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, could, around, spread, may, social, six, biden, lockdown, take, bill
+Context in foxvideos: thousand, american, new_york, need, state, day, hundred, time, new, two, want, million, know, would
+['better', 0.19331282371336717]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, could, former, may, work, today, social, lockdown, bill, south
 Context in foxvideos: thousand, state, know, american, time, new, would, want, trump, dont, think, right, day, hundred
-['run', 0.19260886004447253]
-Context in both: say, biden
+['run', 0.19260885940993466]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, spread, could, around, ten, public, came, war, republican, former, lockdown
 Context in foxvideos: state, thousand, american, new, time, know, two, want, take, think, way, would, trump
-['weekend', 0.19235125201575515]
+['weekend', 0.1923512608349008]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, around, former, friday, today, lockdown, weekend, nine, biden, month, seven
 Context in foxvideos: thousand, new, american, need, state, know, two, day, hundred, time, take, want, would, week
-['never', 0.19229329061779551]
+['never', 0.19229328850747768]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, public, former, social, could, may, nine, lockdown, six, friday, around
 Context in foxvideos: thousand, american, state, time, new, know, would, trump, two, day, want, dont, take, need
-['enough', 0.19225024450279254]
+['hit', 0.19227919374093103]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, around, new_york, public, lockdown, friday, billion, nine, six, month, spread
+Context in foxvideos: thousand, state, american, time, trump, know, new, would, hundred, want, two, work, need, china
+['enough', 0.1922502540806143]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, around, lockdown, social, spread, came, could, biden, month, may, republican
 Context in foxvideos: american, thousand, state, want, would, dont, new, know, time, need, trump, work, hundred, day
-['fauci', 0.1921611811238318]
-Context in both: say, need
+['south', 0.19224485780527323]
+Context in both: 
+Context in democracynow: nineteen, york, corona, say, could, around, public, billion, six, spread, south, former, social, came, court
+Context in foxvideos: biden, thousand, joe, two, american, state, new, hundred, know, trump, time, want, day, take, dont
+['fauci', 0.1921611896069653]
+Context in both: need, say
 Context in democracynow: nineteen, york, public, corona, around, bill, spread, court, biden, former, republican, six, nine
 Context in foxvideos: time, american, state, new, thousand, day, work, trump, new_york, number, life, would, take
-['take', 0.1919172176218128]
+['say', 0.19198499274187686]
+Context in both: say
+Context in democracynow: nineteen, york, corona, around, could, public, lockdown, spread, social, month, billion, former, friday, may
+Context in foxvideos: thousand, state, american, know, time, new, think, would, trump, day, two, right, dont, want
+['take', 0.19191723547228323]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, biden, spread, could, former, six, came, billion, lockdown, war
 Context in foxvideos: thousand, american, state, new, two, time, trump, need, take, day, know, look, way, hundred
-['still', 0.19169611797968153]
+['longer', 0.1918644617637015]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, six, south, spread, could, former, today, joe, far, around, border
+Context in foxvideos: american, thousand, state, china, know, would, want, new, need, hundred, america, two, time, think
+['worst', 0.1917141601614792]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, social, around, could, lockdown, billion, today, spread, nine, republican, month
+Context in foxvideos: thousand, american, state, new, hundred, need, know, time, day, china, want, new_york, two, dont
+['still', 0.19169613303642208]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, around, lockdown, former, month, today, spread, court, biden, bill
 Context in foxvideos: thousand, state, know, time, american, new, would, hundred, two, dont, day, want, need, week
-['center', 0.19132068755368414]
+['center', 0.19132069442120825]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, six, billion, former, public, today, biden, social, nine, friday
 Context in foxvideos: thousand, state, american, new_york, china, new, trump, need, hundred, take, work, would, time, know
-['point', 0.19125977802004263]
+['point', 0.1912597851586392]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, lockdown, public, biden, former, eight, month, billion, social, california, may
 Context in foxvideos: american, thousand, know, state, trump, time, think, two, new, would, day, want, need, dont
-['start', 0.19108325103221047]
+['start', 0.1910832572387509]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, lockdown, month, could, former, seven, biden, social, six, work
 Context in foxvideos: american, thousand, state, new, time, know, need, two, hundred, day, would, want, take, dont
-['video', 0.19096906001554817]
-Context in both: say, video
+['video', 0.19096905934373223]
+Context in both: video, say
 Context in democracynow: nineteen, york, corona, social, could, public, month, may, billion, man, came, biden, lockdown
 Context in foxvideos: know, think, two, state, take, want, dont, would, well, time, look, american, doctor
-['earlier', 0.19062641044671372]
-Context in both: say, new_york
+['given', 0.1907039367135751]
+Context in both: work, say
+Context in democracynow: nineteen, york, corona, around, spread, public, could, month, bill, order, six, lockdown, former
+Context in foxvideos: state, thousand, know, new, time, american, think, well, right, look, china, need, day
+['earlier', 0.19062641795273025]
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, month, around, could, public, lockdown, former, friday, today, biden, spread
 Context in foxvideos: thousand, american, two, time, state, need, day, new, hundred, want, take, know, week
-['major', 0.19056146382185757]
+['major', 0.19056147025456116]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, billion, could, lockdown, former, biden, month, spread, six, war
 Context in foxvideos: american, thousand, time, state, new, would, know, need, day, work, two, trump, take, look
-['treatment', 0.19051286612731164]
+['treatment', 0.19051286572071613]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, public, around, spread, lockdown, could, eight, billion, six, social, south, get
 Context in foxvideos: thousand, american, new, time, drug, work, need, state, trump, hundred, know, take, day, way, use
-['food', 0.19021380648133024]
+['food', 0.19021381610023932]
 Context in both: work
 Context in democracynow: nineteen, york, corona, say, public, could, lockdown, around, billion, social, may, spread, today, biden
 Context in foxvideos: american, thousand, state, new, would, want, need, hundred, two, day, look, take, way, time
-['protest', 0.19008252357522673]
+['protest', 0.19008251955987482]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, social, public, work, former, today, center, billion, friday, california
 Context in foxvideos: state, want, thousand, know, protest, dont, new, make, would, right, way, two, china, take
-['cant', 0.19005270481642125]
-Context in both: say, biden
+['cant', 0.19005269602717664]
+Context in both: biden, say
 Context in democracynow: nineteen, york, around, corona, today, could, former, six, public, face, lockdown, war, california
 Context in foxvideos: thousand, state, american, know, hundred, would, new, want, trump, time, day, dont, think
-['sick', 0.18996026482822137]
+['sick', 0.18996027924667208]
 Context in both: 
 Context in democracynow: nineteen, york, corona, around, say, biden, public, spread, war, could, former, six, order, today, campaign
 Context in foxvideos: american, thousand, know, day, state, time, trump, would, need, new, look, work, take, china, way
-['right', 0.18966609727395597]
+['right', 0.18966609739548418]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, today, could, six, former, biden, spread, center, california, public, war
 Context in foxvideos: american, state, know, thousand, right, new, time, need, would, dont, two, think, trump, day
-['power', 0.18938701058540974]
+['second', 0.18953395247453325]
+Context in both: 
+Context in democracynow: nineteen, york, corona, say, could, around, lockdown, public, billion, former, spread, month, social, six, biden
+Context in foxvideos: thousand, american, state, new, know, trump, two, would, day, time, take, look, need, right, dont
+['power', 0.1893870167462098]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, around, biden, former, public, lockdown, today, court, month, order, republican
 Context in foxvideos: state, thousand, know, american, two, would, time, trump, new, right, china, need, want, dont
-['next', 0.18894072200652395]
+['next', 0.18894072826099542]
 Context in both: say
 Context in democracynow: nineteen, corona, york, could, around, billion, new_york, spread, public, lockdown, war, bill, six, today
 Context in foxvideos: american, thousand, state, new, time, know, hundred, day, want, would, right, dont, two, need
-['georgia', 0.18843101697545123]
+['cut', 0.18882727153068216]
+Context in both: 
+Context in democracynow: nineteen, york, corona, say, spread, could, around, billion, take, campaign, social, war, came, six, former
+Context in foxvideos: american, china, state, thousand, want, would, know, new, time, trump, need, day, dont, come, year
+['race', 0.1885308506087982]
+Context in both: biden, say, joe
+Context in democracynow: york, former, nineteen, court, corona, today, came, war, campaign, case, test, around
+Context in foxvideos: american, would, thousand, want, time, hundred, two, right, state, know, care, make
+['soon', 0.18850633140662928]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, biden, around, court, billion, bill, may, former, public, today, six
+Context in foxvideos: new, thousand, know, american, state, would, think, time, hundred, two, need, dont, day, want
+['seen', 0.1884482346251004]
+Context in both: work, say
+Context in democracynow: nineteen, york, corona, public, could, around, lockdown, today, social, order, bill, spread, billion
+Context in foxvideos: american, new, thousand, state, know, time, need, would, right, think, two, trump, dont
+['georgia', 0.1884310158355113]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, republican, nine, billion, social, lockdown, came, order, around, spread
 Context in foxvideos: know, state, thousand, georgia, day, well, want, hundred, would, dont, look, take, governor, two
-['place', 0.18841117808448057]
+['place', 0.18841119306858695]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, public, lockdown, biden, today, former, war, month, joe, get
 Context in foxvideos: thousand, american, state, know, trump, new, two, would, time, day, need, want, think, look
-['system', 0.18831528827093474]
+['hold', 0.18839454150771331]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, could, spread, around, social, biden, month, like, may, billion, bill
+Context in foxvideos: thousand, know, american, would, new, time, two, state, hundred, need, right, think, day, want
+['system', 0.18831529531890895]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, six, around, spread, today, social, far, biden, lockdown, order
 Context in foxvideos: thousand, american, state, would, time, need, new, know, want, two, day, china, hundred, dont
-['effect', 0.18787306328421116]
+['high', 0.18820832825861272]
+Context in both: say
+Context in democracynow: nineteen, york, corona, around, social, spread, public, could, order, six, came, war, california, take
+Context in foxvideos: thousand, know, american, state, would, new, time, dont, right, two, think, trump, work, want
+['head', 0.18800483900708279]
+Context in both: say
+Context in democracynow: nineteen, york, corona, public, billion, former, around, biden, lockdown, today, social, could, spread, came
+Context in foxvideos: american, thousand, know, time, hundred, china, think, want, day, two, joe, well, would, state
+['effect', 0.1878730729931485]
 Context in both: say
 Context in democracynow: nineteen, york, biden, corona, came, public, court, billion, video, could, man, war, former, far
 Context in foxvideos: thousand, time, state, american, work, new, would, know, china, hundred, two, need, day, well
-['stop', 0.1878084695364229]
+['stop', 0.18780848308523662]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, former, today, court, public, six, month, south, spread, could, biden
 Context in foxvideos: american, thousand, state, trump, time, day, would, know, new, want, two, hundred, right, need
-['ever', 0.1876485513364268]
+['ever', 0.1876485523927001]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, social, court, public, lockdown, could, biden, billion, spread, came, six
 Context in foxvideos: thousand, american, know, state, trump, two, would, day, new, time, want, take, hundred, dont
-['end', 0.18751791061201198]
+['april', 0.18753403816758746]
+Context in both: 
+Context in democracynow: nineteen, york, corona, public, could, say, social, around, lockdown, spread, billion, order, california, six, may
+Context in foxvideos: thousand, state, number, know, would, american, hundred, new, need, want, time, two, dont, week, new_york
+['end', 0.18751790216599504]
 Context in both: say
 Context in democracynow: nineteen, york, corona, social, spread, could, public, six, month, billion, lockdown, around, nine, may
 Context in foxvideos: thousand, state, american, new, know, time, two, want, would, hundred, trump, dont, week, need
-['fund', 0.18724271590164293]
+['dead', 0.1874312480541868]
+Context in both: 
+Context in democracynow: nineteen, york, corona, public, social, came, say, around, lockdown, biden, could, six, war, spread, former
+Context in foxvideos: thousand, american, day, state, trump, new, take, new_york, two, need, look, work, hundred, way, ban
+['fund', 0.18724273100379923]
 Context in both: 
 Context in democracynow: nineteen, york, corona, billion, say, lockdown, like, around, could, public, far, eight, biden, spread, republican
 Context in foxvideos: american, china, thousand, new, dont, state, two, know, would, need, trump, way, want, work, time
-['later', 0.1871230353099859]
+['later', 0.1871230442242775]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, around, former, could, court, today, public, came, war, joe, california
 Context in foxvideos: thousand, american, time, day, trump, state, know, two, new, would, take, china, way, look
-['life', 0.186936050406598]
+['life', 0.18693607384827216]
 Context in both: say
 Context in democracynow: nineteen, york, corona, former, could, six, public, today, biden, nine, lockdown, billion, bill, social
 Context in foxvideos: american, thousand, state, new, time, know, need, would, day, hundred, want, trump, work, two
-['social', 0.1869318664144016]
+['social', 0.18693186852434657]
 Context in both: say
 Context in democracynow: nineteen, york, corona, social, could, public, around, spread, lockdown, six, nine, billion, friday, may
 Context in foxvideos: state, thousand, new, american, know, would, time, dont, need, hundred, want, two, day, number
-['act', 0.1867914734012641]
+['act', 0.18679148231000306]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, around, lockdown, social, spread, billion, six, today, bill, war
 Context in foxvideos: thousand, american, trump, day, would, time, two, need, know, state, new, right, take, said
-['person', 0.18670404561109027]
+['person', 0.18670404583956599]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, six, former, public, biden, around, nine, social, today, friday, billion
 Context in foxvideos: know, american, would, time, thousand, dont, state, think, new, right, day, want, china, two
-['cdc', 0.18610467131068767]
+['cdc', 0.1861046701645604]
 Context in both: say
 Context in democracynow: nineteen, corona, york, lockdown, nine, public, social, bill, spread, former, six, today, could, weekend
 Context in foxvideos: thousand, american, trump, state, know, two, day, hundred, new, time, think, need, dont, health
-['cnn', 0.18608932257856126]
+['cnn', 0.18608931107183485]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, former, spread, could, biden, public, friday, six, lockdown, need, social
 Context in foxvideos: cnn, trump, news, know, time, want, day, think, call, thousand, dont, american, state, take
-['well', 0.18578769147274865]
+['higher', 0.18593659608267069]
+Context in both: 
+Context in democracynow: nineteen, york, corona, could, say, public, around, billion, spread, lockdown, may, far, order, bill, social
+Context in foxvideos: thousand, time, know, well, state, dont, new, two, trump, would, work, day, year, american, want
+['well', 0.18578769845433873]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, public, six, spread, biden, today, billion, war, former, center
 Context in foxvideos: state, thousand, know, american, new, time, would, well, think, two, day, trump, want, dont
-['director', 0.18546732717639863]
+['eight', 0.18571257200702163]
+Context in both: 
+Context in democracynow: nineteen, york, corona, could, say, around, lockdown, public, spread, billion, social, six, california, today, war
+Context in foxvideos: thousand, american, state, know, two, new, time, trump, would, day, need, dont, want, hundred, china
+['effort', 0.18553554517771806]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, public, around, today, biden, former, lockdown, nine, spread, month, six
+Context in foxvideos: american, thousand, trump, time, day, want, china, new, need, hundred, state, would, know, two
+['director', 0.18546734986302002]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, biden, around, public, spread, billion, former, bill, court, six, could, month
 Context in foxvideos: know, trump, two, thousand, way, right, day, director, case, world, law, need, want, american, call
-['action', 0.18531043954388068]
+['post', 0.18540994145986814]
+Context in both: say
+Context in democracynow: nineteen, york, corona, biden, public, around, former, lockdown, could, came, spread, court, billion, social
+Context in foxvideos: time, thousand, american, new, state, know, china, want, look, trump, two, way, day, call
+['action', 0.185310432462976]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, around, public, social, work, may, today, month, former, lockdown, friday
 Context in foxvideos: thousand, american, state, time, new, need, day, new_york, two, hundred, know, take, would, way
-['plan', 0.18528545893626025]
+['plan', 0.1852854581750321]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, six, lockdown, around, spread, billion, bill, former, month, today
 Context in foxvideos: thousand, state, american, new, know, two, would, day, need, time, want, trump, take, hundred
-['sent', 0.18494302041224403]
+['lost', 0.1851089995398321]
+Context in both: say
+Context in democracynow: nineteen, york, billion, corona, around, former, due, order, social, need, came, public, lockdown, republican
+Context in foxvideos: american, state, thousand, trump, time, new, want, know, hundred, would, biden, day, two, dont
+['prevent', 0.18507960076227203]
+Context in both: 
+Context in democracynow: nineteen, york, corona, could, say, former, public, six, billion, biden, war, far, today, bill, court
+Context in foxvideos: thousand, american, new, state, two, time, know, need, china, day, take, trump, hundred, look, way
+['sent', 0.18494302772758392]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, around, could, order, biden, came, war, get, former, public, today, california
 Context in foxvideos: state, thousand, american, new_york, trump, time, new, take, day, two, would, hundred, way, look, need
-['man', 0.18436700495218264]
-Context in both: say, biden
+['man', 0.18436700589906405]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, video, court, former, social, could, around, billion, public, came, eight
 Context in foxvideos: american, know, thousand, time, new, china, trump, two, would, state, dont, want, think
-['help', 0.18427331803810784]
+['help', 0.1842733275811743]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, lockdown, billion, could, new_york, biden, month, six, public, today, friday
 Context in foxvideos: american, need, thousand, time, new, know, state, day, would, want, hundred, two, help, dont
-['came', 0.1840364840433633]
+['came', 0.18403649312132447]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, public, social, former, could, came, around, war, republican, take, spread
 Context in foxvideos: thousand, american, would, know, state, trump, work, two, want, time, think, china, new, day
-['total', 0.18367722221675561]
+['total', 0.1836772292212106]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, around, six, spread, social, lockdown, biden, today, month, billion
 Context in foxvideos: thousand, know, american, state, hundred, would, time, think, new, two, need, trump, day, dont
-['attorney', 0.18367599983963478]
+['attorney', 0.18367599860029285]
 Context in both: 
 Context in democracynow: nineteen, york, say, corona, court, public, today, around, bill, could, former, lockdown, biden, six, eight
 Context in foxvideos: trump, know, two, state, law, would, thousand, said, day, year, way, news, think, attorney, come
-['show', 0.18363959468868787]
+['show', 0.18363961036578522]
 Context in both: say
 Context in democracynow: nineteen, york, corona, lockdown, around, could, new_york, biden, public, month, former, court, nine, today
 Context in foxvideos: thousand, know, two, american, state, time, trump, would, new, day, think, china, look, want
-['law', 0.1834802001660037]
+['law', 0.18348021444863316]
 Context in both: 
 Context in democracynow: nineteen, york, corona, biden, say, month, public, spread, could, around, court, former, case, california, six
 Context in foxvideos: state, law, thousand, trump, would, two, think, know, dont, right, american, said, new, way, year
-['away', 0.18326575903388465]
+['away', 0.18326575590787017]
 Context in both: 
 Context in democracynow: nineteen, york, corona, around, public, say, new_york, could, lockdown, spread, war, may, month, six, take
 Context in foxvideos: state, american, thousand, would, want, time, know, new, dont, two, think, right, way, day, trump
-['set', 0.18320603988026765]
+['set', 0.18320603913477448]
 Context in both: biden
 Context in democracynow: nineteen, york, corona, say, around, could, public, billion, former, social, spread, six, came, lockdown
 Context in foxvideos: american, thousand, trump, two, know, state, time, day, think, right, new, would, take, need
-['zero', 0.18243943187648876]
-Context in both: say, want
+['zero', 0.18243943858562509]
+Context in both: want, say
 Context in democracynow: york, zero, nineteen, video, billion, man, court, today, nine, month, republican, took, march
 Context in foxvideos: thousand, state, american, new, trump, right, need, two, well, take, hundred, time, know
-['york', 0.18192376104555785]
-Context in both: say, york
+['vice', 0.18223462244715724]
+Context in both: biden, say, joe
+Context in democracynow: nineteen, york, corona, public, former, spread, california, work, campaign, around, war, six
+Context in foxvideos: trump, thousand, american, two, know, state, day, want, year, time, hundred, take
+['york', 0.18192376994365322]
+Context in both: york, say
 Context in democracynow: nineteen, corona, public, could, around, spread, six, social, lockdown, biden, former, today, may
 Context in foxvideos: new, state, thousand, time, american, know, hundred, trump, day, look, take, work, two
-['bill', 0.18187956023322938]
+['bill', 0.18187956922794957]
 Context in both: bill
 Context in democracynow: nineteen, york, corona, public, say, could, spread, billion, six, around, today, order, far, former
 Context in foxvideos: american, would, thousand, state, need, time, way, new, two, care, know, make, want, right
-['cuomo', 0.18186813048392894]
-Context in both: say, new_york
+['cuomo', 0.18186814017549313]
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, could, public, social, around, spread, billion, may, six, bill, biden
 Context in foxvideos: thousand, state, new, need, hundred, american, governor, cuomo, million, day, take, time, know
-['shut', 0.18158858580743445]
+['shut', 0.18158859529696422]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, could, six, spread, social, billion, take, lockdown, bill, month
 Context in foxvideos: american, state, thousand, know, new, would, need, trump, time, day, want, hundred, work, number
-['thirty', 0.1815587402078534]
+['thirty', 0.1815587480314683]
 Context in both: 
 Context in democracynow: nineteen, york, corona, could, say, public, social, six, today, around, spread, billion, new_york, bill, lockdown
 Context in foxvideos: thousand, state, american, new, want, well, hundred, know, need, would, two, take, day, look, number
-['need', 0.181092135485525]
-Context in both: say, new_york
+['ill', 0.18128949118485185]
+Context in both: take, work, say
+Context in democracynow: nineteen, york, corona, could, war, public, spread, around, order, came, social, six
+Context in foxvideos: thousand, state, new, hundred, american, time, day, know, think, want, trump, right
+['need', 0.18109213616738057]
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, around, spread, public, could, order, six, lockdown, bill, billion, war
 Context in foxvideos: american, thousand, need, state, new, know, time, day, would, hundred, two, take, trump
-['ten', 0.1809290969701927]
+['ten', 0.18092910463727443]
 Context in both: 
 Context in democracynow: nineteen, york, corona, say, public, around, could, social, billion, spread, lockdown, biden, six, war, may
 Context in foxvideos: thousand, american, state, time, new, day, hundred, trump, two, need, know, would, china, take, look
-['nation', 0.18067967437202095]
+['nation', 0.18067967472792254]
 Context in both: 
 Context in democracynow: nineteen, york, corona, could, around, say, public, south, today, lockdown, billion, war, six, nine, social
 Context in foxvideos: american, thousand, time, state, trump, need, two, day, know, new, china, would, hundred, take, way
-['work', 0.18054189026411013]
-Context in both: say, work
+['work', 0.18054190733657688]
+Context in both: work, say
 Context in democracynow: nineteen, york, corona, around, public, could, lockdown, spread, today, six, war, social, order
 Context in foxvideos: american, thousand, state, new, time, know, need, would, day, want, trump, two, right
-['black', 0.1802819824808339]
-Context in both: say, biden
+['court', 0.18044931543394976]
+Context in both: 
+Context in democracynow: nineteen, york, corona, biden, court, public, could, around, say, joe, former, campaign, war, today, six
+Context in foxvideos: state, thousand, law, american, new, would, know, hundred, dont, take, right, two, day, think, trump
+['past', 0.18044101852533245]
+Context in both: say
+Context in democracynow: nineteen, york, corona, could, public, six, social, lockdown, around, spread, former, nine, get, order
+Context in foxvideos: new, thousand, state, american, time, know, two, dont, china, want, would, hundred, work, well
+['black', 0.18028197483878675]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, former, could, friday, public, around, today, social, nine, south, six
 Context in foxvideos: dont, new, know, joe, black, look, state, want, right, american, thousand, two, time
-['war', 0.18004104223301132]
-Context in both: say, biden
+['war', 0.18004103294316706]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, public, around, spread, could, court, today, six, campaign, war, former
 Context in foxvideos: american, would, hundred, thousand, trump, right, two, state, joe, look, take, want, china
-['program', 0.1798721038341615]
+['program', 0.17987210344789]
 Context in both: say
 Context in democracynow: nineteen, york, corona, billion, around, bill, could, may, public, order, social, new_york, center, south
 Context in foxvideos: american, time, thousand, new, state, trump, know, day, call, look, china, need, two, take
-['went', 0.17982529622692658]
+['went', 0.17982531202522176]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, biden, spread, six, could, get, war, take, order, china, like
 Context in foxvideos: thousand, state, know, american, two, trump, new, time, would, hundred, day, think, want, right
-['nine', 0.1793052165064848]
-Context in both: say, biden
+['global', 0.17942731850975618]
+Context in both: could
+Context in democracynow: nineteen, york, corona, say, around, spread, biden, public, billion, former, lockdown, court, war, social
+Context in foxvideos: china, world, american, thousand, time, know, need, health, trump, year, come, state, two, make
+['nine', 0.17930521652391826]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, could, public, social, six, around, lockdown, former, today, spread, friday
 Context in foxvideos: thousand, american, hundred, state, trump, two, know, time, new, day, would, take, need
-['must', 0.1787447676989181]
+['must', 0.17874477399194136]
 Context in both: say
 Context in democracynow: nineteen, corona, york, new_york, could, billion, public, lockdown, month, around, california, war, next, biden
 Context in foxvideos: american, thousand, would, state, new, know, time, need, two, day, hundred, want, trump, dont
-['attack', 0.1786075010081279]
-Context in both: say, biden
+['attack', 0.17860750027805683]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, around, spread, public, war, could, nine, social, friday, lockdown, six
 Context in foxvideos: thousand, american, trump, would, china, know, time, two, want, new, day, year, state
-['joe', 0.177522673501361]
-Context in both: say, biden, joe
+['fire', 0.17856020832720287]
+Context in both: 
+Context in democracynow: nineteen, york, corona, around, say, could, biden, court, former, six, china, lockdown, place, public, get
+Context in foxvideos: american, thousand, two, new, state, dont, trump, take, want, would, year, know, right, time, way
+['joe', 0.17752266491691207]
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, campaign, public, court, today, around, six, war, could
 Context in foxvideos: two, american, thousand, trump, hundred, take, time, way, day, want, look, right
-['fight', 0.17745962578990482]
-Context in both: say, need
+['fight', 0.1774596344960186]
+Context in both: need, say
 Context in democracynow: nineteen, new_york, york, public, corona, around, billion, could, spread, lockdown, friday, war, month
 Context in foxvideos: american, thousand, time, state, new, hundred, two, know, take, would, want, day, work
-['china', 0.1767718561562654]
+['china', 0.17677186271021397]
 Context in both: say
 Context in democracynow: nineteen, york, corona, biden, public, could, around, spread, former, war, six, court, joe, today
 Context in foxvideos: china, american, thousand, world, time, know, trump, state, day, would, new, need, two, take
-['lockdown', 0.17637549393357374]
-Context in both: say, lockdown
+['lockdown', 0.1763755006074206]
+Context in both: lockdown, say
 Context in democracynow: nineteen, york, corona, could, around, public, month, social, spread, friday, biden, nine, new_york
 Context in foxvideos: state, thousand, new, dont, know, would, want, right, number, time, american, hundred, life
-['call', 0.17618680851002133]
+['seven', 0.1762419492547667]
+Context in both: biden, say
+Context in democracynow: nineteen, york, corona, could, around, lockdown, public, billion, social, six, friday, month, spread
+Context in foxvideos: thousand, state, american, hundred, two, new, day, take, time, look, need, week, know
+['call', 0.17618681657344107]
 Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, could, lockdown, social, far, billion, came, six, center, friday
 Context in foxvideos: american, trump, thousand, know, time, state, day, new, two, look, would, china, way, take
-['made', 0.1761787889530893]
+['made', 0.17617878742078047]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, biden, month, six, lockdown, spread, around, may, former, social
 Context in foxvideos: thousand, state, know, american, think, time, trump, two, would, well, day, china, want, new
-['small', 0.1760059848908043]
-Context in both: say, work
+['small', 0.17600599980971143]
+Context in both: work, say
 Context in democracynow: nineteen, corona, york, around, could, social, public, billion, may, order, like, month, spread
 Context in foxvideos: american, need, new, thousand, state, time, want, would, know, hundred, help, make, right
-['biden', 0.17592908454672396]
-Context in both: say, biden, joe
+['biden', 0.17592908354810197]
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, court, public, campaign, around, today, could, six, war
 Context in foxvideos: two, thousand, trump, american, take, way, hundred, know, time, state, right, want
-['case', 0.175579028613123]
-Context in both: say, case
+['case', 0.17557903749420936]
+Context in both: case, say
 Context in democracynow: nineteen, york, corona, court, around, could, biden, public, former, spread, lockdown, billion, month
 Context in foxvideos: thousand, american, state, know, time, new, day, two, hundred, would, need, trump, take
-['record', 0.1747933799512351]
+['sixteen', 0.1751859457167105]
+Context in both: biden
+Context in democracynow: nineteen, york, corona, around, say, could, billion, public, six, former, social, today, month, nine
+Context in foxvideos: thousand, two, know, state, american, trump, new, would, time, new_york, need, day, hundred, want
+['record', 0.17479336373358614]
 Context in both: say
 Context in democracynow: nineteen, york, corona, social, could, around, former, lockdown, order, friday, month, public, california, came
 Context in foxvideos: biden, american, thousand, two, trump, joe, take, hundred, state, day, time, new, look, way
-['deal', 0.17472943919695041]
-Context in both: say, biden
+['deal', 0.174729448865037]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, former, around, could, today, public, weekend, border, war, court, billion
 Context in foxvideos: american, thousand, time, new, need, day, trump, know, two, hundred, state, right, want
-['far', 0.1738212978316244]
+['paid', 0.1746482729982216]
+Context in both: take, biden
+Context in democracynow: nineteen, york, corona, around, public, spread, six, today, court, could, billion, bill, order
+Context in foxvideos: thousand, state, two, trump, american, right, way, want, day, would, new, know, dont
+['far', 0.1738213070605845]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, around, social, spread, billion, lockdown, six, bill, order, may
 Context in foxvideos: thousand, state, know, american, new, would, time, hundred, two, dont, china, day, need, number
-['iran', 0.17287054190440068]
+['iran', 0.17287054693448098]
 Context in both: war
 Context in democracynow: nineteen, york, public, corona, six, spread, biden, campaign, take, could, court, border, get, ten
 Context in foxvideos: would, trump, thousand, american, last, two, say, think, said, iran, year, john, china, first
-['corona', 0.17272269165467086]
+['corona', 0.17272270016037464]
 Context in both: 
 Context in democracynow: nineteen, york, corona, public, could, say, around, social, spread, lockdown, six, biden, order, billion, month
 Context in foxvideos: thousand, american, trump, need, new, day, take, would, time, two, state, know, way, ban, week
-['new_york', 0.17264197090095312]
+['new_york', 0.17264197463872522]
 Context in both: need, new_york
 Context in democracynow: nineteen, corona, lockdown, month, say, friday, nine, known, could, around, public, earlier, billion
 Context in foxvideos: thousand, state, new, hundred, american, time, day, two, way, cuomo, million, governor, take
-['support', 0.1725578648918845]
-Context in both: say, biden
+['support', 0.17255786381523586]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, public, around, could, former, joe, campaign, today, war, court, month
 Context in foxvideos: american, china, thousand, state, two, new, trump, time, would, dont, take, right, know
-['america', 0.17225171361893415]
+['america', 0.1722517131975509]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, around, billion, spread, order, war, bill, south, get, six
 Context in foxvideos: american, thousand, state, new, china, trump, know, time, need, would, want, day, hundred, two
-['ban', 0.1721419159315037]
+['ban', 0.17214191661056644]
 Context in both: 
 Context in democracynow: nineteen, york, corona, public, six, say, spread, could, around, far, billion, south, get, order, social
 Context in foxvideos: american, thousand, time, trump, day, state, new, need, two, take, china, look, ban, way, hundred
-['russia', 0.17210757423404688]
+['russia', 0.17210757941654753]
 Context in both: say
 Context in democracynow: nineteen, york, corona, could, friday, around, former, biden, center, nine, food, today, work, social
 Context in foxvideos: trump, thousand, two, know, american, time, would, said, russia, year, way, day, call, look
-['campaign', 0.17142477139980375]
-Context in both: say, biden, joe
+['campaign', 0.1714247781835631]
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, campaign, court, around, public, war, could, six, california
 Context in foxvideos: know, two, trump, would, thousand, time, new, state, want, way, american, dont
-['job', 0.17053915203112985]
-Context in both: say, work
+['job', 0.17053916585237977]
+Context in both: work, say
 Context in democracynow: nineteen, corona, york, may, public, around, lockdown, social, could, new_york, california, month, former
 Context in foxvideos: american, thousand, state, would, know, want, new, time, need, way, two, trump, day
-['spread', 0.16994816624618048]
+['foreign', 0.17043683357217962]
+Context in both: china, say
+Context in democracynow: nineteen, york, corona, could, war, around, biden, public, court, get, spread, ten, order
+Context in foxvideos: american, would, thousand, trump, state, year, come, know, think, america, two, time, work
+['spread', 0.16994816695101964]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, spread, could, around, six, social, war, lockdown, order, month, far
 Context in foxvideos: american, thousand, time, china, state, day, new, know, trump, hundred, two, need, would, health
-['former', 0.1676832769330018]
-Context in both: say, biden
+['group', 0.16960245734315832]
+Context in both: say
+Context in democracynow: nineteen, york, corona, around, could, public, today, former, six, biden, work, month, order, spread
+Context in foxvideos: know, time, american, would, new, want, state, trump, well, thousand, dont, day, two, take
+['former', 0.1676832927628898]
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, former, joe, around, public, today, could, campaign, six, court, nine
 Context in foxvideos: know, thousand, american, would, two, state, china, trump, new, time, right, come, day
-['great', 0.16627191013161688]
-Context in both: say, need, take
+['great', 0.16627191882451714]
+Context in both: need, take, say
 Context in democracynow: nineteen, york, corona, around, could, public, former, six, lockdown, order, billion, social
 Context in foxvideos: american, thousand, new, state, trump, day, time, know, want, two, look, hundred
-['known', 0.16560508997020287]
+['known', 0.16560509175669752]
 Context in both: say
 Context in democracynow: nineteen, york, corona, public, around, could, new_york, lockdown, spread, today, six, work, month, former
 Context in foxvideos: american, know, thousand, new, time, trump, china, state, look, day, call, would, two, take
-['rate', 0.16420658214376674]
+['rate', 0.16420659071338123]
 Context in both: 
 Context in democracynow: nineteen, york, corona, could, public, say, around, spread, social, may, billion, six, eight, ten, order
 Context in foxvideos: thousand, new, state, know, american, hundred, time, want, number, would, two, death, day, well, also
@@ -694,7 +898,7 @@ Context in both: need, new_york
 Context in democracynow: nineteen, corona, lockdown, month, say, friday, nine, known, could, around, public, earlier, billion
 Context in foxvideos: thousand, state, new, hundred, american, time, day, two, way, cuomo, million, governor, take
 ['biden', 0.6887544660012823]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, court, public, campaign, around, today, could, six, war
 Context in foxvideos: two, thousand, trump, american, take, way, hundred, know, time, state, right, want
 ['flynn', 0.575152294092623]
@@ -714,7 +918,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['joe', 0.49542584811185025]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, campaign, public, court, today, around, six, war, could
 Context in foxvideos: two, american, thousand, trump, hundred, take, time, way, day, want, look, right
 ['monday', 0.4872786583336812]
@@ -766,15 +970,15 @@ Context in both:
 Context in democracynow: nineteen, york, corona, biden, say, month, public, spread, could, around, court, former, case, california, six
 Context in foxvideos: state, law, thousand, trump, would, two, think, know, dont, right, american, said, new, way, year
 ['cuomo', 0.39122866265651224]
-Context in both: say, new_york
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, could, public, social, around, spread, billion, may, six, bill, biden
 Context in foxvideos: thousand, state, new, need, hundred, american, governor, cuomo, million, day, take, time, know
 ['york', 0.3879947777700536]
-Context in both: say, york
+Context in both: york, say
 Context in democracynow: nineteen, corona, public, could, around, spread, six, social, lockdown, biden, former, today, may
 Context in foxvideos: new, state, thousand, time, american, know, hundred, trump, day, look, take, work, two
 ['campaign', 0.3854218994811174]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, campaign, court, around, public, war, could, six, california
 Context in foxvideos: know, two, trump, would, thousand, time, new, state, want, way, american, dont
 ['michigan', 0.36691600129439544]
@@ -782,7 +986,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, michigan, today, center, former, joe, public, biden, due, could, billion
 Context in foxvideos: state, thousand, new, way, take, want, look, know, american, two, well, hundred, new_york, time
 ['case', 0.36405545439882103]
-Context in both: say, case
+Context in both: case, say
 Context in democracynow: nineteen, york, corona, court, around, could, biden, public, former, spread, lockdown, billion, month
 Context in foxvideos: thousand, american, state, know, time, new, day, two, hundred, would, need, trump, take
 ['russia', 0.3601013685143182]
@@ -810,11 +1014,11 @@ Context in both: say
 Context in democracynow: nineteen, new_york, york, corona, public, spread, lockdown, around, six, could, far, nine, south, higher
 Context in foxvideos: american, thousand, new, time, state, need, know, two, hundred, take, day, china, trump, work
 ['woman', 0.34868711399362873]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, social, public, could, six, around, lockdown, spread, nine, far, video
 Context in foxvideos: woman, joe, take, know, think, dont, warren, state, would, two, said, look, right
 ['need', 0.3471989751669038]
-Context in both: say, new_york
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, around, spread, public, could, order, six, lockdown, bill, billion, war
 Context in foxvideos: american, thousand, need, state, new, know, time, day, would, hundred, two, take, trump
 ['mask', 0.3459143164369353]
@@ -830,7 +1034,7 @@ Context in both:
 Context in democracynow: nineteen, york, corona, public, could, say, around, social, spread, lockdown, six, biden, order, billion, month
 Context in foxvideos: thousand, american, trump, need, new, day, take, would, time, two, state, know, way, ban, week
 ['job', 0.33921741212415546]
-Context in both: say, work
+Context in both: work, say
 Context in democracynow: nineteen, corona, york, may, public, around, lockdown, social, could, new_york, california, month, former
 Context in foxvideos: american, thousand, state, would, know, want, new, time, need, way, two, trump, day
 ['reopen', 0.33873785601746276]
@@ -854,11 +1058,11 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, could, public, around, billion, spread, order, war, bill, south, get, six
 Context in foxvideos: american, thousand, state, new, china, trump, know, time, need, would, want, day, hundred, two
 ['zero', 0.32699111694904365]
-Context in both: say, want
+Context in both: want, say
 Context in democracynow: york, zero, nineteen, video, billion, man, court, today, nine, month, republican, took, march
 Context in foxvideos: thousand, state, american, new, trump, right, need, two, well, take, hundred, time, know
 ['video', 0.3243785154772344]
-Context in both: say, video
+Context in both: video, say
 Context in democracynow: nineteen, york, corona, social, could, public, month, may, billion, man, came, biden, lockdown
 Context in foxvideos: know, think, two, state, take, want, dont, would, well, time, look, american, doctor
 ['weekend', 0.32408983827485316]
@@ -878,7 +1082,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, public, billion, six, lockdown, bill, court, eight, order, nine
 Context in foxvideos: american, thousand, need, state, new, want, right, time, would, two, know, million, take, way
 ['lockdown', 0.3190869076273146]
-Context in both: say, lockdown
+Context in both: lockdown, say
 Context in democracynow: nineteen, york, corona, could, around, public, month, social, spread, friday, biden, nine, new_york
 Context in foxvideos: state, thousand, new, dont, know, would, want, right, number, time, american, hundred, life
 ['help', 0.318680353631701]
@@ -934,7 +1138,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, could, lockdown, social, far, billion, came, six, center, friday
 Context in foxvideos: american, trump, thousand, know, time, state, day, new, two, look, would, china, way, take
 ['man', 0.3069438978658359]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, video, court, former, social, could, around, billion, public, came, eight
 Context in foxvideos: american, know, thousand, time, new, china, trump, two, would, state, dont, want, think
 ['billion', 0.3067571061293083]
@@ -950,7 +1154,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, billion, could, social, lockdown, public, new_york, spread, six, nine, war
 Context in foxvideos: know, state, think, thousand, american, would, new, dont, want, time, two, trump, right, well
 ['warren', 0.3041536045260232]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: york, nineteen, campaign, former, corona, court, joe, war, today, around, came, public, california
 Context in foxvideos: warren, woman, care, american, last, would, want, person, see, think, health, race, take
 ['social', 0.30328302844412114]
@@ -970,11 +1174,11 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, billion, around, bill, could, may, public, order, social, new_york, center, south
 Context in foxvideos: american, time, thousand, new, state, trump, know, day, call, look, china, need, two, take
 ['deal', 0.30043353346652457]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, former, around, could, today, public, weekend, border, war, court, billion
 Context in foxvideos: american, thousand, time, new, need, day, trump, know, two, hundred, state, right, want
 ['small', 0.29970226619556967]
-Context in both: say, work
+Context in both: work, say
 Context in democracynow: nineteen, corona, york, around, could, social, public, billion, may, order, like, month, spread
 Context in foxvideos: american, need, new, thousand, state, time, want, would, know, hundred, help, make, right
 ['left', 0.2971033545004257]
@@ -986,19 +1190,19 @@ Context in both: say
 Context in democracynow: nineteen, corona, york, new_york, could, billion, public, lockdown, month, around, california, war, next, biden
 Context in foxvideos: american, thousand, would, state, new, know, time, need, two, day, hundred, want, trump, dont
 ['great', 0.29563026275748083]
-Context in both: say, need, take
+Context in both: need, take, say
 Context in democracynow: nineteen, york, corona, around, could, public, former, six, lockdown, order, billion, social
 Context in foxvideos: american, thousand, new, state, trump, day, time, know, want, two, look, hundred
 ['work', 0.29504132051884513]
-Context in both: say, work
+Context in both: work, say
 Context in democracynow: nineteen, york, corona, around, public, could, lockdown, spread, today, six, war, social, order
 Context in foxvideos: american, thousand, state, new, time, know, need, would, day, want, trump, two, right
 ['jersey', 0.29408550456952315]
-Context in both: say, need
+Context in both: need, say
 Context in democracynow: nineteen, york, corona, could, around, lockdown, public, six, order, social, spread, work, nine
 Context in foxvideos: state, thousand, new_york, new, want, take, think, look, way, hundred, two, dont, american
 ['black', 0.2940513850347479]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, former, could, friday, public, around, today, social, nine, south, six
 Context in foxvideos: dont, new, know, joe, black, look, state, want, right, american, thousand, two, time
 ['may', 0.29401511203310055]
@@ -1038,7 +1242,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['cant', 0.29098873108620005]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, around, corona, today, could, former, six, public, face, lockdown, war, california
 Context in foxvideos: thousand, state, american, know, hundred, would, new, want, trump, time, day, dont, think
 ['system', 0.2903126625001387]
@@ -1054,7 +1258,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, lockdown, around, could, public, month, biden, spread, former, new_york, social, friday
 Context in foxvideos: thousand, state, know, american, would, two, think, time, new, day, need, hundred, want, trump
 ['run', 0.29000392091197]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, spread, could, around, ten, public, came, war, republican, former, lockdown
 Context in foxvideos: state, thousand, american, new, time, know, two, want, take, think, way, would, trump
 ['around', 0.28967055295485483]
@@ -1066,7 +1270,7 @@ Context in both:
 Context in democracynow: nineteen, york, corona, could, say, public, billion, social, around, may, lockdown, far, bill, six, spread
 Context in foxvideos: state, thousand, new, american, time, take, would, day, need, know, want, dont, well, risk, trump
 ['fauci', 0.28905124317398784]
-Context in both: say, need
+Context in both: need, say
 Context in democracynow: nineteen, york, public, corona, around, bill, spread, court, biden, former, republican, six, nine
 Context in foxvideos: time, american, state, new, thousand, day, work, trump, new_york, number, life, would, take
 ['pay', 0.2883636154015846]
@@ -1114,7 +1318,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['war', 0.2842033308879658]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, public, around, spread, could, court, today, six, campaign, war, former
 Context in foxvideos: american, would, hundred, thousand, trump, right, two, state, joe, look, take, want, china
 ['long', 0.28318904959462754]
@@ -1122,11 +1326,11 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, bill, spread, six, order, court, war, eight, biden, far
 Context in foxvideos: thousand, state, american, know, new, would, time, two, need, dont, think, want, day, work
 ['support', 0.28307480040888605]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, public, around, could, former, joe, campaign, today, war, court, month
 Context in foxvideos: american, china, thousand, state, two, new, trump, time, would, dont, take, right, know
 ['fear', 0.28306093634535634]
-Context in both: say, take
+Context in both: take, say
 Context in democracynow: nineteen, york, today, corona, public, around, could, six, bill, system, lockdown, former, spread
 Context in foxvideos: american, thousand, time, trump, day, know, new, state, hundred, look, need, two, would
 ['enough', 0.2829633062915767]
@@ -1142,7 +1346,7 @@ Context in both: biden
 Context in democracynow: nineteen, york, corona, around, could, today, six, court, public, billion, order, war, nine, spread
 Context in foxvideos: joe, two, hundred, thousand, american, want, take, right, way, trump, look, say, know, time
 ['attack', 0.28231537866712414]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, around, spread, public, war, could, nine, social, friday, lockdown, six
 Context in foxvideos: thousand, american, trump, would, china, know, time, two, want, new, day, year, state
 ['life', 0.2822297664130057]
@@ -1366,7 +1570,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['nine', 0.25893116808982203]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, could, public, social, six, around, lockdown, former, today, spread, friday
 Context in foxvideos: thousand, american, hundred, state, trump, two, know, time, new, day, would, take, need
 ['men', 0.25889457877755256]
@@ -1382,7 +1586,7 @@ Context in both:
 Context in democracynow: nineteen, york, corona, public, six, biden, billion, around, spread, court, former, lockdown, bill, nine, today
 Context in foxvideos: thousand, state, american, two, know, hundred, new, would, need, say, time, day, want, well, think
 ['former', 0.2585422422945268]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, former, joe, around, public, today, could, campaign, six, court, nine
 Context in foxvideos: know, thousand, american, would, two, state, china, trump, new, time, right, come, day
 ['ever', 0.2578680196826173]
@@ -1446,7 +1650,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, former, six, public, today, joe, around, biden, nine, campaign, month, california
 Context in foxvideos: american, thousand, know, time, state, trump, two, day, would, new, take, need, china, hundred
 ['earlier', 0.2539172049084082]
-Context in both: say, new_york
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, month, around, could, public, lockdown, former, friday, today, biden, spread
 Context in foxvideos: thousand, american, two, time, state, need, day, new, hundred, want, take, know, week
 ['put', 0.25308123465818966]
@@ -1554,7 +1758,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, court, biden, social, around, today, could, still, public, war, man, video
 Context in foxvideos: thousand, american, know, state, new, hundred, want, need, time, two, number, would, dont, day
 ['fight', 0.24610373987302236]
-Context in both: say, need
+Context in both: need, say
 Context in democracynow: nineteen, new_york, york, public, corona, around, billion, could, spread, lockdown, friday, war, month
 Context in foxvideos: american, thousand, time, state, new, hundred, two, know, take, would, want, day, work
 ['unit', 0.24601126628462078]
@@ -1662,7 +1866,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['race', 0.23917514687992258]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: york, former, nineteen, court, corona, today, came, war, campaign, case, test, around
 Context in foxvideos: american, would, thousand, want, time, hundred, two, right, state, know, care, make
 ['wrong', 0.2388579027439978]
@@ -1674,7 +1878,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, social, could, lockdown, today, six, work, spread, friday, biden
 Context in foxvideos: new, state, thousand, american, know, want, need, dont, time, take, would, right, way, day
 ['ill', 0.23858890519220488]
-Context in both: say, work, take
+Context in both: take, work, say
 Context in democracynow: nineteen, york, corona, could, war, public, spread, around, order, came, social, six
 Context in foxvideos: thousand, state, new, hundred, american, time, day, know, think, want, trump, right
 ['court', 0.23819364468425358]
@@ -1702,7 +1906,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['seven', 0.23681424853427324]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, could, around, lockdown, public, billion, social, six, friday, month, spread
 Context in foxvideos: thousand, state, american, hundred, two, new, day, take, time, look, need, week, know
 ['free', 0.23655743005694574]
@@ -1754,11 +1958,11 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['foreign', 0.23358151106970118]
-Context in both: say, china
+Context in both: china, say
 Context in democracynow: nineteen, york, corona, could, war, around, biden, public, court, get, spread, ten, order
 Context in foxvideos: american, would, thousand, trump, state, year, come, know, think, america, two, time, work
 ['twitter', 0.2333652850926526]
-Context in both: say, take
+Context in both: take, say
 Context in democracynow: nineteen, york, corona, biden, month, around, man, public, former, republican, social, came, california
 Context in foxvideos: know, dont, think, state, right, time, american, first, call, need, two, would, trump
 ['washington', 0.23306082453025412]
@@ -1782,7 +1986,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['seen', 0.23195799094906028]
-Context in both: say, work
+Context in both: work, say
 Context in democracynow: nineteen, york, corona, public, could, around, lockdown, today, social, order, bill, spread, billion
 Context in foxvideos: american, new, thousand, state, know, time, need, would, right, think, two, trump, dont
 ['south', 0.2318514791384858]
@@ -1790,7 +1994,7 @@ Context in both:
 Context in democracynow: nineteen, york, corona, say, could, around, public, billion, six, spread, south, former, social, came, court
 Context in foxvideos: biden, thousand, joe, two, american, state, new, hundred, know, trump, time, want, day, take, dont
 ['burr', 0.23184282163397724]
-Context in both: say, public
+Context in both: public, say
 Context in democracynow: nineteen, york, came, social, republican, corona, told, stock, video, human, need, california, congress
 Context in foxvideos: know, think, well, time, dont, million, made, make, said, year, would, right, month
 ['outbreak', 0.23154693294425313]
@@ -1802,7 +2006,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['given', 0.23127612459534636]
-Context in both: say, work
+Context in both: work, say
 Context in democracynow: nineteen, york, corona, around, spread, public, could, month, bill, order, six, lockdown, former
 Context in foxvideos: state, thousand, know, new, time, american, think, well, right, look, china, need, day
 ['eighteen', 0.23112013383429236]
@@ -1938,7 +2142,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['paid', 0.22630978146032013]
-Context in both: biden, take
+Context in both: take, biden
 Context in democracynow: nineteen, york, corona, around, public, spread, six, today, court, could, billion, bill, order
 Context in foxvideos: thousand, state, two, trump, american, right, way, want, day, would, new, know, dont
 ['saudi', 0.2261156595464111]
@@ -2090,7 +2294,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, public, could, bill, spread, billion, social, biden, six, border, order, around
 Context in foxvideos: know, would, dont, state, american, new, thousand, time, make, think, want, two, right, need
 ['whole', 0.219852315089117]
-Context in both: say, take
+Context in both: take, say
 Context in democracynow: nineteen, york, corona, around, friday, public, may, work, social, order, spread, could, california
 Context in foxvideos: thousand, american, state, know, would, time, new, hundred, need, two, want, trump, day
 ['european', 0.21914955195451707]
@@ -2166,7 +2370,7 @@ Context in both: need
 Context in democracynow: nineteen, york, take, around, corona, spread, six, could, get, lockdown, bill, order, seven, friday
 Context in foxvideos: american, know, think, state, thousand, time, say, trump, day, well, want, new, dont, would
 ['bailout', 0.21529059056805838]
-Context in both: could, new_york
+Context in both: new_york, could
 Context in democracynow: nineteen, york, corona, billion, around, lockdown, public, bill, six, friday, war, eight, higher
 Context in foxvideos: state, million, thousand, way, money, pay, want, new, need, dont, take, right, hundred
 ['contract', 0.21487342976278495]
@@ -2190,7 +2394,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['vice', 0.21277762118799298]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, public, former, spread, california, work, campaign, around, war, six
 Context in foxvideos: trump, thousand, american, two, know, state, day, want, year, time, hundred, take
 ['thousand', 0.21276001764260127]
@@ -2234,7 +2438,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['thing', 0.2091611681992313]
-Context in both: say, need
+Context in both: need, say
 Context in democracynow: nineteen, corona, york, around, could, lockdown, social, work, billion, order, new_york, republican, ten
 Context in foxvideos: american, know, thousand, time, state, new, would, think, want, trump, two, dont, right
 ['make', 0.20880494984049047]
@@ -10111,7 +10315,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, today, could, six, former, biden, spread, center, california, public, war
 Context in foxvideos: american, state, know, thousand, right, new, time, need, would, dont, two, think, trump, day
 ['need', 1.5553564305823604]
-Context in both: say, new_york
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, around, spread, public, could, order, six, lockdown, bill, billion, war
 Context in foxvideos: american, thousand, need, state, new, know, time, day, would, hundred, two, take, trump
 ['nineteen', 1.4692346714336104]
@@ -10139,11 +10343,11 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, biden, spread, could, former, six, came, billion, lockdown, war
 Context in foxvideos: thousand, american, state, new, two, time, trump, need, take, day, know, look, way, hundred
 ['work', 1.1196879172552194]
-Context in both: say, work
+Context in both: work, say
 Context in democracynow: nineteen, york, corona, around, public, could, lockdown, spread, today, six, war, social, order
 Context in foxvideos: american, thousand, state, new, time, know, need, would, day, want, trump, two, right
 ['case', 1.104318419924118]
-Context in both: say, case
+Context in both: case, say
 Context in democracynow: nineteen, york, corona, court, around, could, biden, public, former, spread, lockdown, billion, month
 Context in foxvideos: thousand, american, state, know, time, new, day, two, hundred, would, need, trump, take
 ['time', 1.0750381858440343]
@@ -10151,7 +10355,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['former', 1.0467167749427266]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, former, joe, around, public, today, could, campaign, six, court, nine
 Context in foxvideos: know, thousand, american, would, two, state, china, trump, new, time, right, come, day
 ['help', 0.9804563381913523]
@@ -10203,7 +10407,7 @@ Context in both:
 Context in democracynow: nineteen, york, corona, could, say, around, lockdown, public, spread, billion, social, six, california, today, war
 Context in foxvideos: thousand, american, state, know, two, new, time, trump, would, day, need, dont, want, hundred, china
 ['york', 0.7513808529394973]
-Context in both: say, york
+Context in both: york, say
 Context in democracynow: nineteen, corona, public, could, around, spread, six, social, lockdown, biden, former, today, may
 Context in foxvideos: new, state, thousand, time, american, know, hundred, trump, day, look, take, work, two
 ['say', 0.750488428117617]
@@ -10223,7 +10427,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['war', 0.7018457305064855]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, public, around, spread, could, court, today, six, campaign, war, former
 Context in foxvideos: american, would, hundred, thousand, trump, right, two, state, joe, look, take, want, china
 ['five', 0.6703047670609499]
@@ -10283,19 +10487,19 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, could, public, today, former, six, biden, work, month, order, spread
 Context in foxvideos: know, time, american, would, new, want, state, trump, well, thousand, dont, day, two, take
 ['video', 0.5305292080353505]
-Context in both: say, video
+Context in both: video, say
 Context in democracynow: nineteen, york, corona, social, could, public, month, may, billion, man, came, biden, lockdown
 Context in foxvideos: know, think, two, state, take, want, dont, would, well, time, look, american, doctor
 ['biden', 0.525306701641116]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, court, public, campaign, around, today, could, six, war
 Context in foxvideos: two, thousand, trump, american, take, way, hundred, know, time, state, right, want
 ['lockdown', 0.5139122444579609]
-Context in both: say, lockdown
+Context in both: lockdown, say
 Context in democracynow: nineteen, york, corona, could, around, public, month, social, spread, friday, biden, nine, new_york
 Context in foxvideos: state, thousand, new, dont, know, would, want, right, number, time, american, hundred, life
 ['seven', 0.4872366630132107]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, could, around, lockdown, public, billion, social, six, friday, month, spread
 Context in foxvideos: thousand, state, american, hundred, two, new, day, take, time, look, need, week, know
 ['place', 0.4871384563253665]
@@ -10315,7 +10519,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['joe', 0.46087469409780285]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, campaign, public, court, today, around, six, war, could
 Context in foxvideos: two, american, thousand, trump, hundred, take, time, way, day, want, look, right
 ['three', 0.45859947687508956]
@@ -10343,7 +10547,7 @@ Context in both: say
 Context in democracynow: nineteen, york, corona, around, public, biden, could, former, today, six, joe, nine, war, friday
 Context in foxvideos: american, thousand, state, know, time, day, new, need, hundred, want, two, would, look, think
 ['nine', 0.3666366519479638]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, could, public, social, six, around, lockdown, former, today, spread, friday
 Context in foxvideos: thousand, american, hundred, state, trump, two, know, time, new, day, would, take, need
 ['twenty', 0.36552580520991396]
@@ -10375,7 +10579,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['cuomo', 0.2882468042073706]
-Context in both: say, new_york
+Context in both: new_york, say
 Context in democracynow: nineteen, york, corona, could, public, social, around, spread, billion, may, six, bill, biden
 Context in foxvideos: thousand, state, new, need, hundred, american, governor, cuomo, million, day, take, time, know
 ['michigan', 0.28016067853155746]
@@ -10395,7 +10599,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['campaign', 0.2582594145784568]
-Context in both: say, biden, joe
+Context in both: biden, say, joe
 Context in democracynow: nineteen, york, corona, former, campaign, court, around, public, war, could, six, california
 Context in foxvideos: know, two, trump, would, thousand, time, new, state, want, way, american, dont
 ['stay', 0.25683060797399165]
@@ -10475,7 +10679,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['support', 0.07651426540717492]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, public, around, could, former, joe, campaign, today, war, court, month
 Context in foxvideos: american, china, thousand, state, two, new, trump, time, would, dont, take, right, know
 ['without', 0.07611175570686018]
@@ -10507,7 +10711,7 @@ Context in both: none
 Context in democracynow: none
 Context in foxvideos: none
 ['man', 0.03829305258697726]
-Context in both: say, biden
+Context in both: biden, say
 Context in democracynow: nineteen, york, corona, video, court, former, social, could, around, billion, public, came, eight
 Context in foxvideos: american, know, thousand, time, new, china, trump, two, would, state, dont, want, think
 ['mayor', 0.03796893224665324]

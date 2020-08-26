@@ -1,656 +1,840 @@
 Polarization pipeline summary for foxvideos and nbcvideos:
 --- Controversy List ---
-['leader', 0.22956542828722884]
+['leader', 0.2295654318441234]
 Context in both: 
 Context in foxvideos: know, china, state, american, think, time, thousand, would, say, want, dont, right, happen, need, two
 Context in nbcvideos: line, moment, order, even, keep, safe, open, reopen, world, social, weekend, georgia, front, york, air
-['video', 0.22948194885000728]
+['video', 0.2294819533384857]
 Context in both: video
 Context in foxvideos: know, think, two, say, state, take, want, dont, thing, would, mean, well, time, look
 Context in nbcvideos: even, day, world, weekend, york, order, part, moment, safe, tomorrow, social, reopen, white, open
-['lock', 0.2278642653166427]
+['lock', 0.22786426604545826]
 Context in both: 
 Context in foxvideos: state, know, american, thousand, say, dont, think, time, would, right, want, need, day, look, work
 Context in nbcvideos: line, moment, order, keep, even, safe, world, york, weekend, front, air, reopen, open, georgia, covid
-['question', 0.22111333167855146]
+['question', 0.22111333533019178]
 Context in both: 
 Context in foxvideos: state, know, thousand, american, say, would, dont, think, new, time, two, right, trump, want, need
 Context in nbcvideos: new_york, day, even, contact, care, tomorrow, front, reopen, social, keep, weekend, fight, small, begin, open
-['buy', 0.21738775019907858]
+['tax', 0.21911546283799446]
+Context in both: 
+Context in foxvideos: american, state, thousand, need, would, new, want, time, right, new_york, take, say, know, hundred, two
+Context in nbcvideos: free, file, tax, biden, ship, tomorrow, michigan, white, pay, risk, plan, avoid, sixteen, call, joe
+['buy', 0.21738775227031154]
 Context in both: 
 Context in foxvideos: thousand, state, know, american, new, say, think, time, need, take, would, dont, new_york, two, right
 Context in nbcvideos: even, keep, order, moment, york, line, safe, world, front, social, open, georgia, weekend, reopen, air
-['open', 0.217052790738045]
+['yeah', 0.21729658100264307]
+Context in both: look
+Context in foxvideos: state, american, know, china, thousand, would, say, right, new, take, need, want, think, dont
+Context in nbcvideos: even, day, weekend, tomorrow, york, reopen, world, care, open, keep, social, front, safe, white
+['hard', 0.2172175500901268]
+Context in both: 
+Context in foxvideos: american, thousand, state, new, know, time, think, would, two, dont, want, say, need, hundred, take
+Context in nbcvideos: day, even, tomorrow, new_york, weekend, world, reopen, put, social, open, care, white, front, hit, safe
+['open', 0.2170527931188924]
 Context in both: 
 Context in foxvideos: state, thousand, new, american, want, way, would, two, think, take, say, dont, hundred, know, well
 Context in nbcvideos: even, day, reopen, tomorrow, open, weekend, social, care, world, york, line, front, keep, safe, georgia
-['doesnt', 0.21663513162518663]
+['doesnt', 0.2166351317370915]
 Context in both: 
 Context in foxvideos: american, know, time, thousand, would, state, say, want, new, right, dont, work, think, trump, make
 Context in nbcvideos: even, day, weekend, world, new_york, reopen, safe, tomorrow, front, keep, put, social, open, moment, order
-['concern', 0.2150569310667923]
+['congress', 0.21642471594952123]
+Context in both: 
+Context in foxvideos: american, need, would, know, thousand, state, time, think, two, say, want, trump, new, said, right
+Context in nbcvideos: care, even, front, line, moment, keep, tomorrow, reopen, contact, social, open, weekend, york, fight, safe
+['store', 0.21542024654540154]
+Context in both: 
+Context in foxvideos: new, state, thousand, american, dont, know, look, need, say, think, right, two, want, time, take
+Context in nbcvideos: even, open, social, new_york, day, york, tomorrow, line, reopen, moment, care, keep, order, front, weekend
+['concern', 0.21505693195145312]
 Context in both: 
 Context in foxvideos: american, state, thousand, know, want, trump, would, two, new, time, think, hundred, take, look, say
 Context in nbcvideos: even, day, world, keep, care, york, weekend, reopen, front, open, social, white, line, safe, tomorrow
-['mayor', 0.21393407179398588]
+['mayor', 0.21393406342377172]
 Context in both: new_york
 Context in foxvideos: state, thousand, new, know, american, would, want, need, dont, make, say, governor, time, take
 Context in nbcvideos: even, day, tomorrow, world, weekend, put, mayor, white, social, black, protest, part, reopen, safe
-['dollar', 0.2134231164534712]
+['heard', 0.21357168033527119]
+Context in both: day
+Context in foxvideos: know, thousand, american, think, state, would, two, say, time, new, want, need, hundred, dont
+Context in nbcvideos: even, weekend, world, york, order, moment, safe, line, keep, reopen, open, video, social, georgia
+['dollar', 0.21342310930570857]
 Context in both: 
 Context in foxvideos: state, american, thousand, new, need, know, want, would, say, think, time, million, right, look, well
 Context in nbcvideos: dollar, york, world, day, year, part, keep, georgia, even, south, never, open, store, care, night
-['turn', 0.2131922583396607]
+['green', 0.21323696183712115]
+Context in both: 
+Context in foxvideos: american, need, new, right, work, know, would, want, back, state, thousand, time, make, say, way
+Context in nbcvideos: new_york, tomorrow, black, mayor, put, even, protest, day, white, former, law, nine, part, free, street
+['turn', 0.21319225216755405]
 Context in both: 
 Context in foxvideos: thousand, know, american, state, would, think, say, time, new, dont, want, two, trump, hundred, day
 Context in nbcvideos: care, contact, even, tomorrow, front, new_york, line, reopen, fight, moment, begin, social, keep, open, small
-['move', 0.2096444141701657]
+['move', 0.20964441665313224]
 Context in both: day
 Context in foxvideos: thousand, state, know, new, american, say, time, need, would, think, want, dont, right, two
 Context in nbcvideos: new_york, tomorrow, even, care, social, front, reopen, open, weekend, line, contact, moment, begin, small
-['jersey', 0.20964328754051756]
-Context in both: look, new_york
+['jersey', 0.20964328168840038]
+Context in both: new_york, look
 Context in foxvideos: state, thousand, new, want, say, take, think, learn, way, hundred, two, dont, need
 Context in nbcvideos: day, even, weekend, world, reopen, tomorrow, care, front, keep, open, safe, social, york
-['social', 0.20882729687386067]
+['john', 0.20952502326914577]
+Context in both: 
+Context in foxvideos: would, thousand, trump, american, new, want, state, said, say, two, think, life, know, china, hundred
+Context in nbcvideos: care, even, keep, social, front, tomorrow, new_york, york, line, moment, open, reopen, day, world, safe
+['social', 0.2088273002200526]
 Context in both: day
 Context in foxvideos: state, thousand, new, american, know, would, time, dont, need, hundred, want, two, say, number
 Context in nbcvideos: even, new_york, tomorrow, reopen, weekend, open, care, social, world, front, keep, york, line, safe
-['line', 0.208374813882739]
+['line', 0.20837480865094943]
 Context in both: day
 Context in foxvideos: american, new, know, state, thousand, time, say, hundred, want, think, trump, two, look, would
 Context in nbcvideos: even, tomorrow, reopen, care, open, front, line, weekend, moment, keep, social, order, york, safe
-['keep', 0.20813089652733044]
+['keep', 0.2081308989097863]
 Context in both: day
 Context in foxvideos: american, thousand, new, state, time, need, would, know, want, two, dont, think, say, trump
 Context in nbcvideos: even, world, keep, weekend, reopen, open, safe, care, social, front, york, line, moment, tomorrow
-['track', 0.20802891876573515]
+['track', 0.2080289210942066]
 Context in both: 
 Context in foxvideos: american, state, thousand, new, would, two, need, know, biden, hundred, want, back, think, day, right
 Context in nbcvideos: care, even, front, line, moment, contact, keep, tomorrow, open, reopen, weekend, social, york, show, safe
-['find', 0.20796922106978263]
+['find', 0.2079692138801434]
 Context in both: 
 Context in foxvideos: thousand, american, state, know, need, two, new, hundred, want, dont, would, think, time, say, trump
 Context in nbcvideos: even, new_york, moment, weekend, line, front, tomorrow, order, york, care, keep, world, social, safe, reopen
-['mean', 0.20691328752607685]
+['mean', 0.20691327316864852]
 Context in both: 
 Context in foxvideos: know, think, would, thousand, dont, state, say, american, want, new, right, two, time, well, need
 Context in nbcvideos: even, day, tomorrow, weekend, open, world, york, reopen, part, care, white, safe, tell, biden, social
-['yet', 0.20610109332311485]
+['street', 0.20676861116224354]
+Context in both: day
+Context in foxvideos: know, thousand, american, state, want, time, trump, dont, new, say, china, would, think, make
+Context in nbcvideos: new_york, tomorrow, even, mayor, black, protest, put, former, law, white, social, nine, free, weekend
+['isnt', 0.20658545380787707]
+Context in both: 
+Context in foxvideos: china, american, state, know, thousand, dont, would, say, time, think, want, work, right, new, life
+Context in nbcvideos: new_york, tomorrow, day, even, weekend, social, care, reopen, put, front, contact, begin, world, small, second
+['yet', 0.20610108610074201]
 Context in both: 
 Context in foxvideos: thousand, know, state, time, american, new, dont, would, need, trump, say, two, want, right, think
 Context in nbcvideos: new_york, tomorrow, even, day, care, social, open, front, york, moment, reopen, enough, world, safe, weekend
-['part', 0.20541256183174714]
+['part', 0.20541254774016673]
 Context in both: 
 Context in foxvideos: american, thousand, state, know, would, need, new, two, time, say, dont, want, trump, right, take
 Context in nbcvideos: even, day, tomorrow, weekend, world, open, reopen, york, new_york, safe, social, order, part, moment, white
-['seen', 0.2053251968891922]
+['win', 0.20538380102189638]
+Context in both: biden, joe
+Context in foxvideos: trump, know, two, would, american, time, want, right, think, state, obama, say, need
+Context in nbcvideos: free, new_york, tomorrow, even, white, day, former, mayor, black, world, man, protest, ship
+['seen', 0.20532519645262412]
 Context in both: 
 Context in foxvideos: american, new, thousand, state, know, time, need, would, right, think, say, two, trump, dont, work
 Context in nbcvideos: even, world, weekend, keep, reopen, moment, safe, day, line, open, order, social, front, georgia, york
-['april', 0.204768206978014]
+['april', 0.20476820787787675]
 Context in both: 
 Context in foxvideos: thousand, state, number, know, would, american, hundred, new, need, want, time, two, dont, week, new_york
 Context in nbcvideos: even, tomorrow, day, weekend, open, reopen, care, york, tell, world, part, line, safe, order, front
-['give', 0.20348797432808696]
+['give', 0.2034879762270903]
 Context in both: 
 Context in foxvideos: american, thousand, know, state, time, new, need, would, want, right, think, say, take, dont, two
 Context in nbcvideos: day, tomorrow, even, york, care, white, tell, world, weekend, china, risk, biden, big, part, open
-['forty', 0.2029777572518634]
-Context in both: day, new_york
+['forty', 0.20297774355521245]
+Context in both: new_york, day
 Context in foxvideos: thousand, state, need, american, new, hundred, say, look, know, time, would, million, make
 Context in nbcvideos: even, care, tomorrow, open, front, social, line, reopen, moment, keep, york, weekend, contact
-['school', 0.2029704284977688]
-Context in both: day, school
+['school', 0.20297042850963823]
+Context in both: school, day
 Context in foxvideos: thousand, dont, know, state, american, hundred, say, need, time, well, want, child, would
 Context in nbcvideos: even, world, weekend, reopen, keep, put, big, social, tomorrow, white, open, didnt, safe
-['live', 0.20294746120111756]
+['live', 0.20294746305647438]
 Context in both: look
 Context in foxvideos: new, thousand, state, american, know, dont, want, time, say, two, think, need, would, right
 Context in nbcvideos: day, even, tomorrow, care, weekend, new_york, contact, world, reopen, social, front, york, small, fight
-['task', 0.2029371792186188]
-Context in both: day, new_york
+['task', 0.2029371645453888]
+Context in both: new_york, day
 Context in foxvideos: thousand, american, need, state, hundred, time, new, two, want, say, million, know, would
 Context in nbcvideos: open, tomorrow, patient, reopen, social, mask, enough, test, wear, care, york, even, without
-['real', 0.2026113527339483]
+['class', 0.20279982346121236]
+Context in both: 
+Context in foxvideos: china, american, know, dont, thousand, state, work, would, time, right, want, say, year, could, thing
+Context in nbcvideos: world, even, weekend, day, open, york, nineteen, reopen, georgia, obama, feel, put, class, part, safe
+['push', 0.20272573532857713]
+Context in both: 
+Context in foxvideos: american, know, thousand, want, would, new, dont, state, time, need, right, take, think, two, make
+Context in nbcvideos: day, even, weekend, world, reopen, open, put, fire, look, big, school, safe, later, keep, didnt
+['real', 0.20261135583375622]
 Context in both: 
 Context in foxvideos: know, thousand, time, american, trump, state, would, new, two, say, want, dont, think, work, need
 Context in nbcvideos: day, even, new_york, tomorrow, weekend, world, social, reopen, look, white, put, made, hit, mayor, part
-['lockdown', 0.2025593734510253]
+['lockdown', 0.20255936934099042]
 Context in both: 
 Context in foxvideos: state, thousand, new, dont, know, say, would, want, lockdown, right, number, time, american, hundred, life
 Context in nbcvideos: even, day, weekend, tomorrow, world, care, reopen, york, front, keep, social, contact, open, safe, new_york
-['went', 0.2023791345684026]
+['went', 0.20237914600017867]
 Context in both: day
 Context in foxvideos: thousand, state, know, american, two, trump, new, time, would, say, hundred, think, want, right
 Context in nbcvideos: even, world, weekend, keep, safe, reopen, open, georgia, line, order, moment, york, front, social
-['almost', 0.2020338300650267]
+['almost', 0.20203384920592518]
 Context in both: day
 Context in foxvideos: thousand, american, state, know, new, would, want, two, dont, time, say, right, look, hundred
 Context in nbcvideos: even, weekend, world, reopen, keep, open, social, line, front, safe, care, georgia, york, put
-['area', 0.2020182404417879]
+['area', 0.2020182341064779]
 Context in both: day
 Context in foxvideos: thousand, state, new, american, new_york, hundred, two, need, take, time, would, know, week, want
 Context in nbcvideos: even, weekend, world, reopen, safe, open, keep, york, order, look, georgia, line, front, social
-['care', 0.2018648647409836]
+['expect', 0.20200171351911067]
+Context in both: 
+Context in foxvideos: thousand, american, state, would, two, know, hundred, new, think, want, time, need, day, take, also
+Context in nbcvideos: even, keep, care, line, front, moment, tomorrow, reopen, york, social, new_york, world, open, weekend, contact
+['care', 0.20186486118910257]
 Context in both: day
 Context in foxvideos: american, thousand, state, new, time, would, want, need, know, say, two, hundred, dont, trump
 Context in nbcvideos: tomorrow, care, even, new_york, front, open, reopen, social, york, contact, line, tell, keep, weekend
-['weekend', 0.20185615322678388]
+['weekend', 0.20185614782467706]
 Context in both: day
 Context in foxvideos: thousand, new, american, need, state, know, two, hundred, time, say, take, want, would, week
 Context in nbcvideos: even, weekend, world, reopen, tomorrow, open, social, safe, look, keep, york, front, part, put
-['wait', 0.20161652772461897]
+['wait', 0.2016165046315928]
 Context in both: 
 Context in foxvideos: american, need, new, thousand, state, know, right, say, hundred, two, want, time, well, would, think
 Context in nbcvideos: day, even, tomorrow, new_york, social, weekend, york, care, reopen, love, open, made, without, world, look
-['georgia', 0.20147014811246736]
-Context in both: day, georgia
+['georgia', 0.2014701476317115]
+Context in both: georgia, day
 Context in foxvideos: know, state, say, thousand, well, want, hundred, would, dont, look, take, governor, two
 Context in nbcvideos: even, world, weekend, open, reopen, safe, keep, york, social, line, order, part, moment
-['covid', 0.20129696508804049]
+['high', 0.20141814059254046]
+Context in both: 
+Context in foxvideos: thousand, know, american, state, would, new, time, say, dont, right, two, think, trump, work, want
+Context in nbcvideos: even, new_york, world, york, day, keep, social, moment, safe, order, open, line, reopen, weekend, white
+['covid', 0.20129694920438918]
 Context in both: day
 Context in foxvideos: state, thousand, new, covid, hundred, know, american, week, time, need, want, say, well, would
 Context in nbcvideos: even, weekend, world, reopen, safe, order, moment, open, line, keep, part, social, front, new_york
-['bring', 0.20101759361720428]
+['bring', 0.2010175866557052]
 Context in both: day
 Context in foxvideos: american, thousand, trump, state, need, new, time, hundred, know, want, two, would, say, look
 Context in nbcvideos: even, new_york, weekend, social, world, tomorrow, safe, open, reopen, york, keep, moment, order, front
-['weve', 0.20099702327106833]
+['weve', 0.20099702478141848]
 Context in both: day
 Context in foxvideos: thousand, state, american, new, know, two, time, need, look, say, want, take, hundred, would
 Context in nbcvideos: even, tomorrow, new_york, open, reopen, weekend, social, world, care, safe, moment, front, york, line
-['control', 0.2009072019738622]
+['control', 0.20090718714557598]
 Context in both: 
 Context in foxvideos: china, know, state, time, thousand, american, say, think, would, dont, new, well, take, want, hundred
 Context in nbcvideos: new_york, day, even, tomorrow, weekend, world, put, white, part, social, mayor, reopen, nine, hit, enough
-['unit', 0.2006292881252067]
+['unit', 0.20062927572771558]
 Context in both: day
 Context in foxvideos: american, thousand, state, china, trump, know, time, would, new, need, two, say, think, want
 Context in nbcvideos: tomorrow, care, new_york, contact, social, even, front, fight, begin, small, reopen, open, second, line
-['point', 0.20022636451149323]
+['point', 0.20022634964155658]
 Context in both: day
 Context in foxvideos: american, thousand, know, state, trump, time, say, think, two, new, would, want, need, dont
 Context in nbcvideos: even, tomorrow, world, new_york, weekend, reopen, social, open, white, put, safe, part, look, keep
-['talk', 0.20002475664736585]
+['talk', 0.2000247589561003]
 Context in both: day
 Context in foxvideos: state, thousand, know, american, new, would, say, time, think, want, two, need, right, dont
 Context in nbcvideos: tomorrow, even, care, tell, front, york, new_york, open, contact, keep, outbreak, small, social, white
-['man', 0.19969457893297682]
+['side', 0.19972916175621575]
+Context in both: 
+Context in foxvideos: thousand, know, new, china, would, state, time, say, american, two, trump, dont, right, think, well
+Context in nbcvideos: care, even, day, tomorrow, social, reopen, front, york, weekend, open, line, new_york, contact, keep, small
+['man', 0.19969457423615047]
 Context in both: biden
 Context in foxvideos: american, know, thousand, time, new, china, trump, two, would, state, dont, want, think, say
 Context in nbcvideos: day, even, man, new_york, tomorrow, white, former, world, video, weekend, mayor, black, york, nine
-['big', 0.19954323080266986]
+['big', 0.19954323275476246]
 Context in both: day
 Context in foxvideos: american, thousand, state, new, know, two, say, need, take, hundred, want, time, way, would
 Context in nbcvideos: even, weekend, tomorrow, world, reopen, open, care, keep, social, safe, front, put, white, new_york
-['put', 0.19919725378706543]
+['put', 0.1991972549250475]
 Context in both: day
 Context in foxvideos: american, thousand, state, time, new, know, need, trump, want, two, say, would, hundred, look
 Context in nbcvideos: even, new_york, tomorrow, weekend, world, put, reopen, social, white, keep, safe, open, care, front
-['feel', 0.1991332979822347]
+['fund', 0.1991671558193751]
+Context in both: 
+Context in foxvideos: american, china, thousand, new, dont, state, two, know, would, need, trump, way, want, work, time
+Context in nbcvideos: tomorrow, new_york, contact, care, front, small, begin, even, fight, social, second, day, reopen, line, open
+['feel', 0.19913329148462788]
 Context in both: day
 Context in foxvideos: american, know, state, dont, new, time, want, thousand, would, think, say, two, need, look
 Context in nbcvideos: even, tomorrow, weekend, reopen, care, new_york, open, world, front, social, put, tell, safe, york
-['person', 0.1989961835832818]
+['person', 0.19899617885993576]
 Context in both: day
 Context in foxvideos: know, american, would, time, thousand, dont, state, think, new, say, right, want, china, two
 Context in nbcvideos: tomorrow, new_york, even, care, social, front, contact, reopen, white, biden, begin, small, open, free
-['reopen', 0.19878938197976603]
+['reopen', 0.1987893754491379]
 Context in both: day
 Context in foxvideos: state, new, thousand, want, know, american, way, look, dont, think, work, well, time, life
 Context in nbcvideos: even, weekend, reopen, open, tomorrow, world, social, care, front, line, keep, safe, york, new_york
-['okay', 0.19878767588913454]
+['okay', 0.1987876673434572]
 Context in both: day
 Context in foxvideos: state, right, time, know, would, well, say, new, thousand, two, think, want, dont, way
 Context in nbcvideos: even, weekend, world, reopen, york, safe, open, keep, look, social, tomorrow, care, test, big
-['shut', 0.19868559058838126]
+['shut', 0.19868557594925967]
 Context in both: day
 Context in foxvideos: american, state, thousand, know, new, would, need, trump, time, say, want, hundred, work, number
 Context in nbcvideos: care, contact, new_york, tomorrow, even, front, fight, begin, small, social, keep, second, reopen, open
-['black', 0.1985199437439834]
+['sixteen', 0.1986723030574154]
+Context in both: new_york
+Context in foxvideos: thousand, two, know, state, american, trump, new, obama, biden, would, time, need, day, hundred
+Context in nbcvideos: free, tomorrow, contact, fight, care, even, begin, small, feel, file, tax, ship, outbreak, front
+['black', 0.19851993776608123]
 Context in both: black
 Context in foxvideos: biden, dont, new, know, joe, look, state, want, right, american, thousand, two, time, say
 Context in nbcvideos: new_york, tomorrow, mayor, protest, even, former, put, law, white, day, nine, man, part, street
-['twenty', 0.19824016622290438]
+['demand', 0.19851892842075128]
+Context in both: day
+Context in foxvideos: new, state, thousand, american, know, want, need, dont, time, take, would, right, say, way
+Context in nbcvideos: even, tomorrow, new_york, care, reopen, social, line, front, open, moment, york, keep, weekend, order
+['twenty', 0.1982401607220847]
 Context in both: day
 Context in foxvideos: thousand, american, trump, state, know, new, time, two, want, say, way, need, would, hundred
 Context in nbcvideos: even, tomorrow, york, weekend, open, world, reopen, care, line, safe, order, keep, part, social
-['war', 0.1980123161157973]
+['hit', 0.1981694719835568]
+Context in both: 
+Context in foxvideos: thousand, state, american, time, trump, know, new, would, hundred, want, say, two, work, need, china
+Context in nbcvideos: day, even, tomorrow, new_york, weekend, world, reopen, social, open, care, front, put, safe, part, white
+['follow', 0.19811360306170223]
+Context in both: day
+Context in foxvideos: thousand, state, american, new, would, trump, time, know, say, two, hundred, think, dont, need
+Context in nbcvideos: new_york, even, tomorrow, weekend, world, put, reopen, white, social, contact, front, care, safe, keep
+['war', 0.19801231011608958]
 Context in both: 
 Context in foxvideos: american, biden, would, hundred, say, thousand, trump, right, two, state, joe, look, take, want, china
 Context in nbcvideos: tomorrow, even, day, care, new_york, open, front, social, reopen, line, contact, keep, moment, york, small
-['run', 0.1978285463387824]
+['run', 0.19782852390872832]
 Context in both: 
 Context in foxvideos: state, thousand, american, biden, new, time, know, two, say, want, take, think, way, would, trump
 Context in nbcvideos: day, even, world, weekend, reopen, keep, put, tomorrow, safe, open, big, test, white, look, school
-['matter', 0.197009222225222]
+['matter', 0.19700922482940647]
 Context in both: 
 Context in foxvideos: american, thousand, know, state, time, new, dont, say, two, want, right, trump, would, think, china
 Context in nbcvideos: new_york, tomorrow, even, day, put, mayor, black, protest, part, nine, white, former, biden, free, law
-['start', 0.19677833052472393]
+['start', 0.19677833181754947]
 Context in both: day
 Context in foxvideos: american, thousand, state, new, time, know, need, two, hundred, would, want, say, take, dont
 Context in nbcvideos: even, weekend, open, world, reopen, new_york, social, tomorrow, safe, put, keep, georgia, big, white
-['problem', 0.196736531954237]
+['problem', 0.196736510046595]
 Context in both: day
 Context in foxvideos: thousand, american, state, trump, time, know, need, new, say, would, right, hundred, two, china
 Context in nbcvideos: even, world, weekend, york, reopen, order, tomorrow, safe, keep, moment, open, line, front, part
-['never', 0.19671571049674463]
+['never', 0.19671571055501816]
 Context in both: day
 Context in foxvideos: thousand, american, state, time, new, know, would, trump, say, two, want, dont, take, need
 Context in nbcvideos: even, weekend, world, reopen, tomorrow, open, york, safe, look, keep, part, social, care, front
-['nineteen', 0.19653602183674493]
-Context in both: day, new_york
+['nineteen', 0.19653601618092797]
+Context in both: new_york, day
 Context in foxvideos: thousand, state, new, american, know, need, time, two, covid, look, want, way, hundred
 Context in nbcvideos: even, york, nineteen, care, world, open, test, keep, white, safe, corona, social, reopen
-['order', 0.1965003124175208]
+['order', 0.19650030731198986]
 Context in both: day
 Context in foxvideos: state, american, thousand, new, would, know, time, need, take, two, want, work, right, think
 Context in nbcvideos: even, weekend, world, reopen, york, moment, line, open, order, safe, social, tomorrow, part, keep
-['deal', 0.19618193771688497]
+['deal', 0.1961819394361945]
 Context in both: day
 Context in foxvideos: american, thousand, time, new, need, trump, know, two, hundred, state, right, say, want, biden
 Context in nbcvideos: care, even, tomorrow, contact, new_york, front, reopen, fight, social, begin, small, weekend, line, open
-['data', 0.19617658245523975]
+['data', 0.19617659309844374]
 Context in both: day
 Context in foxvideos: state, know, number, thousand, american, new, hundred, want, covid, need, say, week, time, dont
 Context in nbcvideos: even, tomorrow, reopen, open, weekend, care, tell, front, world, line, york, keep, feel, social
-['cover', 0.19608253059853128]
+['cover', 0.19608251626248252]
 Context in both: day
 Context in foxvideos: china, american, thousand, state, new, time, trump, take, want, know, say, think, way, look
 Context in nbcvideos: tomorrow, care, contact, even, front, new_york, tell, begin, small, reopen, fight, outbreak, line, open
-['total', 0.1960025665354495]
+['total', 0.19600255316636958]
 Context in both: day
 Context in foxvideos: thousand, know, american, state, hundred, would, time, think, new, two, say, need, trump, dont
 Context in nbcvideos: even, weekend, world, reopen, tomorrow, safe, open, look, york, part, keep, care, order, never
-['worst', 0.19588931548023175]
-Context in both: day, new_york
+['worst', 0.19588930856045073]
+Context in both: new_york, day
 Context in foxvideos: thousand, american, state, new, hundred, need, know, time, china, want, say, two, dont
 Context in nbcvideos: even, tomorrow, weekend, care, world, york, reopen, front, open, social, keep, safe, tell
-['place', 0.1952515489314039]
+['thirty', 0.1958662889427913]
+Context in both: day
+Context in foxvideos: thousand, state, american, new, want, well, hundred, know, need, would, two, take, look, number
+Context in nbcvideos: even, keep, social, reopen, weekend, open, world, new_york, safe, moment, line, front, york, care
+['place', 0.19525154097827815]
 Context in both: day
 Context in foxvideos: thousand, american, state, know, trump, new, two, would, say, time, need, want, think, look
 Context in nbcvideos: even, care, new_york, tomorrow, york, front, keep, weekend, world, social, reopen, line, contact, moment
-['outbreak', 0.19483149845958656]
+['hold', 0.1950886680618591]
+Context in both: day
+Context in foxvideos: thousand, know, american, would, new, time, two, state, hundred, need, right, think, say, want
+Context in nbcvideos: even, tomorrow, weekend, world, reopen, new_york, open, social, put, look, care, white, big, hit
+['outbreak', 0.19483149889876733]
 Context in both: day
 Context in foxvideos: thousand, china, know, new, state, time, world, american, health, hundred, would, two, need, trump
 Context in nbcvideos: tomorrow, care, even, new_york, tell, open, contact, front, reopen, social, small, outbreak, feel, begin
-['show', 0.19465454508507493]
+['show', 0.19465453623050236]
 Context in both: 
 Context in foxvideos: thousand, know, two, american, state, time, say, trump, would, new, day, think, china, look, want
 Context in nbcvideos: even, care, front, keep, york, line, moment, open, reopen, social, weekend, safe, new_york, world, tomorrow
-['power', 0.1945317523411038]
+['power', 0.1945317449379624]
 Context in both: 
 Context in foxvideos: state, thousand, know, american, two, would, time, trump, say, new, right, china, need, want, dont
 Context in nbcvideos: new_york, tomorrow, even, day, weekend, put, white, part, care, world, front, feel, social, nine, reopen
-['use', 0.19425891920545038]
+['use', 0.1942589187911319]
 Context in both: day
 Context in foxvideos: american, thousand, state, new, time, know, need, trump, would, work, want, right, look, say
 Context in nbcvideos: new_york, even, tomorrow, care, open, social, safe, reopen, world, weekend, front, keep, moment, small
-['didnt', 0.1938640164111631]
+['check', 0.19405926315168856]
+Context in both: day
+Context in foxvideos: american, know, thousand, state, want, new, say, would, time, dont, trump, two, look, need
+Context in nbcvideos: tomorrow, even, tell, care, open, biden, reopen, feel, weekend, china, outbreak, check, front, part
+['idea', 0.1940005981086519]
+Context in both: 
+Context in foxvideos: american, thousand, know, state, want, dont, new, need, would, time, two, right, say, think, make
+Context in nbcvideos: day, even, weekend, tomorrow, york, global, world, look, care, sure, love, made, plan, year, china
+['didnt', 0.1938640014773399]
 Context in both: day
 Context in foxvideos: thousand, state, know, two, say, time, american, new, trump, would, need, think, hundred, take
 Context in nbcvideos: even, weekend, world, reopen, open, look, social, tomorrow, put, fire, safe, keep, new_york, didnt
-['wear', 0.1937132983104108]
+['wear', 0.19371329094522075]
 Context in both: mask
 Context in foxvideos: state, know, new, think, would, dont, want, thousand, take, say, american, time, need, two
 Context in nbcvideos: day, open, new_york, tomorrow, social, even, reopen, patient, weekend, wear, enough, start, georgia, care
-['pay', 0.1936759366706778]
+['pay', 0.19367593859046847]
 Context in both: 
 Context in foxvideos: american, thousand, state, need, new, want, time, two, new_york, would, take, know, right, way, look
 Context in nbcvideos: even, york, tomorrow, care, open, line, safe, tell, keep, day, weekend, order, biden, world, white
-['bill', 0.19319265582765702]
+['lost', 0.1932377503523913]
+Context in both: day
+Context in foxvideos: american, state, thousand, trump, time, new, want, know, hundred, would, biden, two, dont, say
+Context in nbcvideos: even, tomorrow, care, york, weekend, new_york, reopen, front, open, world, social, moment, never, keep
+['bill', 0.19319264107324433]
 Context in both: 
 Context in foxvideos: american, bill, would, thousand, state, need, time, way, new, two, care, know, make, want, right
 Context in nbcvideos: day, world, even, weekend, keep, test, safe, big, put, school, reopen, white, look, start, social
-['begin', 0.19290476418128497]
+['begin', 0.19290476794678066]
 Context in both: day
 Context in foxvideos: thousand, state, american, two, know, time, new, hundred, need, dont, take, would, trump, say
 Context in nbcvideos: tomorrow, new_york, even, care, contact, front, social, reopen, weekend, open, fight, line, small, begin
-['florida', 0.19281889622957954]
+['florida', 0.1928188972982516]
 Context in both: 
 Context in foxvideos: state, thousand, new, way, new_york, want, look, take, hundred, well, let, two, learn, biden, say
 Context in nbcvideos: even, day, tomorrow, reopen, weekend, world, care, york, open, tell, keep, front, safe, social, feel
-['hear', 0.19270754017992894]
+['hear', 0.19270753391808015]
 Context in both: day
 Context in foxvideos: thousand, american, know, state, new, hundred, want, need, time, two, number, would, say, dont
 Context in nbcvideos: even, weekend, tomorrow, new_york, world, york, social, care, reopen, look, moment, front, sure, safe
-['white', 0.19210757432735887]
+['past', 0.19248448433487927]
+Context in both: 
+Context in foxvideos: new, thousand, state, american, time, know, two, dont, china, want, would, say, hundred, work, well
+Context in nbcvideos: new_york, tomorrow, day, even, care, social, front, small, begin, enough, contact, second, put, moment, reopen
+['white', 0.19210756700959536]
 Context in both: day
 Context in foxvideos: thousand, trump, know, would, american, two, state, dont, want, new, right, time, need, think
 Context in nbcvideos: even, tomorrow, world, weekend, new_york, white, york, reopen, put, social, keep, safe, care, open
-['sure', 0.19204611095321072]
+['sure', 0.1920461041273099]
 Context in both: day
 Context in foxvideos: american, know, think, state, thousand, time, say, trump, well, want, new, need, dont, would
 Context in nbcvideos: even, weekend, tomorrow, world, new_york, york, social, care, reopen, open, look, safe, keep, sure
-['tell', 0.19199696797145518]
+['tell', 0.19199696231603497]
 Context in both: day
 Context in foxvideos: thousand, know, american, state, time, new, two, say, trump, would, want, dont, way, need
 Context in nbcvideos: tomorrow, even, care, tell, open, reopen, front, biden, line, york, feel, outbreak, weekend, social
-['support', 0.19141820639161528]
+['support', 0.19141819347132352]
 Context in both: 
 Context in foxvideos: american, china, biden, thousand, state, two, new, trump, time, say, would, dont, take, right, know
 Context in nbcvideos: day, even, weekend, world, reopen, safe, look, open, keep, york, tomorrow, big, fire, never, social
-['billion', 0.19111410516643945]
-Context in both: day, new_york
+['billion', 0.19111410726639563]
+Context in both: new_york, day
 Context in foxvideos: thousand, american, need, state, new, hundred, million, two, look, take, china, make, time
 Context in nbcvideos: care, tomorrow, even, contact, small, front, reopen, fight, social, begin, open, second, weekend
-['plan', 0.19094041802206302]
+['plan', 0.1909404191880272]
 Context in both: day
 Context in foxvideos: thousand, state, american, new, know, two, would, need, time, want, trump, say, take, hundred
 Context in nbcvideos: even, weekend, york, world, look, reopen, tomorrow, global, social, sure, safe, open, plan, made
-['enough', 0.19052184861369872]
+['enough', 0.19052183512422438]
 Context in both: day
 Context in foxvideos: american, thousand, state, want, would, dont, new, know, time, need, trump, say, work, hundred
 Context in nbcvideos: new_york, tomorrow, even, care, social, open, reopen, york, front, enough, put, keep, small, weekend
-['moment', 0.19045020522966685]
+['moment', 0.19045020712716623]
 Context in both: 
 Context in foxvideos: american, thousand, know, state, time, need, two, new, day, biden, right, would, want, say, china
 Context in nbcvideos: even, new_york, tomorrow, moment, line, front, social, care, order, open, reopen, safe, keep, weekend, york
-['case', 0.19044569556091515]
+['case', 0.19044568950444718]
 Context in both: day
 Context in foxvideos: thousand, american, state, know, time, new, two, hundred, would, need, trump, say, case, take
 Context in nbcvideos: even, keep, white, york, world, weekend, reopen, social, open, care, safe, video, man, georgia
-['law', 0.1902654096401983]
+['law', 0.19026540236581346]
 Context in both: law
 Context in foxvideos: state, thousand, trump, would, two, think, know, dont, obama, right, american, said, new, way
 Context in nbcvideos: new_york, tomorrow, black, mayor, protest, even, former, put, day, white, part, nine, free, street
-['save', 0.19016751849084312]
+['save', 0.19016751123843387]
 Context in both: day
 Context in foxvideos: american, thousand, time, new, need, state, hundred, work, say, take, would, know, life, two
 Context in nbcvideos: even, reopen, open, weekend, tomorrow, world, social, test, put, mask, start, georgia, white, didnt
-['great', 0.19015494099114885]
+['great', 0.19015493374717052]
 Context in both: day
 Context in foxvideos: american, thousand, new, state, trump, need, time, know, say, want, take, two, look, hundred
 Context in nbcvideos: even, care, tomorrow, york, keep, white, front, open, new_york, social, contact, reopen, line, tell
-['michigan', 0.19000290970170583]
+['wont', 0.19004030601016997]
+Context in both: day
+Context in foxvideos: know, american, new, state, thousand, say, think, time, trump, dont, would, want, need, two
+Context in nbcvideos: tomorrow, even, new_york, care, open, reopen, social, weekend, put, front, tell, white, world, big
+['michigan', 0.19000291132951702]
 Context in both: new_york
 Context in foxvideos: state, thousand, new, way, take, want, look, know, american, two, well, hundred, say, time
 Context in nbcvideos: tomorrow, day, even, biden, tell, care, open, reopen, outbreak, feel, york, front, social, line
-['rate', 0.18977283543627416]
+['rate', 0.18977283751786458]
 Context in both: day
 Context in foxvideos: thousand, new, state, know, american, hundred, time, want, number, would, two, death, well, also
 Context in nbcvideos: even, tomorrow, reopen, open, weekend, world, tell, safe, care, part, feel, front, york, big
-['major', 0.18968026849880532]
+['major', 0.18968025447533104]
 Context in both: day
 Context in foxvideos: american, thousand, time, state, new, would, know, need, work, two, trump, take, say, look
 Context in nbcvideos: even, world, weekend, new_york, keep, reopen, open, safe, social, tomorrow, care, york, front, line
-['money', 0.1896116712681097]
+['recent', 0.1896177998570536]
+Context in both: day
+Context in foxvideos: thousand, american, state, know, china, trump, new, time, would, two, dont, way, year, say
+Context in nbcvideos: even, tomorrow, care, line, front, open, reopen, moment, tell, weekend, keep, york, social, contact
+['money', 0.18961166558918427]
 Context in both: 
 Context in foxvideos: american, thousand, need, state, new, want, right, time, would, two, know, million, say, take, way
 Context in nbcvideos: tomorrow, day, even, care, new_york, open, social, reopen, tell, weekend, front, small, york, enough, line
-['small', 0.189492379605809]
+['small', 0.1894923729885151]
 Context in both: 
 Context in foxvideos: american, need, new, thousand, state, time, want, would, know, hundred, work, say, help, make, right
 Context in nbcvideos: new_york, tomorrow, day, care, even, social, front, small, contact, open, reopen, begin, enough, line, fight
-['old', 0.1889808039026175]
+['member', 0.1893320285243092]
+Context in both: day
+Context in foxvideos: american, trump, thousand, time, know, want, would, need, new, make, state, say, think, way
+Context in nbcvideos: even, world, weekend, york, new_york, tomorrow, order, moment, part, safe, video, white, look, line
+['old', 0.18898080609389364]
 Context in both: day
 Context in foxvideos: american, thousand, know, state, want, new, would, biden, two, need, dont, time, think, back
 Context in nbcvideos: new_york, even, world, white, man, tomorrow, mayor, nine, social, nineteen, care, call, video, moment
-['forward', 0.18843215543245165]
+['sign', 0.18871886210932856]
+Context in both: day
+Context in foxvideos: thousand, american, state, new, two, need, time, would, know, way, china, want, right, say
+Context in nbcvideos: even, reopen, weekend, open, world, keep, line, front, moment, safe, social, care, georgia, order
+['forward', 0.18843214810974926]
 Context in both: day
 Context in foxvideos: thousand, state, american, know, time, new, say, need, think, would, two, hundred, look, dont
 Context in nbcvideos: tomorrow, even, new_york, care, tell, biden, front, white, put, open, part, feel, weekend, reopen
-['tomorrow', 0.18842397569426098]
+['tomorrow', 0.18842397950594897]
 Context in both: biden
 Context in foxvideos: american, state, new, thousand, time, know, china, want, need, trump, think, two, look, come
 Context in nbcvideos: tomorrow, even, day, new_york, care, weekend, reopen, open, social, front, tell, feel, line, contact
-['new_york', 0.18823381539238143]
-Context in both: day, new_york
+['new_york', 0.18823380837281176]
+Context in both: new_york, day
 Context in foxvideos: thousand, state, need, new, hundred, american, time, two, way, cuomo, million, governor, take
 Context in nbcvideos: tomorrow, even, social, care, front, enough, small, put, moment, mayor, begin, hit, weekend
-['washington', 0.18788101690293135]
+['yesterday', 0.18808822298778446]
+Context in both: 
+Context in foxvideos: state, know, thousand, time, say, new, would, right, american, two, dont, well, need, trump, look
+Context in nbcvideos: new_york, even, care, tomorrow, front, moment, line, social, keep, weekend, reopen, contact, safe, order, york
+['earlier', 0.1880284545894182]
+Context in both: new_york, day
+Context in foxvideos: thousand, american, two, time, state, need, new, hundred, want, take, know, week, say
+Context in nbcvideos: test, enough, social, even, nineteen, open, care, world, mask, york, patient, tomorrow, reopen
+['progress', 0.18790994239109762]
+Context in both: day
+Context in foxvideos: thousand, state, american, new, know, time, say, trump, would, work, two, well, want, hundred
+Context in nbcvideos: even, weekend, tomorrow, world, reopen, look, open, fire, china, social, made, york, global, sure
+['washington', 0.18788101140150643]
 Context in both: day
 Context in foxvideos: know, thousand, time, american, trump, would, say, state, want, think, two, dont, new, need
 Context in nbcvideos: even, new_york, tomorrow, york, care, social, white, world, moment, keep, front, reopen, put, order
-['free', 0.1875382976198654]
+['free', 0.18753829412942724]
 Context in both: day
 Context in foxvideos: american, thousand, state, know, take, two, new, need, would, want, say, think, trump, time
 Context in nbcvideos: free, new_york, tomorrow, even, tax, file, biden, white, risk, former, call, put, mayor, ship
-['night', 0.1875344873975014]
+['night', 0.18753448031625974]
 Context in both: day
 Context in foxvideos: thousand, american, know, time, trump, two, state, say, would, think, want, new, hundred, dont
 Context in nbcvideos: even, tomorrow, care, new_york, york, weekend, world, open, social, tell, safe, part, feel, front
-['ever', 0.18712715746383918]
+['ever', 0.18712715892042658]
 Context in both: day
 Context in foxvideos: thousand, american, know, state, trump, two, would, new, time, want, say, take, hundred, dont
 Context in nbcvideos: tomorrow, even, care, open, tell, new_york, reopen, york, front, social, weekend, line, part, biden
-['hour', 0.18658007310078373]
+['hour', 0.18658007582817235]
 Context in both: day
 Context in foxvideos: american, thousand, trump, two, need, time, new, take, know, state, look, would, want, way
 Context in nbcvideos: new_york, tomorrow, even, put, white, part, mayor, black, biden, former, protest, nine, world, law
-['second', 0.18639401410753867]
+['goal', 0.1865710907106209]
+Context in both: day
+Context in foxvideos: american, state, thousand, would, two, know, new, time, fbi, right, want, need, dont, trump
+Context in nbcvideos: even, york, weekend, world, open, reopen, social, tomorrow, line, keep, order, look, sure, safe
+['second', 0.18639401504265649]
 Context in both: day
 Context in foxvideos: thousand, american, state, new, know, trump, two, would, time, take, look, need, right, dont
 Context in nbcvideos: new_york, tomorrow, even, care, contact, social, front, reopen, begin, weekend, small, open, fight, second
-['group', 0.18620548626233369]
+['group', 0.18620547937320192]
 Context in both: 
 Context in foxvideos: know, time, american, would, new, want, state, trump, well, thousand, dont, day, two, take, say
 Context in nbcvideos: even, front, care, moment, line, keep, york, order, new_york, weekend, open, reopen, social, safe, world
-['program', 0.18594380936871954]
+['program', 0.18594380032135338]
 Context in both: day
 Context in foxvideos: american, time, thousand, new, state, trump, know, say, call, look, china, need, two, take
 Context in nbcvideos: new_york, care, tomorrow, even, contact, small, front, reopen, social, open, fight, begin, free, outbreak
-['kind', 0.18587248287957814]
+['kind', 0.18587248513620197]
 Context in both: day
 Context in foxvideos: american, state, thousand, know, time, would, new, say, think, want, trump, two, right, work
 Context in nbcvideos: new_york, even, tomorrow, care, contact, front, social, keep, york, weekend, fight, small, begin, reopen
-['year', 0.18509958636336857]
+['food', 0.185807650784457]
+Context in both: day
+Context in foxvideos: american, thousand, state, new, would, want, need, hundred, two, work, look, take, way, time
+Context in nbcvideos: even, york, weekend, tomorrow, open, reopen, order, world, white, part, social, moment, care, keep
+['whole', 0.18542237851304555]
+Context in both: day
+Context in foxvideos: thousand, american, state, know, would, time, new, say, hundred, need, two, want, trump, take
+Context in nbcvideos: even, world, weekend, put, reopen, look, fire, school, safe, didnt, white, start, big, keep
+['year', 0.18509957972025215]
 Context in both: day
 Context in foxvideos: thousand, american, know, state, trump, two, time, new, would, say, hundred, want, need, china
 Context in nbcvideos: even, new_york, tomorrow, york, weekend, world, care, social, white, reopen, part, open, look, front
-['protest', 0.18452011110806074]
+['protest', 0.18452010255887374]
 Context in both: protest
 Context in foxvideos: state, want, thousand, know, dont, new, make, would, right, say, way, two, china, take
 Context in nbcvideos: new_york, tomorrow, mayor, even, black, put, former, law, part, white, moment, order, day, nine
-['without', 0.18449300377338448]
+['without', 0.18449301576005256]
 Context in both: day
 Context in foxvideos: american, thousand, new, time, state, know, need, want, hundred, two, would, dont, take, say
 Context in nbcvideos: tomorrow, even, new_york, social, care, reopen, weekend, york, open, world, front, enough, sure, made
-['fight', 0.18402873950499785]
+['eight', 0.18442231597963996]
+Context in both: day
+Context in foxvideos: thousand, american, state, know, two, new, time, trump, would, need, dont, want, hundred, china
+Context in nbcvideos: even, tomorrow, weekend, reopen, world, open, new_york, social, put, care, white, big, look, safe
+['fight', 0.18402874972518948]
 Context in both: day
 Context in foxvideos: american, thousand, time, state, new, need, hundred, two, say, know, take, would, want, work
 Context in nbcvideos: care, new_york, contact, even, tomorrow, front, fight, begin, small, social, reopen, moment, keep, york
-['fire', 0.18391423650096786]
+['fire', 0.18391422719865322]
 Context in both: 
 Context in foxvideos: american, thousand, two, new, state, dont, trump, take, want, would, year, know, right, time, way
 Context in nbcvideos: day, weekend, even, world, look, fire, reopen, didnt, open, safe, put, school, never, big, global
-['understand', 0.18338694046733928]
+['understand', 0.18338692636697418]
 Context in both: day
 Context in foxvideos: thousand, american, know, would, two, state, new, time, need, work, think, dont, hundred, right
 Context in nbcvideos: even, world, weekend, new_york, york, put, white, look, tomorrow, social, reopen, part, safe, keep
-['look', 0.18320042041992826]
-Context in both: day, look
+['look', 0.18320041461515357]
+Context in both: look, day
 Context in foxvideos: thousand, american, state, new, know, time, two, take, need, trump, say, want, way
 Context in nbcvideos: even, weekend, world, reopen, open, york, safe, tomorrow, social, fire, keep, never, part
-['act', 0.18299982458244468]
+['higher', 0.18318425276500216]
+Context in both: day
+Context in foxvideos: thousand, time, know, well, state, dont, new, two, trump, would, work, year, american, want
+Context in nbcvideos: even, world, weekend, reopen, open, keep, safe, georgia, look, social, fire, didnt, put, start
+['act', 0.1829998175347269]
 Context in both: 
 Context in foxvideos: thousand, american, trump, day, would, time, two, need, know, state, new, say, right, take, said
 Context in nbcvideos: even, care, line, tomorrow, front, moment, open, york, reopen, keep, order, weekend, safe, tell, social
-['day', 0.1827398169013013]
-Context in both: day, look
+['day', 0.1827398185998295]
+Context in both: look, day
 Context in foxvideos: thousand, american, state, time, know, new, trump, need, two, hundred, say, would, want
 Context in nbcvideos: even, weekend, tomorrow, world, new_york, reopen, social, open, care, put, safe, big, york
-['safe', 0.18247015759867002]
+['safe', 0.18247014900169525]
 Context in both: day
 Context in foxvideos: state, thousand, new, american, time, work, know, would, need, say, two, week, well, trump
 Context in nbcvideos: even, world, weekend, keep, reopen, open, safe, tomorrow, social, new_york, moment, front, york, line
-['best', 0.18223133865619429]
-Context in both: day, look, new_york
+['best', 0.18223133210183362]
+Context in both: new_york, day, look
 Context in foxvideos: thousand, american, state, need, new, time, know, two, take, want, hundred, trump
 Context in nbcvideos: even, world, weekend, reopen, york, open, test, fire, keep, social, safe, sure
-['fifteen', 0.18215066746981481]
-Context in both: day, new_york
+['fifteen', 0.1821506512275119]
+Context in both: new_york, day
 Context in foxvideos: thousand, american, hundred, two, state, new, time, know, need, want, trump, take, way
 Context in nbcvideos: even, world, social, tomorrow, weekend, put, reopen, open, white, enough, test, safe, keep
-['fact', 0.18184751332751042]
+['fact', 0.1818475174794915]
 Context in both: day
 Context in foxvideos: american, thousand, know, time, state, trump, two, would, say, new, take, need, china, hundred
 Context in nbcvideos: even, weekend, tomorrow, world, york, order, moment, part, new_york, safe, social, reopen, line, keep
-['later', 0.18163787911723522]
+['later', 0.18163788108868667]
 Context in both: day
 Context in foxvideos: thousand, american, time, trump, state, know, two, new, would, say, take, china, way, look
 Context in nbcvideos: even, weekend, world, tomorrow, reopen, open, care, social, put, front, big, safe, keep, white
-['stop', 0.18083793805447423]
+['stop', 0.18083793183993285]
 Context in both: day
 Context in foxvideos: american, thousand, state, trump, time, would, know, new, want, two, hundred, right, say, need
 Context in nbcvideos: even, tomorrow, world, weekend, new_york, york, care, social, look, reopen, test, safe, white, sure
-['test', 0.18011345201981915]
-Context in both: day, test
+['prevent', 0.1807337383836898]
+Context in both: day
+Context in foxvideos: thousand, american, new, state, two, time, know, need, china, take, trump, hundred, look, way
+Context in nbcvideos: new_york, mayor, tomorrow, even, black, protest, former, put, white, law, nine, part, free, street
+['test', 0.18011345366626286]
+Context in both: test, day
 Context in foxvideos: american, thousand, new, need, state, would, hundred, know, time, two, work, want, take
 Context in nbcvideos: even, world, weekend, keep, york, safe, reopen, open, social, care, new_york, put, white
-['mask', 0.1798601297900979]
-Context in both: day, new_york, mask
+['mask', 0.17986013067183543]
+Context in both: new_york, mask, day
 Context in foxvideos: state, thousand, new, american, know, need, want, would, time, hundred, take, think
 Context in nbcvideos: tomorrow, social, open, even, wear, reopen, patient, enough, small, weekend, start, world
-['watch', 0.17978739057018556]
+['watch', 0.1797873924112966]
 Context in both: 
 Context in foxvideos: american, thousand, know, new, state, time, say, need, two, would, look, right, trump, china, take
 Context in nbcvideos: york, day, nineteen, even, care, world, keep, test, new_york, white, corona, enough, open, social, safe
-['york', 0.17883275471023924]
-Context in both: day, york
+['york', 0.17883274735703591]
+Context in both: york, day
 Context in foxvideos: new, state, thousand, time, american, know, hundred, say, trump, look, take, work, two
 Context in nbcvideos: even, world, care, open, weekend, tomorrow, reopen, social, keep, order, white, line, part
-['bad', 0.17841962274937057]
+['bad', 0.17841962518370796]
 Context in both: day
 Context in foxvideos: thousand, state, trump, american, new, time, know, say, need, two, take, look, want, would
 Context in nbcvideos: care, tomorrow, even, tell, york, open, front, china, enough, part, world, feel, biden, doctor
-['world', 0.17788186617940419]
-Context in both: day, world
+['world', 0.17788185178182778]
+Context in both: world, day
 Context in foxvideos: china, american, thousand, time, know, trump, new, state, need, would, two, say, health
 Context in nbcvideos: even, weekend, reopen, safe, look, keep, york, open, social, white, put, part, tomorrow
-['threat', 0.1776284834446722]
+['threat', 0.17762846869926027]
 Context in both: 
 Context in foxvideos: china, know, time, thousand, american, state, think, say, trump, dont, would, need, right, make, way
 Context in nbcvideos: tomorrow, day, even, new_york, care, york, biden, part, world, put, tell, white, enough, weekend, open
-['hope', 0.17759315649675486]
+['hope', 0.17759316006134182]
 Context in both: day
 Context in foxvideos: american, thousand, new, time, state, need, would, know, want, trump, two, take, work, dont
 Context in nbcvideos: even, york, tomorrow, care, new_york, social, open, reopen, world, front, weekend, enough, line, keep
-['clear', 0.1775180724767127]
+['clear', 0.1775180673918935]
 Context in both: china
 Context in foxvideos: american, thousand, know, state, new, time, would, need, two, want, trump, work, dont, think
 Context in nbcvideos: tomorrow, day, even, open, tell, reopen, care, social, weekend, biden, new_york, york, part, enough
-['top', 0.1771245552321378]
+['top', 0.1771245466193817]
 Context in both: day
 Context in foxvideos: american, china, thousand, trump, new, time, state, need, way, take, two, look, want, know
 Context in nbcvideos: even, tomorrow, new_york, open, world, social, weekend, reopen, safe, care, enough, keep, york, part
-['came', 0.17610329264067387]
+['impact', 0.17673056724733938]
+Context in both: world, day
+Context in foxvideos: american, thousand, need, two, trump, time, new, state, hundred, case, said, china, travel
+Context in nbcvideos: even, new_york, put, white, weekend, tomorrow, mayor, safe, hard, part, black, social, hit
+['came', 0.17610327711982213]
 Context in both: day
 Context in foxvideos: thousand, american, would, know, state, trump, work, say, two, want, time, think, china, new
 Context in nbcvideos: tomorrow, even, new_york, weekend, put, tell, care, part, biden, reopen, feel, white, front, open
-['risk', 0.17578917264693292]
+['risk', 0.17578916559272378]
 Context in both: day
 Context in foxvideos: state, thousand, new, american, time, take, would, need, know, want, dont, well, risk, trump
 Context in nbcvideos: tomorrow, even, new_york, care, weekend, york, social, open, world, part, reopen, white, enough, front
-['action', 0.17503003413256318]
-Context in both: day, new_york
+['ive', 0.17531291360758636]
+Context in both: day
+Context in foxvideos: know, thousand, time, american, want, dont, think, say, two, would, new, state, well, trump
+Context in nbcvideos: new_york, even, tomorrow, york, nineteen, care, social, enough, white, world, mask, nine, open, reopen
+['action', 0.17503003592435618]
+Context in both: new_york, day
 Context in foxvideos: thousand, american, state, time, new, need, two, hundred, know, say, take, would, way
 Context in nbcvideos: even, world, put, white, weekend, tomorrow, mayor, part, free, safe, nineteen, social, nine
-['patient', 0.17415597021020324]
-Context in both: patient, new_york
+['son', 0.17486285943844218]
+Context in both: biden
+Context in foxvideos: fbi, trump, two, way, right, take, joe, thousand, american, know, new, look, would, hundred
+Context in nbcvideos: new_york, day, even, white, man, tomorrow, york, nineteen, world, social, care, video, former, mayor
+['patient', 0.17415595441996323]
+Context in both: new_york, patient
 Context in foxvideos: thousand, new, state, well, work, american, time, hundred, drug, need, two, know, trump
 Context in nbcvideos: day, social, tomorrow, open, care, reopen, even, line, mask, enough, front, small, wear
-['south', 0.17397516690069023]
+['south', 0.17397514980943135]
 Context in both: day
 Context in foxvideos: biden, thousand, joe, two, american, state, new, hundred, know, trump, time, want, take, dont
 Context in nbcvideos: even, world, weekend, reopen, safe, georgia, keep, look, open, york, white, social, put, big
-['obama', 0.17388353681220917]
-Context in both: day, obama
+['obama', 0.17388353761486522]
+Context in both: obama, day
 Context in foxvideos: thousand, trump, two, know, biden, american, state, year, think, time, would, want, way
 Context in nbcvideos: even, weekend, tomorrow, york, world, part, global, look, made, china, risk, video, never
-['former', 0.17387698181355532]
-Context in both: day, biden
+['former', 0.1738769747356554]
+Context in both: biden, day
 Context in foxvideos: know, thousand, american, would, two, state, china, trump, say, new, time, right, come
 Context in nbcvideos: new_york, even, tomorrow, white, black, mayor, former, weekend, man, protest, put, part, nine
-['step', 0.17353589199796135]
+['step', 0.17353589551059695]
 Context in both: day
 Context in foxvideos: american, time, new, thousand, state, know, trump, say, need, would, two, work, take, china
 Context in nbcvideos: tomorrow, new_york, even, care, social, open, reopen, contact, small, front, enough, weekend, begin, patient
-['made', 0.1733017169958684]
+['made', 0.17330171027008892]
 Context in both: day
 Context in foxvideos: thousand, state, know, american, think, say, time, trump, two, would, well, china, want, new
 Context in nbcvideos: even, tomorrow, new_york, weekend, world, social, york, reopen, look, made, open, part, sure, love
-['attorney', 0.17311960581819724]
+['attorney', 0.17311960772038873]
 Context in both: day
 Context in foxvideos: obama, trump, know, fbi, two, state, law, would, thousand, said, year, way, news, think
 Context in nbcvideos: even, world, weekend, york, video, new_york, tomorrow, part, made, look, social, man, white, former
-['vice', 0.17286494092858895]
-Context in both: day, biden
+['vice', 0.17286493607541792]
+Context in both: biden, day
 Context in foxvideos: trump, joe, thousand, american, two, know, state, want, year, time, say, hundred, take
 Context in nbcvideos: tomorrow, even, new_york, care, york, social, open, reopen, enough, world, weekend, front, white
-['love', 0.17227701618071067]
+['love', 0.17227701698728118]
 Context in both: day
 Context in foxvideos: american, thousand, new, want, time, trump, need, know, state, would, take, say, way, china
 Context in nbcvideos: new_york, tomorrow, even, weekend, social, care, york, world, made, love, reopen, sure, open, look
-['biden', 0.17170256962926192]
+['biden', 0.17170255424009773]
 Context in both: biden, joe
 Context in foxvideos: two, thousand, trump, american, take, way, say, hundred, know, time, state, right, want
 Context in nbcvideos: tomorrow, even, day, tell, white, part, feel, former, open, free, weekend, china, new_york
-['corona', 0.1715422139603324]
+['corona', 0.17154221599091107]
 Context in both: day
 Context in foxvideos: thousand, american, trump, need, new, take, would, time, two, state, travel, know, way, ban
 Context in nbcvideos: nineteen, york, even, test, care, new_york, world, corona, keep, safe, white, enough, small, social
-['campaign', 0.17105992022437685]
+['dead', 0.17126111508368344]
+Context in both: new_york, day
+Context in foxvideos: thousand, american, state, trump, new, take, two, need, travel, look, work, hundred, way
+Context in nbcvideos: care, even, tomorrow, contact, fight, front, weekend, begin, small, social, second, reopen, york
+['campaign', 0.17105991518628166]
 Context in both: biden
 Context in foxvideos: joe, know, two, trump, would, thousand, time, new, state, want, way, obama, american, dont
 Context in nbcvideos: tomorrow, even, white, day, new_york, man, free, risk, tell, part, big, world, former, mayor
-['doctor', 0.17103758358502685]
+['doctor', 0.17103757003065112]
 Context in both: day
 Context in foxvideos: american, thousand, new, time, state, need, know, two, hundred, say, take, china, trump, work
 Context in nbcvideos: even, tomorrow, open, care, reopen, new_york, world, weekend, social, tell, york, safe, enough, big
-['travel', 0.16874417177594672]
-Context in both: day, travel
+['interview', 0.1690164252739977]
+Context in both: day
+Context in foxvideos: two, thousand, state, time, american, look, trump, know, new, take, say, dont, way, right
+Context in nbcvideos: tomorrow, even, biden, york, tell, care, open, video, white, part, social, big, weekend, man
+['travel', 0.16874417587362844]
+Context in both: travel, day
 Context in foxvideos: american, thousand, time, trump, new, state, need, china, ban, take, two, hundred, know
 Context in nbcvideos: tomorrow, care, new_york, patient, enough, social, test, mask, even, york, open, peter, keep
-['instead', 0.1678286681561852]
-Context in both: day, look
+['instead', 0.16782867828534748]
+Context in both: look, day
 Context in foxvideos: thousand, state, know, american, would, time, trump, new, china, say, two, dont, want
 Context in nbcvideos: even, weekend, tomorrow, york, care, world, global, sure, love, live, social, new_york, year
-['peter', 0.1664901617994972]
+['peter', 0.16649016191817193]
 Context in both: day
 Context in foxvideos: fbi, two, trump, obama, call, thousand, know, michael, year, would, law, way, right, happen
 Context in nbcvideos: peter, test, keep, travel, care, enough, put, york, new_york, white, even, world, nineteen, corona
-['nine', 0.16594188135478966]
-Context in both: day, biden
+['nine', 0.16594187364180282]
+Context in both: biden, day
 Context in foxvideos: thousand, american, hundred, state, trump, two, know, time, new, say, would, take, need
 Context in nbcvideos: new_york, even, tomorrow, world, white, put, weekend, part, nine, safe, mayor, social, reopen
-['joe', 0.16567069964587836]
-Context in both: day, biden
+['joe', 0.16567068356981723]
+Context in both: biden, day
 Context in foxvideos: joe, two, american, thousand, trump, hundred, take, say, time, way, want, look, right
 Context in nbcvideos: tomorrow, even, new_york, white, man, world, free, part, former, york, tell, care, weekend
-['fbi', 0.1654979393523226]
-Context in both: case, fbi
+['fbi', 0.16549793901237572]
+Context in both: fbi, case
 Context in foxvideos: trump, know, two, obama, thousand, right, would, way, law, day, year, state, call
 Context in nbcvideos: biden, man, white, even, former, joe, food, video, big, start, weve, never, weekend
-['china', 0.1654922028366153]
-Context in both: day, world, china
+['china', 0.16549218927641912]
+Context in both: world, china, day
 Context in foxvideos: american, thousand, time, know, trump, state, would, new, need, two, say, take
 Context in nbcvideos: even, tomorrow, weekend, tell, york, care, open, reopen, biden, look, part, feel
-['done', 0.1645321590806859]
-Context in both: day, look
+['season', 0.1648858571667143]
+Context in both: 
+Context in foxvideos: week, thousand, covid, state, flu, hundred, new, time, say, know, season, well, two, case, school
+Context in nbcvideos: even, day, weekend, world, new_york, put, white, tomorrow, reopen, part, former, mayor, safe, nine, feel
+['done', 0.16453215334477728]
+Context in both: look, day
 Context in foxvideos: american, thousand, time, state, new, trump, need, two, know, take, say, would, china
 Context in nbcvideos: even, world, weekend, safe, reopen, put, new_york, white, social, keep, tomorrow, york, part
-['call', 0.16279677013075317]
+['call', 0.1627967554241226]
 Context in both: day
 Context in foxvideos: american, trump, thousand, know, time, state, say, new, two, look, would, china, way, take
 Context in nbcvideos: new_york, even, tomorrow, care, white, put, social, york, free, front, enough, part, world, feel
-['drug', 0.16001259041894902]
+['drug', 0.16001257646938075]
 Context in both: drug, patient
 Context in foxvideos: work, thousand, time, use, new, state, american, know, treatment, trump, well, need, would
 Context in nbcvideos: new_york, day, mask, social, open, tomorrow, enough, wear, reopen, test, even, care, travel
-['ban', 0.15967619753282808]
-Context in both: day, travel
+['ban', 0.1596761840228275]
+Context in both: travel, day
 Context in foxvideos: american, thousand, time, trump, state, new, need, two, take, china, look, ban, way
 Context in nbcvideos: even, new_york, social, tomorrow, york, weekend, world, test, open, reopen, mask, patient, enough
-['global', 0.1556278029375008]
+['global', 0.15562778757463216]
 Context in both: world, china
 Context in foxvideos: american, thousand, time, know, need, health, thing, trump, year, come, state, two, make
 Context in nbcvideos: day, weekend, even, look, global, york, fire, sure, made, love, plan, never, tomorrow
 --- Significance List ---
 ['new_york', 1.7082153283954975]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, state, need, new, hundred, american, time, two, way, cuomo, million, governor, take
 Context in nbcvideos: tomorrow, even, social, care, front, enough, small, put, moment, mayor, begin, hit, weekend
 ['biden', 0.6733607641934732]
@@ -662,23 +846,23 @@ Context in both: fbi
 Context in foxvideos: trump, obama, two, know, thousand, would, day, year, law, call, right, way, michael, time
 Context in nbcvideos: biden, case, man, white, even, former, joe, food, video, start, big, weekend, georgia, contact
 ['china', 0.5761806897718911]
-Context in both: day, world, china
+Context in both: world, china, day
 Context in foxvideos: american, thousand, time, know, trump, state, would, new, need, two, say, take
 Context in nbcvideos: even, tomorrow, weekend, tell, york, care, open, reopen, biden, look, part, feel
 ['nineteen', 0.4543509600461779]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, state, new, american, know, need, time, two, covid, look, want, way, hundred
 Context in nbcvideos: even, york, nineteen, care, world, open, test, keep, white, safe, corona, social, reopen
 ['obama', 0.45341272049104164]
-Context in both: day, obama
+Context in both: obama, day
 Context in foxvideos: thousand, trump, two, know, biden, american, state, year, think, time, would, want, way
 Context in nbcvideos: even, weekend, tomorrow, york, world, part, global, look, made, china, risk, video, never
 ['travel', 0.41953560091961567]
-Context in both: day, travel
+Context in both: travel, day
 Context in foxvideos: american, thousand, time, trump, new, state, need, china, ban, take, two, hundred, know
 Context in nbcvideos: tomorrow, care, new_york, patient, enough, social, test, mask, even, york, open, peter, keep
 ['joe', 0.4136659745086133]
-Context in both: day, biden
+Context in both: biden, day
 Context in foxvideos: joe, two, american, thousand, trump, hundred, take, say, time, way, want, look, right
 Context in nbcvideos: tomorrow, even, new_york, white, man, world, free, part, former, york, tell, care, weekend
 ['covid', 0.41072754925773824]
@@ -686,7 +870,7 @@ Context in both: day
 Context in foxvideos: state, thousand, new, covid, hundred, know, american, week, time, need, want, say, well, would
 Context in nbcvideos: even, weekend, world, reopen, safe, order, moment, open, line, keep, part, social, front, new_york
 ['ban', 0.39407733747275525]
-Context in both: day, travel
+Context in both: travel, day
 Context in foxvideos: american, thousand, time, trump, state, new, need, two, take, china, look, ban, way
 Context in nbcvideos: even, new_york, social, tomorrow, york, weekend, world, test, open, reopen, mask, patient, enough
 ['reopen', 0.393901915818337]
@@ -694,7 +878,7 @@ Context in both: day
 Context in foxvideos: state, new, thousand, want, know, american, way, look, dont, think, work, well, time, life
 Context in nbcvideos: even, weekend, reopen, open, tomorrow, world, social, care, front, line, keep, safe, york, new_york
 ['test', 0.3868037592406778]
-Context in both: day, test
+Context in both: test, day
 Context in foxvideos: american, thousand, new, need, state, would, hundred, know, time, two, work, want, take
 Context in nbcvideos: even, world, weekend, keep, york, safe, reopen, open, social, care, new_york, put, white
 ['kate', 0.3755955344690073]
@@ -702,7 +886,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['fbi', 0.37263497377407767]
-Context in both: case, fbi
+Context in both: fbi, case
 Context in foxvideos: trump, know, two, obama, thousand, right, would, way, law, day, year, state, call
 Context in nbcvideos: biden, man, white, even, former, joe, food, video, big, start, weve, never, weekend
 ['trump', 0.3692070928477924]
@@ -714,7 +898,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['patient', 0.34873530772732975]
-Context in both: patient, new_york
+Context in both: new_york, patient
 Context in foxvideos: thousand, new, state, well, work, american, time, hundred, drug, need, two, know, trump
 Context in nbcvideos: day, social, tomorrow, open, care, reopen, even, line, mask, enough, front, small, wear
 ['democrat', 0.34530587340103863]
@@ -730,7 +914,7 @@ Context in both: law
 Context in foxvideos: state, thousand, trump, would, two, think, know, dont, obama, right, american, said, new, way
 Context in nbcvideos: new_york, tomorrow, black, mayor, protest, even, former, put, day, white, part, nine, free, street
 ['world', 0.34197622088065854]
-Context in both: day, world
+Context in both: world, day
 Context in foxvideos: china, american, thousand, time, know, trump, new, state, need, would, two, say, health
 Context in nbcvideos: even, weekend, reopen, safe, look, keep, york, open, social, white, put, part, tomorrow
 ['corona', 0.3396983151487146]
@@ -754,7 +938,7 @@ Context in both:
 Context in foxvideos: state, thousand, know, american, two, would, time, trump, say, new, right, china, need, want, dont
 Context in nbcvideos: new_york, tomorrow, even, day, weekend, put, white, part, care, world, front, feel, social, nine, reopen
 ['georgia', 0.3230519529052468]
-Context in both: day, georgia
+Context in both: georgia, day
 Context in foxvideos: know, state, say, thousand, well, want, hundred, would, dont, look, take, governor, two
 Context in nbcvideos: even, world, weekend, open, reopen, safe, keep, york, social, line, order, part, moment
 ['weekend', 0.32146088940356765]
@@ -766,7 +950,7 @@ Context in both:
 Context in foxvideos: state, thousand, new, dont, know, say, would, want, lockdown, right, number, time, american, hundred, life
 Context in nbcvideos: even, day, weekend, tomorrow, world, care, reopen, york, front, keep, social, contact, open, safe, new_york
 ['mask', 0.3091307696620268]
-Context in both: day, new_york, mask
+Context in both: new_york, mask, day
 Context in foxvideos: state, thousand, new, american, know, need, want, would, time, hundred, take, think
 Context in nbcvideos: tomorrow, social, open, even, wear, reopen, patient, enough, small, weekend, start, world
 ['polic', 0.3088106168749347]
@@ -778,7 +962,7 @@ Context in both: day
 Context in foxvideos: american, thousand, new, time, state, need, know, two, hundred, say, take, china, trump, work
 Context in nbcvideos: even, tomorrow, open, care, reopen, new_york, world, weekend, social, tell, york, safe, enough, big
 ['york', 0.3042392006479489]
-Context in both: day, york
+Context in both: york, day
 Context in foxvideos: new, state, thousand, time, american, know, hundred, say, trump, look, take, work, two
 Context in nbcvideos: even, world, care, open, weekend, tomorrow, reopen, social, keep, order, white, line, part
 ['bill', 0.30291994234523123]
@@ -826,7 +1010,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['school', 0.28513393552209654]
-Context in both: day, school
+Context in both: school, day
 Context in foxvideos: thousand, dont, know, state, american, hundred, say, need, time, well, want, child, would
 Context in nbcvideos: even, world, weekend, reopen, keep, put, big, social, tomorrow, white, open, didnt, safe
 ['million', 0.2811969136773109]
@@ -1010,7 +1194,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['former', 0.24545273770079956]
-Context in both: day, biden
+Context in both: biden, day
 Context in foxvideos: know, thousand, american, would, two, state, china, trump, say, new, time, right, come
 Context in nbcvideos: new_york, even, tomorrow, white, black, mayor, former, weekend, man, protest, put, part, nine
 ['social', 0.2454214635931556]
@@ -1078,7 +1262,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['best', 0.2388770430996974]
-Context in both: day, look, new_york
+Context in both: new_york, day, look
 Context in foxvideos: thousand, american, state, need, new, time, know, two, take, want, hundred, trump
 Context in nbcvideos: even, world, weekend, reopen, york, open, test, fire, keep, social, safe, sure
 ['fact', 0.23854914893651186]
@@ -1110,7 +1294,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['billion', 0.23395557820971757]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, need, state, new, hundred, million, two, look, take, china, make, time
 Context in nbcvideos: care, tomorrow, even, contact, small, front, reopen, fight, social, begin, open, second, weekend
 ['support', 0.2338514935640012]
@@ -1150,7 +1334,7 @@ Context in both: day
 Context in foxvideos: thousand, american, state, know, trump, new, two, would, say, time, need, want, think, look
 Context in nbcvideos: even, care, new_york, tomorrow, york, front, keep, weekend, world, social, reopen, line, contact, moment
 ['nine', 0.23249537830905803]
-Context in both: day, biden
+Context in both: biden, day
 Context in foxvideos: thousand, american, hundred, state, trump, two, know, time, new, say, would, take, need
 Context in nbcvideos: new_york, even, tomorrow, world, white, put, weekend, part, nine, safe, mayor, social, reopen
 ['forward', 0.23216139693772037]
@@ -1218,7 +1402,7 @@ Context in both: day
 Context in foxvideos: american, thousand, trump, two, need, time, new, take, know, state, look, would, want, way
 Context in nbcvideos: new_york, tomorrow, even, put, white, part, mayor, black, biden, former, protest, nine, world, law
 ['look', 0.22896731801063813]
-Context in both: day, look
+Context in both: look, day
 Context in foxvideos: thousand, american, state, new, know, time, two, take, need, trump, say, want, way
 Context in nbcvideos: even, weekend, world, reopen, open, york, safe, tomorrow, social, fire, keep, never, part
 ['small', 0.22896039616517389]
@@ -1230,7 +1414,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['action', 0.22865237020723672]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, state, time, new, need, two, hundred, know, say, take, would, way
 Context in nbcvideos: even, world, put, white, weekend, tomorrow, mayor, part, free, safe, nineteen, social, nine
 ['hope', 0.22827919499412902]
@@ -1278,7 +1462,7 @@ Context in both: day
 Context in foxvideos: american, thousand, know, state, trump, time, say, think, two, new, would, want, need, dont
 Context in nbcvideos: even, tomorrow, world, new_york, weekend, reopen, social, open, white, put, safe, part, look, keep
 ['fifteen', 0.22323400143101935]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, hundred, two, state, new, time, know, need, want, trump, take, way
 Context in nbcvideos: even, world, social, tomorrow, weekend, put, reopen, open, white, enough, test, safe, keep
 ['theyr', 0.2228084782485047]
@@ -1286,7 +1470,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['done', 0.22277947999008457]
-Context in both: day, look
+Context in both: look, day
 Context in foxvideos: american, thousand, time, state, new, trump, need, two, know, take, say, would, china
 Context in nbcvideos: even, world, weekend, safe, reopen, put, new_york, white, social, keep, tomorrow, york, part
 ['effect', 0.22245763564567578]
@@ -1406,11 +1590,11 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['day', 0.21328688935107848]
-Context in both: day, look
+Context in both: look, day
 Context in foxvideos: thousand, american, state, time, know, new, trump, need, two, hundred, say, would, want
 Context in nbcvideos: even, weekend, tomorrow, world, new_york, reopen, social, open, care, put, safe, big, york
 ['vice', 0.21321884997379453]
-Context in both: day, biden
+Context in both: biden, day
 Context in foxvideos: trump, joe, thousand, american, two, know, state, want, year, time, say, hundred, take
 Context in nbcvideos: tomorrow, even, new_york, care, york, social, open, reopen, enough, world, weekend, front, white
 ['total', 0.21315414830075183]
@@ -1438,11 +1622,11 @@ Context in both:
 Context in foxvideos: state, know, american, thousand, say, dont, think, time, would, right, want, need, day, look, work
 Context in nbcvideos: line, moment, order, keep, even, safe, world, york, weekend, front, air, reopen, open, georgia, covid
 ['wuhan', 0.21272281223323264]
-Context in both: day, china
+Context in both: china, day
 Context in foxvideos: time, american, thousand, world, know, new, health, think, come, want, travel, two, say
 Context in nbcvideos: tomorrow, tell, even, biden, open, care, check, reopen, outbreak, feel, part, front, clear
 ['jersey', 0.2123934155661776]
-Context in both: look, new_york
+Context in both: new_york, look
 Context in foxvideos: state, thousand, new, want, say, take, think, learn, way, hundred, two, dont, need
 Context in nbcvideos: day, even, weekend, world, reopen, tomorrow, care, front, keep, open, safe, social, york
 ['turn', 0.2123413222456028]
@@ -1454,7 +1638,7 @@ Context in both: china
 Context in foxvideos: american, thousand, know, state, new, time, would, need, two, want, trump, work, dont, think
 Context in nbcvideos: tomorrow, day, even, open, tell, reopen, care, social, weekend, biden, new_york, york, part, enough
 ['instead', 0.21086140608212584]
-Context in both: day, look
+Context in both: look, day
 Context in foxvideos: thousand, state, know, american, would, time, trump, new, china, say, two, dont, want
 Context in nbcvideos: even, weekend, tomorrow, york, care, world, global, sure, love, live, social, new_york, year
 ['true', 0.21041474270054575]
@@ -1466,7 +1650,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['task', 0.21026622767584954]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, need, state, hundred, time, new, two, want, say, million, know, would
 Context in nbcvideos: open, tomorrow, patient, reopen, social, mask, enough, test, wear, care, york, even, without
 ['matter', 0.20995096661155285]
@@ -1606,7 +1790,7 @@ Context in both: day
 Context in foxvideos: american, know, state, dont, new, time, want, thousand, would, think, say, two, need, look
 Context in nbcvideos: even, tomorrow, weekend, reopen, care, new_york, open, world, front, social, put, tell, safe, york
 ['forty', 0.20374772206556052]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, state, need, american, new, hundred, say, look, know, time, would, million, make
 Context in nbcvideos: even, care, tomorrow, open, front, social, line, reopen, moment, keep, york, weekend, contact
 ['church', 0.20373597489670092]
@@ -1658,7 +1842,7 @@ Context in both: day
 Context in foxvideos: american, know, think, state, thousand, time, say, trump, well, want, new, need, dont, would
 Context in nbcvideos: even, weekend, tomorrow, world, new_york, york, social, care, reopen, open, look, safe, keep, sure
 ['worst', 0.20103352969048524]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, state, new, hundred, need, know, time, china, want, say, two, dont
 Context in nbcvideos: even, tomorrow, weekend, care, world, york, reopen, front, open, social, keep, safe, tell
 ['bad', 0.2009209176215516]
@@ -1938,7 +2122,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['impact', 0.18695432895232086]
-Context in both: day, world
+Context in both: world, day
 Context in foxvideos: american, thousand, need, two, trump, time, new, state, hundred, case, said, china, travel
 Context in nbcvideos: even, new_york, put, white, weekend, tomorrow, mayor, safe, hard, part, black, social, hit
 ['sent', 0.18670541505737226]
@@ -2082,7 +2266,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['dead', 0.17990905342685615]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, state, trump, new, take, two, need, travel, look, work, hundred, way
 Context in nbcvideos: care, even, tomorrow, contact, fight, front, weekend, begin, small, social, second, reopen, york
 ['answer', 0.1797614190946097]
@@ -2122,7 +2306,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['barack', 0.17674659009935922]
-Context in both: day, look, obama
+Context in both: look, obama, day
 Context in foxvideos: trump, thousand, know, two, said, state, biden, year, come, think, want, would
 Context in nbcvideos: new_york, even, weekend, tomorrow, world, part, made, mayor, former, york, global, black
 ['space', 0.17628759972444177]
@@ -2470,7 +2654,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['earlier', 0.16334629194192252]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, two, time, state, need, new, hundred, want, take, know, week, say
 Context in nbcvideos: test, enough, social, even, nineteen, open, care, world, mask, york, patient, tomorrow, reopen
 ['north', 0.16332021452883555]
@@ -11543,7 +11727,7 @@ Context in both:
 Context in foxvideos: state, know, thousand, american, say, would, dont, think, new, time, two, right, trump, want, need
 Context in nbcvideos: new_york, day, even, contact, care, tomorrow, front, reopen, social, keep, weekend, fight, small, begin, open
 ['china', 1.6584744825441835]
-Context in both: day, world, china
+Context in both: world, china, day
 Context in foxvideos: american, thousand, time, know, trump, state, would, new, need, two, say, take
 Context in nbcvideos: even, tomorrow, weekend, tell, york, care, open, reopen, biden, look, part, feel
 ['power', 1.6439946783276647]
@@ -11595,11 +11779,11 @@ Context in both: day
 Context in foxvideos: american, thousand, new, state, trump, need, time, know, say, want, take, two, look, hundred
 Context in nbcvideos: even, care, tomorrow, york, keep, white, front, open, new_york, social, contact, reopen, line, tell
 ['look', 1.1754714342523633]
-Context in both: day, look
+Context in both: look, day
 Context in foxvideos: thousand, american, state, new, know, time, two, take, need, trump, say, want, way
 Context in nbcvideos: even, weekend, world, reopen, open, york, safe, tomorrow, social, fire, keep, never, part
 ['travel', 1.0832863397531014]
-Context in both: day, travel
+Context in both: travel, day
 Context in foxvideos: american, thousand, time, trump, new, state, need, china, ban, take, two, hundred, know
 Context in nbcvideos: tomorrow, care, new_york, patient, enough, social, test, mask, even, york, open, peter, keep
 ['nation', 1.0423189012648784]
@@ -11703,7 +11887,7 @@ Context in both: day
 Context in foxvideos: thousand, american, state, trump, time, know, need, new, say, would, right, hundred, two, china
 Context in nbcvideos: even, world, weekend, york, reopen, order, tomorrow, safe, keep, moment, open, line, front, part
 ['joe', 0.8308372896985117]
-Context in both: day, biden
+Context in both: biden, day
 Context in foxvideos: joe, two, american, thousand, trump, hundred, take, say, time, way, want, look, right
 Context in nbcvideos: tomorrow, even, new_york, white, man, world, free, part, former, york, tell, care, weekend
 ['would', 0.8290815832028688]
@@ -11771,7 +11955,7 @@ Context in both: day
 Context in foxvideos: state, new, thousand, want, know, american, way, look, dont, think, work, well, time, life
 Context in nbcvideos: even, weekend, reopen, open, tomorrow, world, social, care, front, line, keep, safe, york, new_york
 ['action', 0.7044470842892423]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, state, time, new, need, two, hundred, know, say, take, would, way
 Context in nbcvideos: even, world, put, white, weekend, tomorrow, mayor, part, free, safe, nineteen, social, nine
 ['social', 0.6772993534529982]
@@ -11783,7 +11967,7 @@ Context in both: day
 Context in foxvideos: state, thousand, new, covid, hundred, know, american, week, time, need, want, say, well, would
 Context in nbcvideos: even, weekend, world, reopen, safe, order, moment, open, line, keep, part, social, front, new_york
 ['done', 0.6697979488760681]
-Context in both: day, look
+Context in both: look, day
 Context in foxvideos: american, thousand, time, state, new, trump, need, two, know, take, say, would, china
 Context in nbcvideos: even, world, weekend, safe, reopen, put, new_york, white, social, keep, tomorrow, york, part
 ['support', 0.6593266490087724]
@@ -11803,7 +11987,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['fifteen', 0.6213255308301587]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, hundred, two, state, new, time, know, need, want, trump, take, way
 Context in nbcvideos: even, world, social, tomorrow, weekend, put, reopen, open, white, enough, test, safe, keep
 ['drug', 0.6096940248063628]
@@ -11815,11 +11999,11 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['nineteen', 0.6050816341563768]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, state, new, american, know, need, time, two, covid, look, want, way, hundred
 Context in nbcvideos: even, york, nineteen, care, world, open, test, keep, white, safe, corona, social, reopen
 ['world', 0.5969984492675539]
-Context in both: day, world
+Context in both: world, day
 Context in foxvideos: china, american, thousand, time, know, trump, new, state, need, would, two, say, health
 Context in nbcvideos: even, weekend, reopen, safe, look, keep, york, open, social, white, put, part, tomorrow
 ['lockdown', 0.5885238222765816]
@@ -11943,7 +12127,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['best', 0.4907420819449975]
-Context in both: day, look, new_york
+Context in both: new_york, day, look
 Context in foxvideos: thousand, american, state, need, new, time, know, two, take, want, hundred, trump
 Context in nbcvideos: even, world, weekend, reopen, york, open, test, fire, keep, social, safe, sure
 ['place', 0.4906712829786324]
@@ -11987,15 +12171,15 @@ Context in both: day
 Context in foxvideos: thousand, state, know, american, two, trump, new, time, would, say, hundred, think, want, right
 Context in nbcvideos: even, world, weekend, keep, safe, reopen, open, georgia, line, order, moment, york, front, social
 ['new_york', 0.4469940137987785]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, state, need, new, hundred, american, time, two, way, cuomo, million, governor, take
 Context in nbcvideos: tomorrow, even, social, care, front, enough, small, put, moment, mayor, begin, hit, weekend
 ['york', 0.4450931163344901]
-Context in both: day, york
+Context in both: york, day
 Context in foxvideos: new, state, thousand, time, american, know, hundred, say, trump, look, take, work, two
 Context in nbcvideos: even, world, care, open, weekend, tomorrow, reopen, social, keep, order, white, line, part
 ['day', 0.44068760981566746]
-Context in both: day, look
+Context in both: look, day
 Context in foxvideos: thousand, american, state, time, know, new, trump, need, two, hundred, say, would, want
 Context in nbcvideos: even, weekend, tomorrow, world, new_york, reopen, social, open, care, put, safe, big, york
 ['pay', 0.4361830976945631]
@@ -12115,7 +12299,7 @@ Context in both: day
 Context in foxvideos: thousand, american, state, know, two, new, time, trump, would, need, dont, want, hundred, china
 Context in nbcvideos: even, tomorrow, weekend, reopen, world, open, new_york, social, put, care, white, big, look, safe
 ['patient', 0.31041371040552956]
-Context in both: patient, new_york
+Context in both: new_york, patient
 Context in foxvideos: thousand, new, state, well, work, american, time, hundred, drug, need, two, know, trump
 Context in nbcvideos: day, social, tomorrow, open, care, reopen, even, line, mask, enough, front, small, wear
 ['sure', 0.30863609340970355]
@@ -12227,7 +12411,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['mask', 0.23551240223241163]
-Context in both: day, new_york, mask
+Context in both: new_york, mask, day
 Context in foxvideos: state, thousand, new, american, know, need, want, would, time, hundred, take, think
 Context in nbcvideos: tomorrow, social, open, even, wear, reopen, patient, enough, small, weekend, start, world
 ['four', 0.22956510867726793]
@@ -12255,7 +12439,7 @@ Context in both: day
 Context in foxvideos: american, thousand, time, state, new, need, hundred, two, say, know, take, would, want, work
 Context in nbcvideos: care, new_york, contact, even, tomorrow, front, fight, begin, small, social, reopen, moment, keep, york
 ['forty', 0.213039546380353]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, state, need, american, new, hundred, say, look, know, time, would, million, make
 Context in nbcvideos: even, care, tomorrow, open, front, social, line, reopen, moment, keep, york, weekend, contact
 ['weve', 0.20298921052685165]
@@ -12311,11 +12495,11 @@ Context in both: day
 Context in foxvideos: american, thousand, new, state, time, need, would, know, want, two, dont, think, say, trump
 Context in nbcvideos: even, world, keep, weekend, reopen, open, safe, care, social, front, york, line, moment, tomorrow
 ['billion', 0.1528206863872984]
-Context in both: day, new_york
+Context in both: new_york, day
 Context in foxvideos: thousand, american, need, state, new, hundred, million, two, look, take, china, make, time
 Context in nbcvideos: care, tomorrow, even, contact, small, front, reopen, fight, social, begin, open, second, weekend
 ['school', 0.14559826558482042]
-Context in both: day, school
+Context in both: school, day
 Context in foxvideos: thousand, dont, know, state, american, hundred, say, need, time, well, want, child, would
 Context in nbcvideos: even, world, weekend, reopen, keep, put, big, social, tomorrow, white, open, didnt, safe
 ['love', 0.13855069438961393]
@@ -12387,7 +12571,7 @@ Context in both: day
 Context in foxvideos: american, thousand, new, time, state, know, need, want, hundred, two, would, dont, take, say
 Context in nbcvideos: tomorrow, even, new_york, social, care, reopen, weekend, york, open, world, front, enough, sure, made
 ['nine', 0.06682299422851473]
-Context in both: day, biden
+Context in both: biden, day
 Context in foxvideos: thousand, american, hundred, state, trump, two, know, time, new, say, would, take, need
 Context in nbcvideos: new_york, even, tomorrow, world, white, put, weekend, part, nine, safe, mayor, social, reopen
 ['lost', 0.06406041674089075]
@@ -12415,7 +12599,7 @@ Context in both: none
 Context in foxvideos: none
 Context in nbcvideos: none
 ['test', 0.040995572344638846]
-Context in both: day, test
+Context in both: test, day
 Context in foxvideos: american, thousand, new, need, state, would, hundred, know, time, two, work, want, take
 Context in nbcvideos: even, world, weekend, keep, york, safe, reopen, open, social, care, new_york, put, white
 ['though', 0.03679703566278046]
@@ -12447,7 +12631,7 @@ Context in both:
 Context in foxvideos: thousand, know, american, state, would, new, time, say, dont, right, two, think, trump, work, want
 Context in nbcvideos: even, new_york, world, york, day, keep, social, moment, safe, order, open, line, reopen, weekend, white
 ['former', 0.005649654584476395]
-Context in both: day, biden
+Context in both: biden, day
 Context in foxvideos: know, thousand, american, would, two, state, china, trump, say, new, time, right, come
 Context in nbcvideos: new_york, even, tomorrow, white, black, mayor, former, weekend, man, protest, put, part, nine
 ['seen', 0.0028986212125865487]
