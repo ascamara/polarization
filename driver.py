@@ -100,9 +100,9 @@ def create_report(sources,
     # plot.y_v_x_scatter('tfidf', significance_dictionary,
     #                   'logodds', logodds_dictionary, sources, title='Significance v Log Odds')
 
-    significance_list = dict_to_list(significance_dictionary)
+    significance_list = dict_to_list(significance_dictionary)[:1000]
     controversy_list = dict_to_list(controversy_dictionary)
-    logodds_list = dict_to_list(logodds_dictionary)
+    logodds_list = dict_to_list(logodds_dictionary)[:1000]
 
     with open('report_{}_{}'.format(sources[0], sources[1]), 'w', encoding='utf-8') as fp:
         print('Polarization pipeline summary for ' + sources[0] + ' and ' + sources[1] + ':', file=fp)
