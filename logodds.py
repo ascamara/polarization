@@ -55,12 +55,12 @@ def source_probability(source_dictionary):
             if os.path.isfile('incidents_{}'.format(key)):
                 frequency_dictionary_source = pickle.load(open('incidents_{}'.format(key), 'rb'))
                 for word in tqdm(list_of_words, ascii=True, desc='Creating dictionary', leave=True):
-                    if frequency_dictionary_source[word] > 50:
+                    if frequency_dictionary_source[word] > 10:
                         probability_dictionary_source[word] = frequency_dictionary_source[word] / total
             else:
                 for word in tqdm(list_of_words, ascii=True, desc='Creating dictionary', leave=True):
                     count = word_in_corpus(list_of_sentences, word)
-                    if count > 50:
+                    if count > 10:
                         probability_dictionary_source[word] = count / total
             with open('probability_{}'.format(key), 'wb') as fp:
                 pickle.dump(probability_dictionary_source, fp)

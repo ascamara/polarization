@@ -33,6 +33,14 @@ def find_docs_with_word_dict(list_of_documents):
             docs_with_word[word] += 1
     return docs_with_word
 
+def find_docs_with_word_dict_LINE_LEVEL(list_of_documents):
+    docs_with_word = defaultdict(int)
+    for document in list_of_documents:
+        document_set = set(document)
+        for word in document_set:
+            docs_with_word[word] += 1
+    return docs_with_word
+
 
 def word_in_doc(document, word):
     sum = 0
@@ -41,20 +49,33 @@ def word_in_doc(document, word):
     return sum
 
 
-def run_tfidf(list_of_raw_documents, name):
+def run_tfidf(list_of_raw_documents, name, DOCUMENT_AT_LINE_LEVEL=True):
     list_of_documents = []
-    for document in list_of_raw_documents:
-        temp_doc = []
-        for sentence in document:
-            temp_doc.append(sentence.split())
-        list_of_documents.append(temp_doc)
+    if DOCUMENT_AT_LINE_LEVEL:
+        for document in list_of_raw_documents:
+            for sentence in document:
+                temp_doc = sentence.split()
+                if len(temp_doc) > 0:
+                    list_of_documents.append(sentence.split())
+    else:
+        for document in list_of_raw_documents:
+            temp_doc = []
+            for sentence in document:
+                temp_doc.append(sentence.split())
+            list_of_documents.append(temp_doc)
 
-    docs_with_word = find_docs_with_word_dict(list_of_documents)
+    if DOCUMENT_AT_LINE_LEVEL:
+        docs_with_word = find_docs_with_word_dict_LINE_LEVEL(list_of_documents)
+    else:
+        docs_with_word = find_docs_with_word_dict(list_of_documents)
 
     tfidf = defaultdict(float)
     # Conduct TFIDF on each document
     for document in tqdm(list_of_documents, ascii=True, desc='TFIDF_{}'.format(name), position=1):
-        document_set = create_set_document(document)
+        if DOCUMENT_AT_LINE_LEVEL:
+            document_set = set(document)
+        else:
+            document_set = create_set_document(document)
         for word in document_set:
             tfidf[word] += \
                 (word_in_doc(document, word) / len(document)) * math.log(len(list_of_documents) / docs_with_word[word])
@@ -71,7 +92,7 @@ def dict_sum(tfidf_subcorpus, key):
     return sum
 
 
-def tfidf_corpus(source_dictionary):
+def tfidf_corpus(source_dictionary, DOCUMENT_AT_LINE_LEVEL):
     tfidf_corpus = defaultdict(float)
     tfidf_subcorpus = []
     for key, value in tqdm(source_dictionary.items(), ascii=True, desc="TFIDF", position=0):

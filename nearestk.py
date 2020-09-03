@@ -52,8 +52,20 @@ def remove_common_words(list_of_contexts):
 def find_controversy(list_of_models, anchor, list_of_matrices, context_size):
     list_of_contexts = []
     for model, matrix in zip(list_of_models, list_of_matrices):
+        list_of_contexts.append(model.wv[anchor])
+    a = np.array(list_of_contexts[0])
+    b = np.array(list_of_contexts[1])
+
+
+
+        # compare R^2 of most-sim to cosine sim of the anchor words
+    '''
+        similarity = model.wv.most_similar(positive=[anchor], topn=context_size)
+        temp_dict = [term[0] for term in similarity]
+        list_of_contexts.append(temp_dict)
+        
         context = context_builder(model, matrix, anchor, context_size)
-        if len(context) < context_size:
+        if len(context) < (context_size * .5):
             return float("nan")
         else:
             list_of_contexts.append(context)
@@ -76,7 +88,8 @@ def find_controversy(list_of_models, anchor, list_of_matrices, context_size):
     # assert len(source_least_sq) == len(list_of_models)
     # assert len(total_least_sq) == k * len(list_of_models)
     return math.sqrt(sum(source_least_sq) / sum(total_least_sq))
-
+    '''
+    return cosine_sim(a, b)
 
 def controversy_dictionary_use_co_occurance(model_dictionary, significance_list,
                                             co_occurance_matrix_dictionary, context_size):
@@ -84,17 +97,23 @@ def controversy_dictionary_use_co_occurance(model_dictionary, significance_list,
     list_of_matrices = list(co_occurance_matrix_dictionary.values())
     controversy = defaultdict(float)
     # top ten percent
-    for element in tqdm(significance_list[:math.floor(len(significance_list) * .01)], ascii=True, desc='Calculating polarizing'):
+    for element in tqdm(significance_list[:math.floor(len(significance_list) * .1)], ascii=True, desc='Calculating polarizing'):
+        '''
         term_qualifies = True
         for model, matrix in zip(list_of_models, list_of_matrices):
             if element[0] not in model.wv.vocab or element[0] not in matrix:
+                print('here')
                 term_qualifies = False
         if term_qualifies:
             term = element[0]
-            try:
-                term_controversy = find_controversy(list_of_models, term, list_of_matrices, context_size)
-                if not math.isnan(term_controversy):
-                    controversy[term] = term_controversy
-            except ValueError:
-                continue
+        '''
+        term = element[0]
+        try:
+            term_controversy = find_controversy(list_of_models, term, list_of_matrices, context_size)
+            if not math.isnan(term_controversy):
+                controversy[term] = term_controversy
+        except ValueError:
+            continue
+        except KeyError:
+            continue
     return controversy

@@ -52,7 +52,7 @@ def create_model_pretrained(documents, pretrained_path='GoogleNews-vectors-negat
         model = KeyedVectors.load_word2vec_format(pretrained_path, binary=True)
         model_2.build_vocab([list(model.vocab.keys())], update=True)
         # todo play with lockf
-        model_2.intersect_word2vec_format(pretrained_path, binary=True, lockf=0)
+        model_2.intersect_word2vec_format(pretrained_path, binary=True, lockf=1)
         model_2.train(sentences_tokenized, total_examples=total_examples, epochs=model_2.iter)
     else:
         model_2 = Word2Vec(sentences_tokenized, size=300, min_count=10)
