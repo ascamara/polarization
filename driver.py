@@ -22,7 +22,7 @@ directory_stem = r'C:\Users\ascam\PycharmProjects\polarization_pipeline'
 # sources to be considered
 sources = ['breitbart', 'foxnews', 'cnn', 'huffpo']
 # size of context for controversy scoring
-CONTEXT_SIZE = 15
+CONTEXT_SIZE = 20
 # are your documents different files or unique lines in a/some file(s)
 DOCUMENT_AT_LINE_LEVEL = False
 # pretrain on Google News
@@ -35,7 +35,7 @@ ALIGN = True
 
 
 def clean(directory_stem, sources):
-    return cleaner.clean_corpus(directory_stem, sources)
+    return cleaner.bclean_corpus(directory_stem, sources)
 
 
 def significance(source_dictionary):
@@ -187,15 +187,15 @@ def pipeline(sources):
 if __name__ == '__main__':
     # ['breitbart', 'foxnews', 'cnn', 'huffpo']
     t = time()
+    c = pipeline([sources[1], sources[2]])
+    print('Time: {} mins'.format(round((time() - t) / 60, 2)))
+
+    t = time()
     a = pipeline([sources[0], sources[1]])
     print('Time: {} mins'.format(round((time() - t) / 60, 2)))
 
     t = time()
     b = pipeline([sources[2], sources[3]])
-    print('Time: {} mins'.format(round((time() - t) / 60, 2)))
-
-    t = time()
-    c = pipeline([sources[1], sources[2]])
     print('Time: {} mins'.format(round((time() - t) / 60, 2)))
 
     print(a)

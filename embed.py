@@ -39,7 +39,7 @@ def create_model_pretrained(documents, pretrained_path='GoogleNews-vectors-negat
     if pretrained_path:
         cores = multiprocessing.cpu_count()
         model_2 = Word2Vec(min_count=20,
-                           window=10,
+                           window=20,
                            size=300,
                            sample=6e-5,
                            alpha=.03,

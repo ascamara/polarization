@@ -16,7 +16,6 @@ def create_set_document(document):
 
 
 def create_set_corpus(list_of_documents):
-    #tqdm here?
     word_set = set()
     for document in list_of_documents:
         for sentence in document:
@@ -26,7 +25,6 @@ def create_set_corpus(list_of_documents):
 
 def find_docs_with_word_dict(list_of_documents):
     docs_with_word = defaultdict(int)
-    corpus_set = create_set_corpus(list_of_documents)
     for document in list_of_documents:
         document_set = create_set_document(document)
         for word in document_set:
@@ -49,7 +47,7 @@ def word_in_doc(document, word):
     return sum
 
 
-def run_tfidf(list_of_raw_documents, name, DOCUMENT_AT_LINE_LEVEL=True):
+def run_tfidf(list_of_raw_documents, name, DOCUMENT_AT_LINE_LEVEL):
     list_of_documents = []
     if DOCUMENT_AT_LINE_LEVEL:
         for document in list_of_raw_documents:
@@ -100,7 +98,7 @@ def tfidf_corpus(source_dictionary, DOCUMENT_AT_LINE_LEVEL):
             temp = pickle.load(open('tfidf_{}'.format(key), 'rb'))
             tfidf_subcorpus.append(temp)
         else:
-            temp_tfidf = run_tfidf(value, key)
+            temp_tfidf = run_tfidf(value, key, DOCUMENT_AT_LINE_LEVEL)
             with open('tfidf_{}'.format(key), 'wb') as fp:
                 pickle.dump(temp_tfidf, fp)
             tfidf_subcorpus.append(temp_tfidf)

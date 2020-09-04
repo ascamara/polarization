@@ -52,26 +52,10 @@ def remove_common_words(list_of_contexts):
 def find_controversy(list_of_models, anchor, list_of_matrices, context_size):
     list_of_contexts = []
     for model, matrix in zip(list_of_models, list_of_matrices):
-        list_of_contexts.append(model.wv[anchor])
-    a = np.array(list_of_contexts[0])
-    b = np.array(list_of_contexts[1])
-
-
-    '''
-
-        # compare R^2 of most-sim to cosine sim of the anchor words
-        context = context_builder(model, matrix, anchor, context_size)
-        if len(context) < (context_size * .5):
-            return float("nan")
-        else:
-            list_of_contexts.append(context)
-
         similarity = model.wv.most_similar(positive=[anchor], topn=context_size)
         temp_dict = [term[0] for term in similarity]
         list_of_contexts.append(temp_dict)
-    '''
 
-    '''
     # formula in paper
     context_vector_arrays = []
     for context, model in zip(list_of_contexts, list_of_models):
@@ -90,10 +74,7 @@ def find_controversy(list_of_models, anchor, list_of_matrices, context_size):
         total_least_sq.append(np.linalg.norm(cva - np.mean(all_vector_array, axis=0)) ** 2)
     # assert len(source_least_sq) == len(list_of_models)
     # assert len(total_least_sq) == k * len(list_of_models)
-    # return math.sqrt(sum(source_least_sq) / sum(total_least_sq))
-    '''
-
-    return cosine_sim(a, b)
+    return math.sqrt(sum(source_least_sq) / sum(total_least_sq))
 
 
 def controversy_dictionary_use_co_occurance(model_dictionary, significance_list,

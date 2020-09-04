@@ -33,9 +33,17 @@ def numberize(line):
         return False
 
     line = list(filter(None, line))
-
+    new_line = []
     for w in line:
         try:
+            if has_number(w):
+                if has_letters(w):
+                    new_line.append(w)
+            else:
+                new_line.append(w)
+        except decimal.InvalidOperation:
+            print('Error: Numberize')
+            '''
             # normal case - fifty-three
             if has_number(w) and not ordinal(w):
                 # if it has letters, let her go (n95, covid19)
@@ -44,9 +52,8 @@ def numberize(line):
             # unless its an ordinal!
             elif has_number(w) and ordinal(w):
                 line[line.index(w)] = str(num2words(w[:-2], ordinal=True))
-        except decimal.InvalidOperation:
-            print('Error: Numberize')
-    return line
+            '''
+    return new_line
 
 
 def lemmatize_and_stem(line):
@@ -121,12 +128,30 @@ def clean_file(directory_stem, folder, filename):
     dest = directory_stem + '\clean_{}\{}'.format(folder, new_filename)
     os.rename(source, dest)
 
+def word_in_doc_pct(new_path):
+    docs_with_word = defaultdict(int)
+    file_size = 0
+    for filename in tqdm(os.listdir(new_path), ascii=True, desc='Finding word counts', leave=True):
+        file_size += 1
+        # create file set
+        file_set = set()
+        with open(filename, 'r', encoding='utf-8') as fp:
+            for sentence in fp:
+                sentence = sentence.rstrip()
+                file_set.update([w for w in sentence])
+            fp.close()
+        for word in file_set:
+            docs_with_word[word] += 1
+    unsorted_dict = {k: v / file_size for k, v in docs_with_word.items()}
+    return {k: v for k, v in sorted(unsorted_dict.items(), key=lambda item: item[1])}
+
 
 def clean_source(directory_stem, source):
     folder = source
     new_path = directory_stem + '\\' + 'clean_{}'.format(source)
     if not os.path.exists(new_path):
         os.makedirs(new_path)
+    # clean file
     for filename in tqdm(os.listdir(directory_stem + '\\' + source), ascii=True, desc='Cleaning files', leave=True):
         clean_file(directory_stem, folder, filename)
     return new_path
@@ -140,6 +165,12 @@ def clean_corpus(directory_stem, sources):
         else:
             clean_source_path = clean_source(directory_stem, source)
             assert os.path.isdir(clean_source_path)
+
+            word_in_doc_pct_dict = word_in_doc_pct(clean_source_path)
+            with open('dict_{}.txt'.format(source), 'w') as fp:
+                for key, value in word_in_doc_pct_dict.items():
+                    fp.write('{}: {}'.format(key, value))
+
             # for each file in the directory, read sentences into doc, read doc into list
             for file in tqdm(os.listdir(clean_source_path), ascii=True, desc='Files', leave=True):
                 with open(r'clean_{}\{}'.format(source, file), encoding='utf-8') as f:
@@ -185,6 +216,13 @@ def bclean_corpus(directory_stem, sources):
             assert os.path.isdir(clean_source_path)
             bclean_source_path = bclean_source(directory_stem, source)
             assert os.path.isdir(bclean_source_path)
+
+            # generate list
+            word_in_doc_pct_dict = word_in_doc_pct(bclean_source_path)
+            with open('dict_{}.txt'.format(source), 'w') as fp:
+                for key, value in word_in_doc_pct_dict.items():
+                    fp.write('{}: {}'.format(key, value))
+
             # for each file in the directory, read sentences into doc, read doc into list
             for file in tqdm(os.listdir(bclean_source_path), ascii=True, desc='Files', leave=True):
                 with open(r'bclean_{}\{}'.format(source, file), encoding='utf-8') as f:
